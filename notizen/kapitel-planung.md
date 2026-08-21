@@ -13,8 +13,8 @@ hier = Reihenfolge in der App (`utils/themen/index.js`).
 |---|---------|-----------------|------------------------------------|
 | 1 | Die Anfänge der Heilkunde | Steinzeit bis frühe Hochkulturen | Heilerin/Heiler vs. Stamm; indigenes Wissen vs. koloniale Abwertung („primitiv" = koloniale Zuschreibung) |
 | 2 | Ägypten | Ebers-Papyrus (~1550 v. Chr.) | Ärzteschule vs. Tempelheilung; Schreiberwissen vs. Volksmedizin |
-| 3 | China und die TCM | ~2000 v. Chr. bis heute | Westen vs. Osten; Tradition vs. Modernisierung (Akupunktur, Kräuter, Qi) |
-| 4 | Indien und der Ayurveda | ~1500 v. Chr. bis heute | Tradition vs. koloniale Medizin; Ganzheitlichkeit vs. Einzelorgan |
+| 3 | China und die TCM | ~2000 v. Chr. bis heute | **DENKART-ANALYSE (Betreiber-Vorgabe, umfangreich):** Weltbild (Qi, Yin/Yang, Fünf Elemente, Meridiane), Begründungslogik (Warum Akupunktur? Warum Kräuter-Rezepturen? Warum Puls-/Zungendiagnose?), ehrliche Wirkungsbilanz (belegt vs. umstritten). Perspektiven: Westen vs. Osten |
+| 4 | Indien und der Ayurveda | ~1500 v. Chr. bis heute | **DENKART-ANALYSE (Betreiber-Vorgabe, umfangreich):** Weltbild (Doshas Vata/Pitta/Kapha, Elemente), Begründungslogik (Warum Ernährung/Lebensweise? Warum Panchakarma? Warum Kräuter?), ehrliche Wirkungsbilanz. Perspektiven: Tradition vs. koloniale Medizin |
 | 5 | Hippokrates und Galen | ~460 v. Chr. – 216 n. Chr. | Arzt vs. Patient; Vernunft vs. Götterglaube; Autorität vs. Zweifel |
 | 6 | Avicenna und die arabische Medizin | ~980–1037 | Orient vs. Okzident (sie bewahrten die Antike!); Übersetzer als Bewahrer |
 | 7 | Klostermedizin | ~500–1200, Hildegard von Bingen | Kloster vs. Marktplatz; Frau (Hildegard) vs. Männerkirche |
@@ -45,6 +45,18 @@ Jedes Kapitel beantwortet drei Fragen:
 1. **Wie entwickelte sich die Methode/das Wissen?**
 2. **Welche Annahmen standen dahinter** (was glaubten die Menschen damals)?
 3. **Welche Wirkungen hatte sie** (Erfolge UND Grenzen/Nebenwirkungen, damals und bis heute)?
+
+### Denkart-Analyse (Betreiber-Vorgabe, besonders für TCM und Ayurveda)
+
+Der Betreiber will die DENKART hinter den Methoden verstehen und
+beschreiben — nicht nur WAS gemacht wurde, sondern WARUM: Welches
+Weltbild steckt dahinter (Qi, Yin/Yang, Fünf Elemente; Doshas, Elemente)?
+Warum wurde dies oder das gemacht — was versprach man sich davon? Warum
+sollte es helfen (die Begründungslogik der Zeit)? Dazu gehört immer auch
+die ehrliche Wirkungsbilanz: Was belegt die Forschung heute, was ist
+nicht messbar oder umstritten? Die Denkart ist der Schlüssel zur
+Miteinander-Frage: Zwei Denkarten von Gesundheit (Gleichgewicht vs.
+Ursache-Wirkung) stehen sich gegenüber — beide haben Stärken.
 
 ## Deutschland-Bezug (nach Betreiber, fair behandeln)
 

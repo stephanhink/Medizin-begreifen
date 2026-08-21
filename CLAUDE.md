@@ -120,8 +120,22 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    Niltals.
 3. **China und die TCM** — die chinesische Medizin hat bis heute ihre
    Bedeutung (Akupunktur, Kräuter, Qi). Perspektiven: Westen vs. Osten.
+   **Betreiber-Vorgabe (Denkart-Analyse):** Dieses Kapitel analysiert die
+   Denkart der TCM UMFANGREICH: das Weltbild (Qi, Yin und Yang, die Fünf
+   Elemente, Meridiane), die Begründungslogik hinter den Methoden (Warum
+   Akupunktur? — den Fluss des Qi fördern; Warum Kräuter-Rezepturen? —
+   kombinierte Wirkung; Warum Puls- und Zungendiagnose?) — und die
+   ehrliche Wirkungsbilanz (was die Forschung heute belegt, z. B.
+   Akupunktur bei Schmerzen, und was nicht messbar/umstritten ist).
 4. **Indien und der Ayurveda** — bis heute aktuell. Perspektiven:
    Tradition vs. Modernisierung; Indien vs. koloniale Medizin.
+   **Betreiber-Vorgabe (Denkart-Analyse):** Dieses Kapitel analysiert die
+   Denkart des Ayurveda UMFANGREICH: das Weltbild (die drei Doshas Vata,
+   Pitta, Kapha aus den Elementen), die Begründungslogik hinter den
+   Methoden (Warum Ernährung/Lebensweise? — Doshas ausgleichen; Warum
+   Panchakarma-Reinigungen?; Warum Kräuter wie Kurkuma/Ashwagandha?) —
+   und die ehrliche Wirkungsbilanz (was belegt ist, was kulturell
+   verwurzelt/umstritten ist).
 5. **Hippokrates und Galen** — die europäische Wurzel; der Eid.
 6. **Avicenna und die arabische Medizin** — sie bewahrten die Antike.
 7. **Klostermedizin** — Hildegard von Bingen; die deutsche Tradition der
@@ -182,6 +196,17 @@ folgt demselben Muster (aus dem Geschichtsprojekt übernommen):
 **Erzähl-Muster je Kapitel (Betreiber-Vorgabe):** Jedes Kapitel beantwortet
 die drei Fragen — Wie entwickelte sich die Methode? Welche Annahmen standen
 dahinter? Welche Wirkungen hatte sie (Erfolge UND Grenzen)?
+
+**Denkart-Analyse (Betreiber-Vorgabe, besonders für TCM und Ayurveda):**
+Der Betreiber will die DENKART hinter den Methoden verstehen und
+beschreiben — nicht nur WAS gemacht wurde, sondern WARUM: Welches
+Weltbild steckt dahinter (Qi, Yin/Yang, Fünf Elemente; Doshas, Elemente)?
+Warum wurde dies oder das gemacht — was versprach man sich davon? Warum
+sollte es helfen (die Begründungslogik der Zeit)? Dazu gehört immer auch
+die ehrliche Wirkungsbilanz: Was belegt die Forschung heute, was ist
+nicht messbar oder umstritten? Die Denkart ist der Schlüssel zur
+Miteinander-Frage: Zwei Denkarten von Gesundheit (Gleichgewicht vs.
+Ursache-Wirkung) stehen sich gegenüber — beide haben Stärken.
 
 Der Lernfortschritt („erforscht/entdeckt") wird lokal gespeichert — keine
 Accounts, kein Netzwerk.

@@ -9,16 +9,18 @@
 // Für „Medizin begreifen" steht der Bogen in notizen/kapitel-planung.md;
 // die finale Reihenfolge hat der Betreiber mit der ersten Runde bestätigt.
 //
-// Einrichtungsstand (2026-08-19): Die Geschichts-Module der Vorlage sind
-// entfernt, die Liste ist bewusst leer. Jede Runde trägt ihr Kapitel hier
-// ein — Runde 1 beginnt mit den Anfängen der Heilkunde (Schamanen und
-// Kräuterkundige).
+// Stand: Runde 1 hat das erste Kapitel angelegt — „Die Anfänge der
+// Heilkunde". Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
 // Metro/Babel in der App geladen werden kann (siehe schema.js).
 
+const anfaengeDerHeilkunde = require('./anfaenge-der-heilkunde');
+
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
-const alleThemen = [];
+const alleThemen = [
+  anfaengeDerHeilkunde,
+];
 
 /**
  * Sucht ein Thema anhand seiner id.

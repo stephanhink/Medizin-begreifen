@@ -6,6 +6,7 @@
 // (Themen-Module, Markdown, Quiz, Fortschritt, Lernformat, Architektur).
 // Die Karten-Tests der Geschichts-Module sind mit den Modulen entfernt
 // worden — jede Medizin-Runde registriert ihren Modul- und Kartentest neu.
+// Runde 1: Kapitel „Die Anfänge der Heilkunde" (Modul + Atlas-Test).
 //
 // Eine registrierte Testdatei exportiert `laufe(pruefe)` und meldet ihre
 // Ergebnisse über die übergebene Prüf-Funktion. `laufe` darf auch
@@ -20,6 +21,7 @@ import { laufe as laufeQuiz } from './quiz.mjs';
 import { laufe as laufeFortschritt } from './fortschritt.mjs';
 import { laufe as laufeLernformat } from './lernformat.mjs';
 import { laufe as laufeArchitektur } from './architektur.mjs';
+import { laufe as laufeAnfaenge } from './karte-anfaenge-der-heilkunde.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -44,6 +46,7 @@ laufeMarkdown(pruefe);
 laufeQuiz(pruefe);
 laufeLernformat(pruefe);
 laufeArchitektur(pruefe);
+laufeAnfaenge(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {
