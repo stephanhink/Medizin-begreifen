@@ -151,6 +151,33 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    Betäubung vor Publikum (London), die chirurgischen Theater; Semmelweis
    und das Händewaschen. Die moderne Medizin ist erst ~150 Jahre alt.
 10. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
+    **Betreiber-Vorgabe (wichtig — die dunkle Frühgeschichte prominent):**
+    Die Pockenimpfung wird oft gefeiert, ist aber in ihrer Frühgeschichte
+    extrem umstritten — das wird prominent behandelt, nicht als Randnotiz:
+    die Variolation (Infektion mit ECHTEN Pocken) wurde im 18. Jh. an
+    Gefangenen (Newgate 1721) und Waisenkindern getestet, teils ohne
+    echte Einwilligung; Jenners Versuch am Kind (James Phipps, 1796)
+    entspricht keinen heutigen Ethikstandards; die Arm-zu-Arm-Übertragung
+    von Lymphflüssigkeit verbreitete im 19. Jh. auch Syphilis; und die
+    Impferei war von Anfang an auch ein Geschäft (Wanderimpfer,
+    kommerzielle „Pockenlymphe"). BEIDE Seiten fair: die Ausrottung der
+    Pocken (1980) UND das dunkle Kapitel. Die Sicht, die diese dunklen
+    Seiten verneint („nur die Pharmaindustrie verneint diese Seite" —
+    Betreiber), wird als Perspektive ernst genommen.
+    **Betreiber-Vorgabe (die impfkritische Statistik prominent):** Der
+    Betreiber ist impfkritisch. Seine These, gestützt auf Statistiken:
+    Bei vielen Infektionskrankheiten war der Rückgang schon weit
+    vorangegangen, bevor die Impfung kam (Hygiene, sauberes Wasser,
+    Kanalisation, Ernährung, Wohnverhältnisse) — nach Einführung der
+    Impfung gab es kaum noch zusätzlichen Rückgang. Diese Kurven werden
+    im Buch GEZEIGT und erklärt. Dazu die offene Frage der Gegenwart:
+    Heute gibt es kaum noch Infektionskrankheiten bei Kindern, aber
+    Allergien sind auf dem Vormarsch — und dagegen gibt es kein Rezept
+    (Hygiene-Hypothese: weniger mikrobielle Stimulation im Kindesalter).
+    BEIDE Seiten fair: Die impfkritische Sicht steht gleichwertig neben
+    der Epidemiologie der Impferfolge (z. B. Polio, Masern-Komplikationen);
+    die Statistiken werden nachprüfbar dargestellt, nichts wird
+    beschönigt, nichts wird verzerrt.
 11. **Pasteur und Lister** — die Keimtheorie; Narkose und Antisepsis; die
     Geburtsstunde der wissenschaftlichen Medizin (~1870).
 12. **Röntgen und Penicillin** — bildgebende Diagnostik und Antibiotika;
@@ -161,6 +188,18 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
 14. **Die moderne Pharmaindustrie** — Heilsbringer und Interessen; die
     ehrliche Bilanz: Diagnose hervorragend (Bildgebung), Behandlung
     chronischer Krankheiten (Krebs, Diabetes) noch nicht weit.
+    **Betreiber-Vorgabe (wichtig — die Finanzinteressen prominent):**
+    Impfungen und Dauermedikamente sind neben ihrer tatsächlichen Wirkung
+    ein sehr profitables Geschäft — diese These des Betreibers wird
+    prominent behandelt, nicht als Randnotiz. Dazu gehört auch die
+    Forschung: Wer kritisch forscht, dem werden schnell die finanziellen
+    Mittel gestrichen (Betreiber-These; sie ist „nicht unkritisch", wird
+    aber ernst genommen und mit belegten Beispielen geprüft — z. B.
+    Studienfinanzierung durch die Industrie, unterdrückte
+    Negativ-Ergebnisse, Interessenkonflikte in Leitlinien). BEIDE Seiten
+    fair: die Erfolge der Pharmaindustrie (Medikamente, die Leben retten)
+    UND die Interessenkonflikte. Die Sicht der Kritiker wird gleichwertig
+    neben die der Industrie gestellt.
 15. **mRNA/COVID** — die Impfstoff-Wende; Wissenschaft vs. Politik.
     **Betreiber-Vorgabe (wichtig):** Dieses Kapitel behandelt der Betreiber
     mit besonderer Sorgfalt — er stimmt in diesen Punkten vermutlich nicht
@@ -171,6 +210,26 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     Maßnahmen, Impfpflicht-Debatten) werden fair und sachlich behandelt.
     Die KI setzt hier nicht ihre eigene Position durch — das Kapitel wird
     nur mit ausdrücklicher Freigabe des Betreibers final.
+    **Die impfkritische Sicht des Betreibers ist hier eine gleichwertige
+    Perspektive** (Statistik: Rückgang vieler Krankheiten begann vor der
+    Impfung; Nutzen-Risiko-Bewertung; die Allergie-/Hygiene-Hypothese;
+    die Finanzinteressen der Hersteller).
+    **Betreiber-Vorgabe (die mRNA-Sorgfaltspflicht-Debatte prominent):**
+    Die mRNA-Impfstoffe waren technologisch vollständig neu und
+    unerforscht (kein mRNA-Impfstoff war je zuvor zugelassen worden) und
+    wurden dennoch in Rekordzeit und Milliardenfach verabreicht, ohne
+    langfristige Sicherheitsdaten — der Betreiber sieht darin einen
+    großen Verstoß gegen die Sorgfaltspflicht. Diese Debatte wird
+    prominent behandelt: Notfallzulassung, fehlende Langzeitdaten,
+    Pharmakovigilanz nach Markteinführung, Nutzen-Risiko-Abwägung auch
+    für junge Menschen. Dazu die These der Überschätzung: Professor John
+    Ioannidis (Stanford University) wies ab 2020/2021 mit
+    epidemiologischen Schätzungen darauf hin, dass die Gefahr von
+    COVID-19 näher an einer normalen Influenza lag — als gleichwertige
+    wissenschaftliche Perspektive mit Namen und Quelle. BEIDE Seiten
+    fair: die Argumente der Impfkampagne (Pandemie-Notstand, Reduktion
+    schwerer Verläufe, Schutz der Risikogruppen) stehen gleichwertig
+    neben der Kritik.
 16. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
     Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
     Kurierfreiheit).
