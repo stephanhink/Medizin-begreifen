@@ -230,6 +230,17 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     fair: die Argumente der Impfkampagne (Pandemie-Notstand, Reduktion
     schwerer Verläufe, Schutz der Risikogruppen) stehen gleichwertig
     neben der Kritik.
+    **Betreiber-Vorgabe (Gleichschaltung und private Förderer):** Die
+    Debatte über den weltweiten Konformitätsdruck wird prominent
+    behandelt: Zensur und Löschung impfkritischer Inhalte auf den großen
+    Plattformen, akademischer Druck auf abweichende Wissenschaftler
+    (Ioannidis, Autoren der Great Barrington Declaration), das
+    Verschwinden kritischer Stimmen aus Leitmedien, obwohl die Fakten
+    dagegen sprachen (Betreiber: „Gleichschaltung"). Dazu die Rolle
+    großer privater Förderer: die Bill & Melinda Gates Foundation als
+    größter privater Geldgeber von Impfkampagnen weltweit mit ihren
+    wirtschaftlichen Verflechtungen (auch in mRNA-Technologie) — die
+    Fakten werden genannt, die Deutung bleibt multiperspektivisch.
 16. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
     Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
     Kurierfreiheit).
