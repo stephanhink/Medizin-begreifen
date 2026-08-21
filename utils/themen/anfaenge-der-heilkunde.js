@@ -1,14 +1,21 @@
 // Kapitel 1 — „Die Anfänge der Heilkunde".
 //
-// Schamanen, Kräuterkundige und die sogenannten „primitiven" Völker. Der
-// Begriff steht im ganzen Kapitel in Anführungszeichen: Er ist eine
+// Schamanen, Kräuterkundige, die sogenannten „primitiven" Völker — und das
+// alte Ägypten als die erste Medizin, die aufgeschrieben wurde. Der Begriff
+// „primitiv" steht im ganzen Kapitel in Anführungszeichen: Er ist eine
 // Zuschreibung von außen, aus dem kolonialen Europa des 19. Jahrhunderts —
 // keine Selbstbezeichnung und kein Befund (TONE-Regel in CLAUDE.md).
 //
-// Stand der Runde 1: Die ERSTE Perspektive (die Stimme der Heilerin)
-// verfasste Opus; die ZWEITE (die Stimme der Abwertung und Wiederentdeckung)
-// und die finale Synthese ergänzte Hermes im zweiten Pass. Perspektiven-
-// Workflow: CLAUDE.md.
+// Betreiber-Entscheid vom 21.08.2026: Die ursprünglich getrennten Kapitel
+// „Anfänge" und „Ägypten" sind zu EINEM Kapitel verschmolzen — der Kern ist
+// derselbe (die Menschen handelten intuitiv und behandelten mit natürlichen
+// Mitteln), Ägypten ist darin die Station, an der dieses Wissen erstmals
+// schriftlich festgehalten wird. Keine Wiederholungen.
+//
+// Stimmen (Runde 1 + 2, zusammengeführt): Die ERSTE Perspektive (die
+// Stimme der Heilerin) verfasste Opus; die ZWEITE (die Stimme der
+// Abwertung und Wiederentdeckung) und die finale Synthese ergänzte Hermes.
+// Perspektiven-Workflow: CLAUDE.md.
 //
 // Die Texte liegen als Zeilen-Arrays mit `.join('\n')` — so bleiben sie im
 // Repo bei ~72 Zeichen lesbar (der Betreiber liest sie hier gegen), und
@@ -19,9 +26,10 @@
 const { karte } = require('./karten/anfaenge-der-heilkunde');
 
 /**
- * Die Stimme der Heilerin — die frühe Heilkunst von innen.
+ * Die Stimme der Heilerin — die frühe Heilkunst von innen, vom ersten
+ * Kräuterwissen bis zur ersten schriftlichen Medizin am Nil.
  *
- * Verfasst von Opus (Runde 1). Sie erzählt, wie das Wissen wuchs, welches
+ * Verfasst von Opus (Runden 1–2). Sie erzählt, wie das Wissen wuchs, welches
  * Weltbild dahinterstand, warum die Menschen taten, was sie taten — und was
  * es bewirkte. Die unbequemen Stellen benennt sie selbst, statt sie der
  * Gegenstimme zu überlassen (Zusatzregel für sensible Themen).
@@ -108,6 +116,73 @@ const stimmeDerHeilerin = [
   'Diagnose und Rezept. Wer nur das Kraut gab, hatte die halbe Arbeit',
   'getan.',
   '',
+  '## Die Schrift verändert alles — Ägypten',
+  '',
+  'Dann kam ein Volk, das die Erfahrung festhalten konnte. Am Nil wuchs',
+  'die Papyrusstaude; aus ihrem Mark pressten die Ägypter Blätter, und auf',
+  'diese Blätter kam, was ein Heiler bei einem Kranken getan hatte. Zum',
+  'ersten Mal war etwas möglich, das ein Menschengedächtnis nicht kann:',
+  '**sammeln**. Ein Rezept von vor zweihundert Jahren stand am selben Tag',
+  'zur Verfügung wie das von gestern. Wissen musste nicht mehr erinnert',
+  'werden, es konnte nachgeschlagen werden.',
+  '',
+  'Der ägyptische Arzt, der **swnu**, war kein Zauberer, sondern ein',
+  'Schreiber: ein Beamter mit Ausbildung, Titel und Rang. Es gab',
+  'Augenärzte, Zahnärzte, Ärzte für den Leib, sogar eine „Aufseherin der',
+  'Ärztinnen". Als der Grieche Herodot das Land bereiste, staunte er:',
+  'Jeder Arzt sei nur für eine Krankheit zuständig. Er hat übertrieben —',
+  'aber die Titel in den Gräbern geben ihm im Kern recht.',
+  '',
+  'Zwei Rollen sind die berühmtesten Bücher der alten Medizin. Der',
+  '**Ebers-Papyrus**, um 1550 v. Chr., rund zwanzig Meter lang, sammelt',
+  'etwa 877 Rezepte — gegen Bauchschmerzen, Würmer, Verbrennungen,',
+  'Krokodilbisse und Haarausfall. Der **Edwin-Smith-Papyrus** ist die',
+  'Abschrift eines viel älteren Textes: 48 chirurgische Fälle, jeder nach',
+  'demselben Muster — Untersuchung, Urteil, Behandlung. Er nennt sogar',
+  'drei Urteile: „eine Krankheit, die ich behandeln werde", „mit der ich',
+  'kämpfen werde" — und „eine Krankheit, die nicht zu behandeln ist". Das',
+  'dritte Urteil auszusprechen und nur noch Pflege zu geben, war erlaubt',
+  'und aufgeschrieben. Es ist vielleicht der nüchternste Satz der ganzen',
+  'alten Medizin.',
+  '',
+  'Und die Denkart blieb dieselbe, nur bildreicher. Die Ägypter dachten',
+  'den Körper als ein Land mit Kanälen, genau wie ihr Niltal: Vom Herzen',
+  'laufen die **metu**, und in ihnen fließt alles — Blut, Luft, Wasser,',
+  'Samen. Das Herz ist die Mitte des Menschen; es denkt und spricht.',
+  'Krankheit ist etwas, das hineingerät oder sich staut: ein Wurm, ein',
+  'böser Hauch, oder der **wechedu**, ein Fäulnisstoff, der im Darm',
+  'entsteht und über die Kanäle wandert. Eiter, Fieber und Schmerz galten',
+  'als seine Spur. Darum der Puls: „Es misst sein Herz" heißt es im',
+  'Ebers-Papyrus — wer glaubt, dass alle Stränge vom Herzen ausgehen, für',
+  'den ist der Puls eine Nachricht. Und darum die Einläufe und',
+  'Brechmittel: Wer den Fäulnisstoff hinausschafft, bevor er wandert,',
+  'schneidet die Krankheit an der Wurzel ab.',
+  '',
+  'Auch die Mittel blieben die der Heilerin, nur genauer angewandt. Auf',
+  'die Wunde kam am ersten Tag frisches Fleisch, danach Honig mit Fett',
+  'und ein Leinenverband — hundertfach wiederholt. Und das Amulett am',
+  'Hals? Gegen einen Eindringling stellt man eine Wache. Das Amulett ist',
+  'die Tür, die man abschließt, bevor der Dieb kommt — Vorbeugung mit den',
+  'Mitteln eines Weltbildes, in dem böse Kräfte genauso wirklich sind wie',
+  'Würmer im Darm.',
+  '',
+  '## Auch die Götter heilten',
+  '',
+  'Denn es gab noch einen zweiten Weg, und er war kein Gegensatz. Der',
+  'Ägypter, dem es schlecht ging, ging nicht nur zum Arzt. Er ging in den',
+  'Tempel, schlief dort, um im Traum eine Antwort zu bekommen. Er kaufte',
+  'ein Amulett. Er ließ einen Beschwörer der Göttin Selket kommen, wenn',
+  'ihn ein Skorpion gestochen hatte — in Deir el-Medina saß so einer',
+  'neben dem Arzt auf derselben Gehaltsliste. Krankheit war für ihn nie',
+  'nur ein Zustand des Körpers, sondern auch ein Zeichen: eine Prüfung,',
+  'ein Wort der Götter, das entschlüsselt werden wollte. Heilung hieß',
+  'dann, das Verhältnis wieder in Ordnung zu bringen — den zornigen Gott',
+  'besänftigen, den bösen Geist vertreiben. Dasselbe Weltbild wie überall,',
+  'nur mit Beamten: Der Spruch war der zweite Teil der Arznei, das',
+  'heilige Wasser trug die Kraft der Worte in den Kranken hinein, und der',
+  'Tempel gab dem Menschen, was die Sippe dem Kranken in der',
+  'Jägerzeit gegeben hatte: Er war nicht allein.',
+  '',
   '## Was es bewirkte',
   '',
   'Vieles davon hat gewirkt — messbar, bis heute nachvollziehbar.',
@@ -123,32 +198,36 @@ const stimmeDerHeilerin = [
   'eingegangen. Diese Stoffe hat kein Labor erfunden. Sie wurden gefunden —',
   'von Menschen ohne Mikroskop, mit nichts als Aufmerksamkeit und Zeit.',
   '',
-  '**Die Chirurgie.** Der älteste Schädel Europas mit einer Trepanation,',
-  'einer Öffnung der Schädeldecke, stammt aus Ensisheim im Elsass, etwa',
-  '5100 v. Chr. Der Mann hatte zwei solcher Öffnungen — und die',
-  'Knochenränder sind glatt verheilt. Er hat beide überlebt und danach noch',
-  'jahrelang gelebt. In Peru fand man Hunderte solcher Schädel; bei einem',
-  'großen Teil davon zeigt der Knochen dieselbe Heilung. Jemand öffnete',
-  'einen lebenden Kopf mit Steinwerkzeug, und der Mensch stand wieder auf.',
-  'Das setzt ruhige Hände voraus, eine Vorstellung davon, wo man schneiden',
-  'darf, und eine Nachsorge, die die Wunde nicht vereitern ließ.',
+  '**Die Wundversorgung.** Honig entzieht Keimen das Wasser, ist sauer und',
+  'bildet in kleinen Mengen Wasserstoffperoxid — er hemmt Bakterien',
+  'wirklich. Medizinischer Honig wird heute wieder auf schlecht heilende',
+  'Wunden gegeben; die Forschung dazu ist ordentlich, wenn auch kein',
+  'Ersatz für Antibiotika. Myrrhe wirkt schmerzstillend und keimhemmend',
+  'und steckt bis heute in Mundspülungen.',
   '',
-  '**Die Pflege.** In der Höhle von Shanidar im Zagros-Gebirge lag ein',
-  'Neandertaler mit verkümmertem Arm, zerschmettertem Gesicht und',
-  'vermutlich blind auf einem Auge. Er lebte damit noch Jahre. Allein',
-  'schafft das niemand. Und der Mann aus dem Eis, den wir Ötzi nennen,',
-  'trug um 3300 v. Chr. Birkenporling bei sich, einen Baumpilz, an',
-  'Lederriemen aufgefädelt — in seinem Darm steckten Peitschenwürmer.',
-  'Seine 61 Tätowierungen liegen auffällig oft genau über abgenutzten',
-  'Gelenken. Beweisen lässt sich daraus nichts, aber es ist eine gut',
-  'begründete Vermutung: Er hatte etwas dabei, das ihm helfen sollte.',
+  '**Die Chirurgie und die Hand.** Der älteste Schädel Europas mit einer',
+  'Trepanation, einer Öffnung der Schädeldecke, stammt aus Ensisheim im',
+  'Elsass, etwa 5100 v. Chr. Der Mann hatte zwei solcher Öffnungen — und',
+  'die Knochenränder sind glatt verheilt. In Peru fand man Hunderte',
+  'solcher Schädel; bei einem großen Teil davon zeigt der Knochen',
+  'dieselbe Heilung. Jemand öffnete einen lebenden Kopf mit Steinwerkzeug,',
+  'und der Mensch stand wieder auf. Aus einem thebanischen Grab stammt',
+  'zudem eine Zehe aus Holz und Leder, sorgfältig gearbeitet, mit',
+  'Abnutzungsspuren: eine Prothese, die getragen wurde.',
+  '',
+  '**Die genaue Beschreibung.** Der Edwin-Smith-Papyrus nennt das Gehirn,',
+  'seine Häute und seine Windungen — die erste bekannte Erwähnung',
+  'überhaupt. Er beschreibt, dass eine Verletzung der einen Kopfseite die',
+  'andere Körperseite lähmt — und wie man einen ausgerenkten Kiefer',
+  'einrenkt, genau so, wie es heute noch gemacht wird.',
   '',
   '**Und das, was schwerer zu fassen ist.** Zuwendung, Ruhe, Erwartung,',
   'die Gewissheit, dass sich jemand kümmert — das verändert, wie ein',
   'Mensch Schmerz erlebt und wie er gesundet. Die heutige Forschung nennt',
   'es Placebo-Wirkung und Zuwendungseffekt und findet es in ihren Studien',
   'immer wieder. Die Heilerin hat es nicht so genannt. Benutzt hat sie es',
-  'jeden Tag.',
+  'jeden Tag — und der Tempel am Nil hat daraus eine eigene Kunst',
+  'gemacht.',
   '',
   '## Wo wir scheiterten',
   '',
@@ -158,9 +237,17 @@ const stimmeDerHeilerin = [
   'Jedes zweite oder dritte Kind starb, bevor es erwachsen war. Frauen',
   'starben im Kindbett. Eine Wunde, die sich entzündete, ein durchbrochener',
   'Blinddarm, eine Lungenentzündung im Winter — dagegen war nichts',
-  'auszurichten, gar nichts. Wer Bakterien nicht kennt, kann sie auch nicht',
-  'meiden; dass Sauberkeit über Leben entscheidet, hat noch das 19.',
-  'Jahrhundert erbittert bestritten.',
+  'auszurichten, gar nichts. Gegen die großen Plagen half auch Ägyptens',
+  'Wissen nicht: In Mumien wurden Tuberkulose, Malaria, Bilharziose und',
+  'verkalkte Schlagadern nachgewiesen. Die Bilharziose kam mit dem',
+  'Bewässerungswasser — genau dem Wasser, von dem das Land lebte.',
+  '',
+  'Und die Anatomie blieb aus. Man könnte meinen, ein Volk, das seine',
+  'Toten öffnet und ausnimmt, müsse den Körper kennen. Es war nicht so.',
+  'Die Einbalsamierer waren ein eigener, gering geachteter Berufsstand,',
+  'kein Arzt stand daneben und zeichnete mit. Das Gehirn, das man durch',
+  'die Nase herauszog, hielt man für unwichtig. Herz und Kanäle blieben',
+  'eine Vorstellung, kein Befund.',
   '',
   'Auch das Weltbild selbst hatte einen Preis. Wenn Krankheit ein Riss im',
   'Gefüge ist, dann hat ihn womöglich jemand verursacht — und dann wird',
@@ -170,8 +257,12 @@ const stimmeDerHeilerin = [
   'Denkart dazu, auch wenn es unangenehm ist.',
   '',
   'Und die Mittel selbst waren riskant. Zwischen der Dosis, die hilft, und',
-  'der, die tötet, liegt beim Fingerhut und beim Schlafmohn wenig. Manches,',
-  'was über Generationen weitergegeben wurde, half nie und wurde trotzdem',
+  'der, die tötet, liegt beim Fingerhut und beim Schlafmohn wenig. In den',
+  'ägyptischen Rezepten stehen Eselskot und Fliegendreck — der Logik des',
+  'Abstoßenden folgend; auf einer offenen Wunde ist Kot allerdings ein Weg',
+  'zum Wundstarrkrampf. Und wo der Spruch die Behandlung ersetzte, statt',
+  'sie zu begleiten, verstrich Zeit, die niemand hatte. Manches, was über',
+  'Generationen weitergegeben wurde, half nie und wurde trotzdem',
   'weitergegeben, weil die meisten Krankheiten von allein vergehen und die',
   'Erinnerung sich dann an das Mittel hängt. Nicht jedes alte Wissen ist',
   'gutes Wissen. Alt heißt nur alt.',
@@ -301,7 +392,7 @@ const stimmeDerAbwertungUndWiederentdeckung = [
 const anfaengeDerHeilkunde = {
   id: 'anfaenge-der-heilkunde',
   titel: 'Die Anfänge der Heilkunde',
-  epoche: 'Von der Steinzeit bis zu den frühen Hochkulturen',
+  epoche: 'Von den Jägern und Sammlern bis zum alten Ägypten',
 
   aufhaenger: {
     frage: 'Wer hat die erste Medizin erfunden?',
@@ -311,6 +402,13 @@ const anfaengeDerHeilkunde = {
       'Menschen bei Kranken, kühlten Fieber, richteten Knochen und gaben',
       'Kräuter. Sie taten es in Europa, in Afrika, in Asien, in Amerika —',
       'überall dort, wo Menschen lebten, und ungefähr zur selben Zeit.',
+      '',
+      'Und sie handelten dabei intuitiv: Sie beobachteten, probierten aus',
+      'und gaben weiter, was half — mit den natürlichen Mitteln, die sie',
+      'kannten: Pflanzen, Wasser, Wärme, die eigene Hand. In Ägypten wurde',
+      'aus dieser Erfahrung zum ersten Mal eine Schrift: Bücher mit',
+      'hunderten Rezepten, Ärzte mit Spezialgebieten — und daneben',
+      'Gebete, Götter und Amulette, ohne die kein Rezept vollständig war.',
       '',
       'Manches davon wirkte erstaunlich gut. Manches wirkte gar nicht.',
       'Beides gehört dazu. Dieses Kapitel geht dorthin zurück, wo die',
@@ -343,18 +441,21 @@ const anfaengeDerHeilkunde = {
     'Stimmen stimmen über die Tatsachen überein: Die Trepanation wurde',
     'überlebt — das steht in den Knochen. Chinarinde, Weidenrinde,',
     'Schlafmohn, Fingerhut und Kurare wirkten, bevor jemand ihre Stoffe',
-    'benannte. Beide erkennen an, dass dieses Wissen durch Beobachtung',
-    'und Weitergeben entstand — die Heilerin nennt es Erfahrungsmedizin,',
-    'die Wiederentdeckung nennt es geprüfte Erfahrung. Und beide sehen,',
-    'dass Heilung mehr ist als der Eingriff: die Zuwendung, die',
-    'Erwartung, das Gefühl, nicht allein zu sein. Die Heilerin benutzte',
-    'es, die Forschung misst es. Sie meinen dasselbe.',
+    'benannte. Honig auf der Wunde war keine Mode, sondern Erfahrung —',
+    'die Forschung bestätigt ihn bis heute. Beide erkennen an, dass',
+    'dieses Wissen durch Beobachtung und Weitergeben entstand — die',
+    'Heilerin nennt es Erfahrungsmedizin, die Wiederentdeckung nennt es',
+    'geprüfte Erfahrung. Und beide sehen, dass Heilung mehr ist als der',
+    'Eingriff: die Zuwendung, die Erwartung, das Gefühl, nicht allein zu',
+    'sein. Die Heilerin benutzte es, der Tempel am Nil machte eine Kunst',
+    'daraus, die Forschung misst es. Sie meinen dasselbe.',
     '',
     '## Wo sie auseinandergehen',
     '',
     'Der Widerspruch beginnt bei der Deutung. Für die Heilerin ist ihre',
     'Kunst eine in sich stimmige Art des Denkens: Krankheit als Störung',
-    'des Lots, Heilung als Wiederherstellung der Ordnung. Für die',
+    'des Lots, Heilung als Wiederherstellung der Ordnung — in Ägypten',
+    'ausgemalt als Körperland mit Kanälen und Fäulnisstoff. Für die',
     'Stimme der Abwertung war dasselbe Denken eine Vorstufe, die die',
     'moderne Medizin überwinden musste — und die Stimme der',
     'Wiederentdeckung muss sich fragen, ob sie das Alte nicht heute',
@@ -381,6 +482,12 @@ const anfaengeDerHeilkunde = {
     'hat Mühe, ihm in ihrem Alltag einen Platz zu geben. Vielleicht ist',
     'das der erste Punkt, an dem ein Miteinander nicht nur möglich,',
     'sondern nötig wäre.',
+    '',
+    'Die Griechen, die als Nächstes die Bühne betreten, werden die',
+    'Spannung erben: Hippokrates sagt sich von den Göttern los — und',
+    'sein Volk baut dem Heilgott Asklepios Tempel, in denen Kranke',
+    'schlafen, genau wie am Nil. Die Frage bleibt: Was ist ein Mittel',
+    'wert, das den Körper nicht erreicht, aber den Menschen?',
   ].join('\n'),
 
   urteil: {
@@ -388,9 +495,9 @@ const anfaengeDerHeilkunde = {
     hinweis: [
       'Es gibt hier kein Richtig und kein Falsch. Denk an das Kraut gegen',
       'Fieber, an die geöffnete Schädeldecke, an den Gesang am Lager des',
-      'Kranken, an die Hand, die den Arm schient. Wo würdest du',
-      'zustimmen, wo würdest du zögern — und woran machst du den',
-      'Unterschied fest?',
+      'Kranken, an die Hand, die den Arm schient — und an den ägyptischen',
+      'Arzt, der zugleich Gebete sprach. Wo würdest du zustimmen, wo',
+      'würdest du zögern — und woran machst du den Unterschied fest?',
     ].join(' '),
   },
 
@@ -411,19 +518,35 @@ const anfaengeDerHeilkunde = {
         'Öffnungen; in Peru fand man Hunderte weiterer Beispiele.',
     },
     {
-      frage:
-        'Was trug Ötzi, der Mann aus dem Eis (um 3300 v. Chr.), an ' +
-        'Lederriemen bei sich?',
+      frage: 'Wie umfangreich ist der Ebers-Papyrus (um 1550 v. Chr.)?',
       antworten: [
-        'Zwei Stücke eines Baumpilzes, den Birkenporling.',
-        'Einen Beutel mit gemahlenem Kalk.',
-        'Getrocknete Fischhaut als Verbandsmaterial.',
+        'Etwa zwei Meter lang, mit rund 30 Rezepten.',
+        'Etwa zwanzig Meter lang, mit rund 877 Rezepten und Abschnitten.',
+        'Etwa hundert Meter lang, mit rund 5000 Rezepten.',
+      ],
+      richtig: 1,
+      erklaerung:
+        'Die Rolle ist rund zwanzig Meter lang und enthält etwa 877 ' +
+        'Abschnitte — Rezepte gegen Bauchschmerzen, Augenleiden, Würmer, ' +
+        'Verbrennungen und vieles mehr. Sie wurde 1873 in Luxor gekauft ' +
+        'und liegt heute in Leipzig.',
+    },
+    {
+      frage:
+        'Stimmt es, dass Honig auf Wunden auch in der heutigen Medizin ' +
+        'verwendet wird?',
+      antworten: [
+        'Ja — medizinischer Honig wird auf schlecht heilende Wunden und ' +
+          'Verbrennungen gegeben.',
+        'Nein, Honig auf Wunden gilt heute als reiner Aberglaube.',
+        'Nur in Ägypten, nirgendwo sonst.',
       ],
       richtig: 0,
       erklaerung:
-        'Der Birkenporling gilt vielen als mögliche Arznei — Ötzi hatte ' +
-        'Peitschenwürmer im Darm. Bewiesen ist der Zusammenhang nicht, ' +
-        'aber er ist gut begründet.',
+        'Honig entzieht Keimen Wasser, ist sauer und bildet in kleinen ' +
+        'Mengen Wasserstoffperoxid — er hemmt Bakterien. Speziell ' +
+        'aufbereiteter Honig wird deshalb in der Wundversorgung eingesetzt; ' +
+        'ein Ersatz für Antibiotika ist er nicht.',
     },
     {
       frage:
@@ -455,20 +578,6 @@ const anfaengeDerHeilkunde = {
         '„Primitiv" ist eine Zuschreibung europäischer Gelehrter der ' +
         'Kolonialzeit. Sie beschreibt nicht die Heilkunde dieser Völker, ' +
         'sondern die Sicht derer, die den Begriff vergaben.',
-    },
-    {
-      frage:
-        'Was gab es in der Indus-Stadt Mohenjo-Daro um 2500 v. Chr. bereits?',
-      antworten: [
-        'Ein Krankenhaus mit angestellten Ärzten.',
-        'Gemauerte Bäder, Brunnen und Abwasserkanäle.',
-        'Eine Apotheke mit beschrifteten Gefäßen.',
-      ],
-      richtig: 1,
-      erklaerung:
-        'Fast jedes Haus hatte Zugang zu Wasser und einen Abfluss. Bakterien ' +
-        'kannte niemand — Reinheit war eine Frage der Ordnung. Genützt hat ' +
-        'sie den Menschen vermutlich trotzdem.',
     },
   ],
 };

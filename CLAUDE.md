@@ -111,14 +111,19 @@ prüft diese Zusagen nach.
 Die Reihenfolge hier ist zugleich die Reihenfolge in der App
 (`utils/themen/index.js`). Details: `notizen/kapitel-planung.md`.
 
-1. **Die Anfänge der Heilkunde** — Schamanen, Kräuterkundige und die
-   „primitiven" Völker (Begriff kritisch reflektiert). Trepanation,
-   Heilpflanzenwissen, indigene Medizin weltweit; was die moderne Medizin
-   von ihnen übernahm. Perspektiven: Heilerin/Heiler vs. Stamm; indigenes
-   Wissen vs. koloniale Abwertung.
-2. **Ägypten** — der Ebers-Papyrus; die fortschrittliche Heilkunst des
-   Niltals.
-3. **China und die TCM** — die chinesische Medizin hat bis heute ihre
+1. **Die Anfänge der Heilkunde** — Schamanen, Kräuterkundige, die
+   „primitiven" Völker (Begriff kritisch reflektiert) UND das alte
+   Ägypten als die erste Medizin, die aufgeschrieben wurde (Ebers- und
+   Edwin-Smith-Papyrus, die Kanäle-Denkart, die Tempelheilung). Kern der
+   Aussage (Betreiber-Vorgabe): Die Menschen handelten intuitiv und
+   behandelten mit natürlichen Mitteln; Ägypten ist die Station, an der
+   dieses Wissen erstmals schriftlich wird. Trepanation,
+   Heilpflanzenwissen, Chinin/Kurare/Digitalis. Perspektiven:
+   Heilerin/Heiler vs. koloniale Abwertung und Wiederentdeckung. (Die
+   ursprünglich getrennten Kapitel „Anfänge" und „Ägypten" wurden am
+   21.08.2026 auf Betreiber-Wunsch verschmolzen — KEINE Wiederholungen;
+   jede neue Runde variiert die Abschnittsstruktur der Stimmen.)
+2. **China und die TCM** — die chinesische Medizin hat bis heute ihre
    Bedeutung (Akupunktur, Kräuter, Qi). Perspektiven: Westen vs. Osten.
    **Betreiber-Vorgabe (Denkart-Analyse):** Dieses Kapitel analysiert die
    Denkart der TCM UMFANGREICH: das Weltbild (Qi, Yin und Yang, die Fünf
@@ -127,7 +132,7 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    kombinierte Wirkung; Warum Puls- und Zungendiagnose?) — und die
    ehrliche Wirkungsbilanz (was die Forschung heute belegt, z. B.
    Akupunktur bei Schmerzen, und was nicht messbar/umstritten ist).
-4. **Indien und der Ayurveda** — bis heute aktuell. Perspektiven:
+3. **Indien und der Ayurveda** — bis heute aktuell. Perspektiven:
    Tradition vs. Modernisierung; Indien vs. koloniale Medizin.
    **Betreiber-Vorgabe (Denkart-Analyse):** Dieses Kapitel analysiert die
    Denkart des Ayurveda UMFANGREICH: das Weltbild (die drei Doshas Vata,
@@ -136,27 +141,27 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    Panchakarma-Reinigungen?; Warum Kräuter wie Kurkuma/Ashwagandha?) —
    und die ehrliche Wirkungsbilanz (was belegt ist, was kulturell
    verwurzelt/umstritten ist).
-5. **Hippokrates und Galen** — die europäische Wurzel; der Eid.
-6. **Avicenna und die arabische Medizin** — sie bewahrten die Antike.
-7. **Klostermedizin** — Hildegard von Bingen; die deutsche Tradition der
+4. **Hippokrates und Galen** — die europäische Wurzel; der Eid.
+5. **Avicenna und die arabische Medizin** — sie bewahrten die Antike.
+6. **Klostermedizin** — Hildegard von Bingen; die deutsche Tradition der
    Klostergärten.
-8. **Paracelsus und Vesal** — die Anatomie erwacht; Empirie vs. Autorität.
-9. **Harvey** — der Blutkreislauf; Beobachtung vs. Lehrmeinung.
-10. **Die grausamen Anfänge der modernen Chirurgie** — Amputationen ohne
-    Betäubung vor Publikum (London), die chirurgischen Theater; Semmelweis
-    und das Händewaschen. Die moderne Medizin ist erst ~150 Jahre alt.
-11. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
-12. **Pasteur und Lister** — die Keimtheorie; Narkose und Antisepsis; die
+7. **Paracelsus und Vesal** — die Anatomie erwacht; Empirie vs. Autorität.
+8. **Harvey** — der Blutkreislauf; Beobachtung vs. Lehrmeinung.
+9. **Die grausamen Anfänge der modernen Chirurgie** — Amputationen ohne
+   Betäubung vor Publikum (London), die chirurgischen Theater; Semmelweis
+   und das Händewaschen. Die moderne Medizin ist erst ~150 Jahre alt.
+10. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
+11. **Pasteur und Lister** — die Keimtheorie; Narkose und Antisepsis; die
     Geburtsstunde der wissenschaftlichen Medizin (~1870).
-13. **Röntgen und Penicillin** — bildgebende Diagnostik und Antibiotika;
+12. **Röntgen und Penicillin** — bildgebende Diagnostik und Antibiotika;
     Strahleneuphorie vs. Strahlenschäden.
-14. **Die Verstaatlichung des Gesundheitswesens** — Hygiene als
+13. **Die Verstaatlichung des Gesundheitswesens** — Hygiene als
     Staatsaufgabe, Krankenhäuser, Bismarck 1883; Zugang für alle UND
     Verdrängung der Naturheilkunde, Kurierfreiheit.
-15. **Die moderne Pharmaindustrie** — Heilsbringer und Interessen; die
+14. **Die moderne Pharmaindustrie** — Heilsbringer und Interessen; die
     ehrliche Bilanz: Diagnose hervorragend (Bildgebung), Behandlung
     chronischer Krankheiten (Krebs, Diabetes) noch nicht weit.
-16. **mRNA/COVID** — die Impfstoff-Wende; Wissenschaft vs. Politik.
+15. **mRNA/COVID** — die Impfstoff-Wende; Wissenschaft vs. Politik.
     **Betreiber-Vorgabe (wichtig):** Dieses Kapitel behandelt der Betreiber
     mit besonderer Sorgfalt — er stimmt in diesen Punkten vermutlich nicht
     mit der KI überein. Deshalb gilt hier die TONE-Regel doppelt: BEIDE
@@ -166,10 +171,10 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     Maßnahmen, Impfpflicht-Debatten) werden fair und sachlich behandelt.
     Die KI setzt hier nicht ihre eigene Position durch — das Kapitel wird
     nur mit ausdrücklicher Freigabe des Betreibers final.
-17. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
+16. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
     Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
     Kurierfreiheit).
-18. **Das Miteinander?** — die offene Zukunft: Integrative Medizin, KI in
+17. **Das Miteinander?** — die offene Zukunft: Integrative Medizin, KI in
     der Medizin. Das Buch endet OFFEN mit der Frage, ob nicht ein
     Miteinander existieren sollte — der Betreiber schreibt das letzte Wort
     selbst, wörtlich, unverbessert, hervorgehoben als „Schlusswort des

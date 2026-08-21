@@ -11,24 +11,23 @@ hier = Reihenfolge in der App (`utils/themen/index.js`).
 
 | # | Kapitel | Zeitraum / Kern | Perspektiven-Ideen (2+ je Kapitel) |
 |---|---------|-----------------|------------------------------------|
-| 1 | Die Anfänge der Heilkunde | Steinzeit bis frühe Hochkulturen | Heilerin/Heiler vs. Stamm; indigenes Wissen vs. koloniale Abwertung („primitiv" = koloniale Zuschreibung) |
-| 2 | Ägypten | Ebers-Papyrus (~1550 v. Chr.) | Ärzteschule vs. Tempelheilung; Schreiberwissen vs. Volksmedizin |
-| 3 | China und die TCM | ~2000 v. Chr. bis heute | **DENKART-ANALYSE (Betreiber-Vorgabe, umfangreich):** Weltbild (Qi, Yin/Yang, Fünf Elemente, Meridiane), Begründungslogik (Warum Akupunktur? Warum Kräuter-Rezepturen? Warum Puls-/Zungendiagnose?), ehrliche Wirkungsbilanz (belegt vs. umstritten). Perspektiven: Westen vs. Osten |
-| 4 | Indien und der Ayurveda | ~1500 v. Chr. bis heute | **DENKART-ANALYSE (Betreiber-Vorgabe, umfangreich):** Weltbild (Doshas Vata/Pitta/Kapha, Elemente), Begründungslogik (Warum Ernährung/Lebensweise? Warum Panchakarma? Warum Kräuter?), ehrliche Wirkungsbilanz. Perspektiven: Tradition vs. koloniale Medizin |
-| 5 | Hippokrates und Galen | ~460 v. Chr. – 216 n. Chr. | Arzt vs. Patient; Vernunft vs. Götterglaube; Autorität vs. Zweifel |
-| 6 | Avicenna und die arabische Medizin | ~980–1037 | Orient vs. Okzident (sie bewahrten die Antike!); Übersetzer als Bewahrer |
-| 7 | Klostermedizin | ~500–1200, Hildegard von Bingen | Kloster vs. Marktplatz; Frau (Hildegard) vs. Männerkirche |
-| 8 | Paracelsus und Vesal | 16. Jh., Anatomie | Empirie vs. Autorität; Paracelsus (Außenseiter) vs. Universität |
-| 9 | Harvey | 1578–1657, Blutkreislauf | Forscher vs. Tradition; Beobachtung vs. Lehrmeinung |
-| 10 | Die grausamen Anfänge der modernen Chirurgie | 18./19. Jh., Londoner OP-Theater | Patient vs. Chirurg; Amputation ohne Narkose; Semmelweis vs. die Ärzteschaft |
-| 11 | Jenner | 1796, Kuhpocken-Impfung | Impfbefürworter vs. Impfgegner; Landarzt vs. Akademie |
-| 12 | Pasteur und Lister | ~1860–1880, Keimtheorie | Mikrobenjäger vs. Chirurgen; Labor vs. Klinik (Narkose + Antisepsis ≈ 1870: die moderne Medizin ist ~150 Jahre alt) |
-| 13 | Röntgen und Penicillin | 1895 / 1928 | Entdecker vs. Zufall; Strahleneuphorie vs. Strahlenschäden |
-| 14 | Die Verstaatlichung des Gesundheitswesens | ~1883 ff., Bismarck | Staat vs. Bürger; Zugang für alle (Krankenkasse, Hygiene) vs. Verdrängung der Naturheilkunde, Kurierfreiheit |
-| 15 | Die moderne Pharmaindustrie | 20. Jh. bis heute | Pharmaindustrie vs. Kranke; Segen (Medikamente) vs. Interessen; Bilanz: Diagnose stark (Bildgebung), Behandlung chronischer Krankheiten (Krebs, Diabetes) schwach |
-| 16 | mRNA/COVID | 2020er | **Betreiber-Vorgabe:** TONE-Regel doppelt — Befürworter wie Skeptiker mit Argumenten, keine Dämonisierung; kritische Fragen (Schnellzulassung, Nebenwirkungen, politische Maßnahmen) fair; final nur mit Freigabe des Betreibers |
-| 17 | Kneipp und die Wiederentdeckung der Naturheilkunde | 19. Jh. bis heute | Naturheilkunde vs. Schulmedizin; Wasser/Bewegung/Ordnung; Heilpraktiker, Kurierfreiheit |
-| 18 | Das Miteinander? | heute und Zukunft | Integrative Medizin; Mensch vs. KI in der Medizin — endet OFFEN mit der Frage „Sollte nicht ein Miteinander existieren?" + Autorenwort |
+| 1 | Die Anfänge der Heilkunde (inkl. Ägypten) | Steinzeit bis ~525 v. Chr. | **Betreiber-Entscheid 21.08.2026: Kapitel 1+2 verschmolzen** — Kern: intuitives Handeln + natürliche Mittel; Ägypten = Station, wo das Wissen schriftlich wird (Ebers-/Edwin-Smith-Papyrus, Kanäle-Denkart, Tempelheilung). Perspektiven: Heilerin vs. koloniale Abwertung/Wiederentdeckung. KEINE Wiederholungen, Abschnittsstruktur je Kapitel variieren |
+| 2 | China und die TCM | ~2000 v. Chr. bis heute | **DENKART-ANALYSE (Betreiber-Vorgabe, umfangreich):** Weltbild (Qi, Yin/Yang, Fünf Elemente, Meridiane), Begründungslogik (Warum Akupunktur? Warum Kräuter-Rezepturen? Warum Puls-/Zungendiagnose?), ehrliche Wirkungsbilanz (belegt vs. umstritten). Perspektiven: Westen vs. Osten |
+| 3 | Indien und der Ayurveda | ~1500 v. Chr. bis heute | **DENKART-ANALYSE (Betreiber-Vorgabe, umfangreich):** Weltbild (Doshas Vata/Pitta/Kapha, Elemente), Begründungslogik (Warum Ernährung/Lebensweise? Warum Panchakarma? Warum Kräuter?), ehrliche Wirkungsbilanz. Perspektiven: Tradition vs. koloniale Medizin |
+| 4 | Hippokrates und Galen | ~460 v. Chr. – 216 n. Chr. | Arzt vs. Patient; Vernunft vs. Götterglaube; Autorität vs. Zweifel |
+| 5 | Avicenna und die arabische Medizin | ~980–1037 | Orient vs. Okzident (sie bewahrten die Antike!); Übersetzer als Bewahrer |
+| 6 | Klostermedizin | ~500–1200, Hildegard von Bingen | Kloster vs. Marktplatz; Frau (Hildegard) vs. Männerkirche |
+| 7 | Paracelsus und Vesal | 16. Jh., Anatomie | Empirie vs. Autorität; Paracelsus (Außenseiter) vs. Universität |
+| 8 | Harvey | 1578–1657, Blutkreislauf | Forscher vs. Tradition; Beobachtung vs. Lehrmeinung |
+| 9 | Die grausamen Anfänge der modernen Chirurgie | 18./19. Jh., Londoner OP-Theater | Patient vs. Chirurg; Amputation ohne Narkose; Semmelweis vs. die Ärzteschaft |
+| 10 | Jenner | 1796, Kuhpocken-Impfung | Impfbefürworter vs. Impfgegner; Landarzt vs. Akademie |
+| 11 | Pasteur und Lister | ~1860–1880, Keimtheorie | Mikrobenjäger vs. Chirurgen; Labor vs. Klinik (Narkose + Antisepsis ≈ 1870: die moderne Medizin ist ~150 Jahre alt) |
+| 12 | Röntgen und Penicillin | 1895 / 1928 | Entdecker vs. Zufall; Strahleneuphorie vs. Strahlenschäden |
+| 13 | Die Verstaatlichung des Gesundheitswesens | ~1883 ff., Bismarck | Staat vs. Bürger; Zugang für alle (Krankenkasse, Hygiene) vs. Verdrängung der Naturheilkunde, Kurierfreiheit |
+| 14 | Die moderne Pharmaindustrie | 20. Jh. bis heute | Pharmaindustrie vs. Kranke; Segen (Medikamente) vs. Interessen; Bilanz: Diagnose stark (Bildgebung), Behandlung chronischer Krankheiten (Krebs, Diabetes) schwach |
+| 15 | mRNA/COVID | 2020er | **Betreiber-Vorgabe:** TONE-Regel doppelt — Befürworter wie Skeptiker mit Argumenten, keine Dämonisierung; kritische Fragen (Schnellzulassung, Nebenwirkungen, politische Maßnahmen) fair; final nur mit Freigabe des Betreibers |
+| 16 | Kneipp und die Wiederentdeckung der Naturheilkunde | 19. Jh. bis heute | Naturheilkunde vs. Schulmedizin; Wasser/Bewegung/Ordnung; Heilpraktiker, Kurierfreiheit |
+| 17 | Das Miteinander? | heute und Zukunft | Integrative Medizin; Mensch vs. KI in der Medizin — endet OFFEN mit der Frage „Sollte nicht ein Miteinander existieren?" + Autorenwort |
 
 ## Leitachsen (aus der Ideenskizze)
 

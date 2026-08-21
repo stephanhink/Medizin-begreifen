@@ -7,6 +7,7 @@
 // Die Karten-Tests der Geschichts-Module sind mit den Modulen entfernt
 // worden — jede Medizin-Runde registriert ihren Modul- und Kartentest neu.
 // Runde 1: Kapitel „Die Anfänge der Heilkunde" (Modul + Atlas-Test).
+// Runde 2: Kapitel „Ägypten — die Heilkunst am Nil" (Modul + Atlas-Test).
 //
 // Eine registrierte Testdatei exportiert `laufe(pruefe)` und meldet ihre
 // Ergebnisse über die übergebene Prüf-Funktion. `laufe` darf auch

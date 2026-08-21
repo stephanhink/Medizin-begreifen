@@ -436,4 +436,41 @@ export function laufe(pruefe) {
       !/so war es/i.test(thema.synthese),
     );
   }
+
+  // --- Die Ägypten-Station (Betreiber-Entscheid 21.08.2026) ----------------
+  // Kapitel 1 und 2 sind zu EINEM Kapitel verschmolzen: Ägypten ist die
+  // Station, an der das Erfahrungswissen erstmals schriftlich wird. Die
+  // Zusagen dafür stehen im Text und werden hier nachgeprüft — ohne dass
+  // das Kapitel in zwei getrennte Erzählungen zerfällt.
+  pruefe(
+    'Anfänge/Ägypten: der Ebers-Papyrus wird genannt (Schrift als Neuheit)',
+    /(Ebers|Papyrus)/.test(thema.perspektiven[0].text) &&
+      /(sammeln|Schrift|festgehalten|aufgeschrieben)/.test(thema.perspektiven[0].text),
+  );
+  pruefe(
+    'Anfänge/Ägypten: die Denkart der Kanäle wird erklärt (Herz, metu)',
+    /(Kanäle|metu|Herz)/.test(thema.perspektiven[0].text) &&
+      /(wechedu|staut|hineingerät)/.test(thema.perspektiven[0].text),
+  );
+  pruefe(
+    'Anfänge/Ägypten: der swnu (Schreiberarzt) und die Spezialisierung sind da',
+    /(swnu|Schreiber|Augenärzte|Zahnärzte)/.test(thema.perspektiven[0].text),
+  );
+  pruefe(
+    'Anfänge/Ägypten: Honig als nachweislich wirksames Wundmittel',
+    /Honig/.test(thema.perspektiven[0].text) && /(Bakterien|Keimen|Wund)/.test(thema.perspektiven[0].text),
+  );
+  pruefe(
+    'Anfänge/Ägypten: die Tempelheilung ist als Teil derselben Denkart integriert',
+    /(Tempel|Götter|Amulett)/.test(thema.perspektiven[0].text) &&
+      /(nicht allein|Zeichen|Traum)/.test(thema.perspektiven[0].text),
+  );
+  pruefe(
+    'Anfänge/Ägypten: die Grenzen werden benannt (keine Anatomie, Bilharziose)',
+    /(Anatomie|Einbalsamierer|Bilharziose)/.test(thema.perspektiven[0].text),
+  );
+  pruefe(
+    'Anfänge/Ägypten: die Zusammenführung wiederholt sich nicht (eine Stimme, ein Bogen)',
+    (thema.perspektiven[0].text.match(/## Wer hier spricht/g) || []).length === 1,
+  );
 }

@@ -10,7 +10,8 @@
 // die finale Reihenfolge hat der Betreiber mit der ersten Runde bestätigt.
 //
 // Stand: Runde 1 hat das erste Kapitel angelegt — „Die Anfänge der
-// Heilkunde". Jede weitere Runde trägt ihr Kapitel hier unten an.
+// Heilkunde", Runde 2 das zweite — „Ägypten — die Heilkunst am Nil". Jede
+// weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
 // Metro/Babel in der App geladen werden kann (siehe schema.js).
