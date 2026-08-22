@@ -261,6 +261,28 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     Selbstheilungskräfte. Der Betreiber selbst kann mit der Homöopathie
     wenig anfangen, hat das Prinzip aber verstanden — beides gehört in
     die Erzählung.
+    **Betreiber-Vorgabe (die Informations-These und die offene Frage —
+    WICHTIG):** Das Kapitel stellt die Homöopathie NICHT als bloßes
+    Placebo dar. Die Informations-Therapie-These wird ernst genommen und
+    ausführlich erklärt: Die Potenzierung überträgt nach homöopathischer
+    Lehre die INFORMATION des Stoffes in das Trägermittel (Verschüttelung,
+    Dynamisierung) — die Frage „ist noch Stoff drin?" ist dann die
+    falsche Frage; die Information wäre das Wirksame. Dass das mit dem
+    heutigen naturwissenschaftlichen Weltbild nicht haltbar ist, heißt
+    nicht, dass es nicht funktionieren kann — Unerklärbarkeit heute ist
+    kein Beweis für Unwirksamkeit (Telefon-Argument: Ein Mensch des
+    Mittelalters hätte ein Telefongespräch als nicht wissenschaftlich
+    erklärbar abgetan; der damalige Stand der „Wissenschaft" war die
+    Grenze des damaligen Wissens, nicht die Grenze der Welt). Die
+    Perspektive der Skeptiker (Avogadro-Grenze, Studienlage) steht
+    gleichwertig daneben — aber nicht als letztes Wort, sondern als eine
+    Denkart von Wirksamkeit. Dazu werden unerklärte Phänomene als
+    Hinweise behandelt, dass das Weltbild Lücken hat: morphische Felder
+    (Rupert Sheldrake), die Zwillings-Phänomene (Kontakt ohne physische
+    Anwesenheit), die Geschichte der „unmöglichen" Technologien. Das
+    Kapitel endet offen mit der Frage: Was gilt als Beweis — und wer
+    entscheidet das? (Die „Wissenschaft" ist auch nur eine Perspektive,
+    die wächst.)
 17. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
     Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
     Kurierfreiheit).
