@@ -241,10 +241,30 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     größter privater Geldgeber von Impfkampagnen weltweit mit ihren
     wirtschaftlichen Verflechtungen (auch in mRNA-Technologie) — die
     Fakten werden genannt, die Deutung bleibt multiperspektivisch.
-16. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
+16. **Hahnemann und die Homöopathie** — die umstrittenste Heilmethode der
+    letzten 200 Jahre. **Betreiber-Vorgabe (wichtig — Denkart-Analyse und
+    die Frage nach den Anhängern):** Die Wirkungsweise wird AUSFÜHRLICH
+    beschrieben: das Ähnlichkeitsprinzip (Similia similibus curentur),
+    die Potenzierung/Verdünnung mit Verschüttelung (Dynamisierung), die
+    Idee der Lebenskraft, die ganzheitliche Anamnese. Dazu, warum die
+    moderne Medizin sie ablehnt (kein nachweisbarer Wirkstoff in
+    Hochpotenzen — Avogadro-Grenze, Studienlage, Unvereinbarkeit mit der
+    Pharmakologie). UND die eigentliche Aufgabe dieses Kapitels
+    (Betreiber): Warum hat die Homöopathie trotzdem seit über 200 Jahren
+    so viele Anhänger — in Indien (staatlich anerkannt, AYUSH, sehr
+    beliebt) und in Deutschland? „Meistens ist etwas daran, wenn über
+    viele Jahrzehnte eine Heilmethode so viele Anhänger hat" (Betreiber).
+    Es ist leicht, sich über die Homöopathie lustig zu machen — dieses
+    Kapitel findet heraus, was die Menschen daran hält: die ausführliche
+    Zuwendung der Anamnese, das Ernstgenommen-Werden, der Placebo- und
+    Erwartungseffekt, die Sicherheit ohne Nebenwirkungen, die
+    Selbstheilungskräfte. Der Betreiber selbst kann mit der Homöopathie
+    wenig anfangen, hat das Prinzip aber verstanden — beides gehört in
+    die Erzählung.
+17. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
     Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
     Kurierfreiheit).
-17. **Das Miteinander?** — die offene Zukunft: Integrative Medizin, KI in
+18. **Das Miteinander?** — die offene Zukunft: Integrative Medizin, KI in
     der Medizin. Das Buch endet OFFEN mit der Frage, ob nicht ein
     Miteinander existieren sollte — der Betreiber schreibt das letzte Wort
     selbst, wörtlich, unverbessert, hervorgehoben als „Schlusswort des
