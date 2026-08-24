@@ -41,9 +41,18 @@ hier = Reihenfolge in der App (`utils/themen/index.js`).
 
 ## Erzähl-Muster je Kapitel (Betreiber-Vorgabe)
 
-**LÄNGENREGEL (Betreiber-Feedback 24.08.2026):** Kapitel KURZ und DICHT halten —
-jede Perspektive max. ~250 Zeilen, Kapitel gesamt max. ~600 Zeilen. Wenige,
-starke Abschnitte; kein Aufblähen. Runden-Prompts enthalten die Begrenzung.
+**LÄNGENREGEL (Betreiber-Feedback 24.08.2026, gestuft):** Die frühen Kapitel
+(1–8, bis Harvey) KURZ und DICHT halten — jede Perspektive max. ~250 Zeilen,
+Kapitel gesamt max. ~600 Zeilen. Wenige, starke Abschnitte; kein Aufblähen.
+AB DER NEUZEIT (Kapitel 9 ff.) gilt die Umkehrung (Betreiber-Vorgabe):
+**vollständig und ausführlich schreiben** — insbesondere die grausamen
+Anfänge der modernen Medizin um 1850 in London (Kapitel 9: anschaulich und
+ausführlich berichten — OP-Theater, Amputation ohne Narkose), das
+Impfkapitel (10: dunkle Frühgeschichte + impfkritische Statistik prominent),
+die finanzielle Abhängigkeit der Forschung von der Pharmaindustrie (14) und
+die Homöopathie (16: Informations-These, Anhänger-Frage). KEIN BRUCH im
+Konzept: Erzählstruktur, Perspektiven-Muster und Denkart-Analyse bleiben
+überall gleich — nur die Ausführlichkeit wächst mit der Nähe zur Gegenwart.
 
 Jedes Kapitel beantwortet drei Fragen:
 1. **Wie entwickelte sich die Methode/das Wissen?**

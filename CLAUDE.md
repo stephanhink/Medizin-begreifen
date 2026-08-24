@@ -314,6 +314,24 @@ folgt demselben Muster (aus dem Geschichtsprojekt übernommen):
 die drei Fragen — Wie entwickelte sich die Methode? Welche Annahmen standen
 dahinter? Welche Wirkungen hatte sie (Erfolge UND Grenzen)?
 
+**LÄNGENREGEL (Betreiber-Feedback 24.08.2026, gestuft):** Die frühen Kapitel
+(1–8, bis Harvey) KURZ und DICHT halten: jede Perspektive maximal ~250 Zeilen
+(≈ 3.000 Zeichen), ein Kapitel insgesamt maximal ~600 Zeilen. Mehr Dichte,
+weniger Breite; wenige starke Abschnitte; jeder Absatz muss die Erzählung
+voranbringen. AB DER NEUZEIT (Kapitel 9 ff.) gilt die Umkehrung
+(Betreiber-Vorgabe): **vollständig und ausführlich** — insbesondere die
+grausamen Anfänge der modernen Medizin um 1850 in London (Kapitel 9:
+anschaulich berichten — OP-Theater, Amputation ohne Narkose), das
+Impfkapitel (10: dunkle Frühgeschichte + impfkritische Statistik
+prominent), die finanzielle Abhängigkeit der Forschung von der
+Pharmaindustrie (14) und die Homöopathie (16: Informations-These,
+Anhänger-Frage). KEIN BRUCH im Konzept: Erzählstruktur und
+Perspektiven-Muster bleiben überall gleich — nur die Ausführlichkeit wächst
+mit der Nähe zur Gegenwart. Die Runden-Prompts enthalten die jeweilige
+Begrenzung explizit. Qualität und Spannung zählen — ein spannendes kurzes
+Kapitel schlägt ein vollständiges langes; ein ausführliches Neuzeit-Kapitel
+bleibt trotzdem dicht.
+
 **Denkart-Analyse (Betreiber-Vorgabe, besonders für TCM und Ayurveda):**
 Der Betreiber will die DENKART hinter den Methoden verstehen und
 beschreiben — nicht nur WAS gemacht wurde, sondern WARUM: Welches
