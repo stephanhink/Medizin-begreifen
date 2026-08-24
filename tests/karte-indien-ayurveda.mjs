@@ -512,7 +512,7 @@ export function laufe(pruefe) {
   );
   pruefe(
     'Indien/Erzähl-Muster: (c1) welche Wirkungen es hatte — die Erfolge',
-    /indische Methode/.test(perspektivenText) && /Curcumin/.test(perspektivenText),
+    /indische\s+Methode/.test(perspektivenText) && /Curcumin/.test(perspektivenText),
   );
   pruefe(
     'Indien/Erzähl-Muster: (c2) und die Grenzen',

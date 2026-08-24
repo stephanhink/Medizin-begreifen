@@ -24,7 +24,9 @@ import { laufe as laufeFortschritt } from './fortschritt.mjs';
 import { laufe as laufeLernformat } from './lernformat.mjs';
 import { laufe as laufeArchitektur } from './architektur.mjs';
 import { laufe as laufeAnfaenge } from './karte-anfaenge-der-heilkunde.mjs';
+import { laufe as laufeIndien } from './karte-indien-ayurveda.mjs';
 import { laufe as laufeChina } from './karte-china-tcm.mjs';
+import { laufe as laufeHippokrates } from './karte-hippokrates-galen.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -50,7 +52,9 @@ laufeQuiz(pruefe);
 laufeLernformat(pruefe);
 laufeArchitektur(pruefe);
 laufeAnfaenge(pruefe);
+laufeIndien(pruefe);
 laufeChina(pruefe);
+laufeHippokrates(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {
