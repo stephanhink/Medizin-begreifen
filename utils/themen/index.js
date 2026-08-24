@@ -10,17 +10,20 @@
 // die finale Reihenfolge hat der Betreiber mit der ersten Runde bestätigt.
 //
 // Stand: Runde 1 hat das erste Kapitel angelegt — „Die Anfänge der
-// Heilkunde", Runde 2 das zweite — „Ägypten — die Heilkunst am Nil". Jede
-// weitere Runde trägt ihr Kapitel hier unten an.
+// Heilkunde", Runde 2 die Ägypten-Station, die der Betreiber am 21.08.2026
+// mit Kapitel 1 verschmelzen ließ. Runde 3 trägt „China und die TCM" nach.
+// Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
 // Metro/Babel in der App geladen werden kann (siehe schema.js).
 
 const anfaengeDerHeilkunde = require('./anfaenge-der-heilkunde');
+const chinaTcm = require('./china-tcm');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
   anfaengeDerHeilkunde,
+  chinaTcm,
 ];
 
 /**

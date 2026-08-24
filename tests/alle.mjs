@@ -8,6 +8,7 @@
 // worden — jede Medizin-Runde registriert ihren Modul- und Kartentest neu.
 // Runde 1: Kapitel „Die Anfänge der Heilkunde" (Modul + Atlas-Test).
 // Runde 2: Kapitel „Ägypten — die Heilkunst am Nil" (Modul + Atlas-Test).
+// Runde 3: Kapitel „China und die TCM" (Modul + Atlas-Test + Denkart-Analyse).
 //
 // Eine registrierte Testdatei exportiert `laufe(pruefe)` und meldet ihre
 // Ergebnisse über die übergebene Prüf-Funktion. `laufe` darf auch
@@ -23,6 +24,7 @@ import { laufe as laufeFortschritt } from './fortschritt.mjs';
 import { laufe as laufeLernformat } from './lernformat.mjs';
 import { laufe as laufeArchitektur } from './architektur.mjs';
 import { laufe as laufeAnfaenge } from './karte-anfaenge-der-heilkunde.mjs';
+import { laufe as laufeChina } from './karte-china-tcm.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -48,6 +50,7 @@ laufeQuiz(pruefe);
 laufeLernformat(pruefe);
 laufeArchitektur(pruefe);
 laufeAnfaenge(pruefe);
+laufeChina(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {
