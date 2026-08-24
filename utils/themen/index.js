@@ -11,7 +11,8 @@
 //
 // Stand: Runde 1 hat das erste Kapitel angelegt — „Die Anfänge der
 // Heilkunde", Runde 2 die Ägypten-Station, die der Betreiber am 21.08.2026
-// mit Kapitel 1 verschmelzen ließ. Runde 3 trägt „China und die TCM" nach.
+// mit Kapitel 1 verschmelzen ließ. Runde 3 trägt „China und die TCM" nach,
+// Runde 4 „Indien und der Ayurveda".
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -19,11 +20,13 @@
 
 const anfaengeDerHeilkunde = require('./anfaenge-der-heilkunde');
 const chinaTcm = require('./china-tcm');
+const indienAyurveda = require('./indien-ayurveda');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
   anfaengeDerHeilkunde,
   chinaTcm,
+  indienAyurveda,
 ];
 
 /**
