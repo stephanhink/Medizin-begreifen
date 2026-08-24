@@ -41,6 +41,10 @@ hier = Reihenfolge in der App (`utils/themen/index.js`).
 
 ## Erzähl-Muster je Kapitel (Betreiber-Vorgabe)
 
+**LÄNGENREGEL (Betreiber-Feedback 24.08.2026):** Kapitel KURZ und DICHT halten —
+jede Perspektive max. ~250 Zeilen, Kapitel gesamt max. ~600 Zeilen. Wenige,
+starke Abschnitte; kein Aufblähen. Runden-Prompts enthalten die Begrenzung.
+
 Jedes Kapitel beantwortet drei Fragen:
 1. **Wie entwickelte sich die Methode/das Wissen?**
 2. **Welche Annahmen standen dahinter** (was glaubten die Menschen damals)?
