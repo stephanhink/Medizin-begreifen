@@ -14,7 +14,8 @@
 // mit Kapitel 1 verschmelzen ließ. Runde 3 trägt „China und die TCM" nach,
 // Runde 4 „Indien und der Ayurveda", Runde 5 „Hippokrates und Galen",
 // Runde 6 „Avicenna und die arabische Medizin", Runde 7 „Die
-// Klostermedizin", Runde 8 „Paracelsus und Vesal".
+// Klostermedizin", Runde 8 „Paracelsus und Vesal", Runde 9 „Harvey und der
+// Blutkreislauf".
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -27,6 +28,7 @@ const hippokratesGalen = require('./hippokrates-galen');
 const avicennaArabischeMedizin = require('./avicenna-arabische-medizin');
 const klostermedizin = require('./klostermedizin');
 const paracelsusVesal = require('./paracelsus-vesal');
+const harvey = require('./harvey');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -37,6 +39,7 @@ const alleThemen = [
   avicennaArabischeMedizin,
   klostermedizin,
   paracelsusVesal,
+  harvey,
 ];
 
 /**
