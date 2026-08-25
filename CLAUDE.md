@@ -164,6 +164,18 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    Leichen aus den Armenhäusern legal und trocknete den Schwarzmarkt
    aus. Das ganze Kapitel bleibt fair (TONE-Regel): der Fortschritt der
    Chirurgie UND das Leid, auf dem er gebaut war.
+   **Betreiber-Vorgabe (der Körper als Ware — Brücke zum Organhandel):
+   Das Kapitel zieht die Linie in die Gegenwart: Organhandel ist real und
+   dokumentiert (Nierenhandel in Indien/Gurgaon 2008, Philippinen/Manila,
+   Ägypten/Birqash, Kosovo 2008; die WHO schätzt 5–10 % der
+   Transplantationen weltweit; das Muster: Arme verkaufen Organe für
+   ihre Familien, reiche Empfänger — auch aus den Golfstaaten — kaufen).
+   EHRLICHE EINORDNUNG (Betreiber fragte ausdrücklich nach der
+   Beweislage): Belegt ist der Organhandel der Armen; NICHT belegt ist
+   die Behauptung, ukrainische Waisenkinder würden systematisch für den
+   Organhandel verkauft (nur Vorwürfe/Gerüchte, zudem propagandistisch
+   genutzt) — das Buch nennt beide Seiten der Beweislage, ohne zu
+   beschönigen und ohne zu übertreiben.
 10. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
     **Betreiber-Vorgabe (wichtig — die dunkle Frühgeschichte prominent):**
     Die Pockenimpfung wird oft gefeiert, ist aber in ihrer Frühgeschichte
