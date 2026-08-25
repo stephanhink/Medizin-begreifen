@@ -150,6 +150,20 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
 9. **Die grausamen Anfänge der modernen Chirurgie** — Amputationen ohne
    Betäubung vor Publikum (London), die chirurgischen Theater; Semmelweis
    und das Händewaschen. Die moderne Medizin ist erst ~150 Jahre alt.
+   **Betreiber-Vorgabe (ausführlich, anschaulich — und der Leichenklau):
+   Dieses Kapitel wird AUSFÜHRLICH und anschaulich erzählt (Betreiber:
+   „die Anfänge der neuen Medizin um 1850 in London finde ich besonders
+   spannend — bitte ausführlich und anschaulich berichten"). Dazu gehört
+   der LEICHENKLAU auf den Friedhöfen, prominent und spannend erzählt:
+   die Medizinstudenten und die „Resurrection Men" gruben frische
+   Leichen wieder aus, um sie zu untersuchen (die einzige legale Quelle
+   — Hingerichtete — deckte den Bedarf nicht); die Leichenwächter
+   („Soulers") patrouillierten nachts auf den Friedhöfen, Familien
+   schützten Gräber mit Käfigen (Mortsafes); Burke und Hare in Edinburgh
+   1828 mordeten für die Anatomie; das Anatomy Act von 1832 machte
+   Leichen aus den Armenhäusern legal und trocknete den Schwarzmarkt
+   aus. Das ganze Kapitel bleibt fair (TONE-Regel): der Fortschritt der
+   Chirurgie UND das Leid, auf dem er gebaut war.
 10. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
     **Betreiber-Vorgabe (wichtig — die dunkle Frühgeschichte prominent):**
     Die Pockenimpfung wird oft gefeiert, ist aber in ihrer Frühgeschichte
