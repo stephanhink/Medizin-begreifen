@@ -13,7 +13,8 @@
 // Heilkunde", Runde 2 die Ägypten-Station, die der Betreiber am 21.08.2026
 // mit Kapitel 1 verschmelzen ließ. Runde 3 trägt „China und die TCM" nach,
 // Runde 4 „Indien und der Ayurveda", Runde 5 „Hippokrates und Galen",
-// Runde 6 „Avicenna und die arabische Medizin".
+// Runde 6 „Avicenna und die arabische Medizin", Runde 7 „Die
+// Klostermedizin".
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -24,6 +25,7 @@ const chinaTcm = require('./china-tcm');
 const indienAyurveda = require('./indien-ayurveda');
 const hippokratesGalen = require('./hippokrates-galen');
 const avicennaArabischeMedizin = require('./avicenna-arabische-medizin');
+const klostermedizin = require('./klostermedizin');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -32,6 +34,7 @@ const alleThemen = [
   indienAyurveda,
   hippokratesGalen,
   avicennaArabischeMedizin,
+  klostermedizin,
 ];
 
 /**

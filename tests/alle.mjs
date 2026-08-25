@@ -28,6 +28,7 @@ import { laufe as laufeIndien } from './karte-indien-ayurveda.mjs';
 import { laufe as laufeChina } from './karte-china-tcm.mjs';
 import { laufe as laufeHippokrates } from './karte-hippokrates-galen.mjs';
 import { laufe as laufeAvicenna } from './karte-avicenna-arabische-medizin.mjs';
+import { laufe as laufeKloster } from './karte-klostermedizin.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -57,6 +58,7 @@ laufeIndien(pruefe);
 laufeChina(pruefe);
 laufeHippokrates(pruefe);
 laufeAvicenna(pruefe);
+laufeKloster(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {
