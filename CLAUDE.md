@@ -75,6 +75,10 @@ Geschichtsbuch.
 BELEGTES — unbelegte Behauptungen und Gerüchte bleiben außen vor, auch wenn
 sie erzählt werden („das Buch kann sonst abrutschen"). Unbelegtes wird
 gegebenenfalls als unbestätigt gekennzeichnet oder weggelassen.
+**Klarstellung (Betreiber, 25.08.2026):** Belegte wissenschaftliche
+Positionen sind KEINE Gerüchte — die kritische COVID-Perspektive von
+Professor John Ioannidis (Stanford) im mRNA/COVID-Kapitel BLEIBT
+selbstverständlich erhalten (namentlich, publiziert, überprüfbar).
 
 - Die **Schulmedizin**: Erfolge (Hygiene, Antibiotika, Impfung, Chirurgie,
   Bildgebung) UND die dunklen Stellen (grausame Anfänge ohne Narkose und
@@ -255,7 +259,10 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     Ioannidis (Stanford University) wies ab 2020/2021 mit
     epidemiologischen Schätzungen darauf hin, dass die Gefahr von
     COVID-19 näher an einer normalen Influenza lag — als gleichwertige
-    wissenschaftliche Perspektive mit Namen und Quelle. BEIDE Seiten
+    wissenschaftliche Perspektive mit Namen und Quelle. **BLEIBT —
+    ausdrücklich bestätigt vom Betreiber am 25.08.2026 (kein Gerücht,
+    sondern belegte wissenschaftliche Position; die KEINE-GERÜCHTE-Regel
+    gilt hier nicht).** BEIDE Seiten
     fair: die Argumente der Impfkampagne (Pandemie-Notstand, Reduktion
     schwerer Verläufe, Schutz der Risikogruppen) stehen gleichwertig
     neben der Kritik.
