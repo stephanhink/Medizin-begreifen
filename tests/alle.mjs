@@ -9,6 +9,8 @@
 // Runde 1: Kapitel „Die Anfänge der Heilkunde" (Modul + Atlas-Test).
 // Runde 2: Kapitel „Ägypten — die Heilkunst am Nil" (Modul + Atlas-Test).
 // Runde 3: Kapitel „China und die TCM" (Modul + Atlas-Test + Denkart-Analyse).
+// Runde 10: Kapitel „Die grausamen Anfänge der modernen Chirurgie" (Modul +
+// Atlas-Test + Denkart-Analyse + Belege-Prüfung).
 //
 // Eine registrierte Testdatei exportiert `laufe(pruefe)` und meldet ihre
 // Ergebnisse über die übergebene Prüf-Funktion. `laufe` darf auch
@@ -30,6 +32,11 @@ import { laufe as laufeHippokrates } from './karte-hippokrates-galen.mjs';
 import { laufe as laufeAvicenna } from './karte-avicenna-arabische-medizin.mjs';
 import { laufe as laufeKloster } from './karte-klostermedizin.mjs';
 import { laufe as laufeParacelsus } from './karte-paracelsus-vesal.mjs';
+// Runde 9 hat tests/karte-harvey.mjs angelegt, aber nicht hier eingetragen —
+// damit zählte die Prüfung nicht (Prüf-Regel in CLAUDE.md). Nachgetragen in
+// Runde 10; die Datei läuft unverändert und fehlerfrei durch.
+import { laufe as laufeHarvey } from './karte-harvey.mjs';
+import { laufe as laufeChirurgie } from './karte-chirurgie-anfaenge.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -61,6 +68,8 @@ laufeHippokrates(pruefe);
 laufeAvicenna(pruefe);
 laufeKloster(pruefe);
 laufeParacelsus(pruefe);
+laufeHarvey(pruefe);
+laufeChirurgie(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {

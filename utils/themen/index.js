@@ -15,7 +15,8 @@
 // Runde 4 „Indien und der Ayurveda", Runde 5 „Hippokrates und Galen",
 // Runde 6 „Avicenna und die arabische Medizin", Runde 7 „Die
 // Klostermedizin", Runde 8 „Paracelsus und Vesal", Runde 9 „Harvey und der
-// Blutkreislauf".
+// Blutkreislauf", Runde 10 „Die grausamen Anfänge der modernen Chirurgie"
+// (das erste Kapitel der Neuzeit).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -29,6 +30,7 @@ const avicennaArabischeMedizin = require('./avicenna-arabische-medizin');
 const klostermedizin = require('./klostermedizin');
 const paracelsusVesal = require('./paracelsus-vesal');
 const harvey = require('./harvey');
+const chirurgieAnfaenge = require('./chirurgie-anfaenge');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -40,6 +42,7 @@ const alleThemen = [
   klostermedizin,
   paracelsusVesal,
   harvey,
+  chirurgieAnfaenge,
 ];
 
 /**
