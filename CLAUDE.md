@@ -71,6 +71,11 @@ BEIDE Seiten werden fair behandelt — nichts einseitig verurteilen, nichts
 beschönigen. „Wirklich objektiv" gilt wie beim Putin-Kapitel im
 Geschichtsbuch.
 
+**KEINE GERÜCHTE (Betreiber-Entscheid 25.08.2026):** Das Buch berichtet nur
+BELEGTES — unbelegte Behauptungen und Gerüchte bleiben außen vor, auch wenn
+sie erzählt werden („das Buch kann sonst abrutschen"). Unbelegtes wird
+gegebenenfalls als unbestätigt gekennzeichnet oder weggelassen.
+
 - Die **Schulmedizin**: Erfolge (Hygiene, Antibiotika, Impfung, Chirurgie,
   Bildgebung) UND die dunklen Stellen (grausame Anfänge ohne Narkose und
   Hygiene, NS-Medizin, Zwangssterilisationen, Interessenkonflikte der
@@ -170,12 +175,10 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    Ägypten/Birqash, Kosovo 2008; die WHO schätzt 5–10 % der
    Transplantationen weltweit; das Muster: Arme verkaufen Organe für
    ihre Familien, reiche Empfänger — auch aus den Golfstaaten — kaufen).
-   EHRLICHE EINORDNUNG (Betreiber fragte ausdrücklich nach der
-   Beweislage): Belegt ist der Organhandel der Armen; NICHT belegt ist
-   die Behauptung, ukrainische Waisenkinder würden systematisch für den
-   Organhandel verkauft (nur Vorwürfe/Gerüchte, zudem propagandistisch
-   genutzt) — das Buch nennt beide Seiten der Beweislage, ohne zu
-   beschönigen und ohne zu übertreiben.
+   NUR BELEGTES berichten — KEINE Gerüchte (Betreiber-Entscheid
+   25.08.2026: die kursierende Behauptung über ukrainische Waisenkinder
+   im Organhandel ist nicht belegt und bleibt deshalb AUSSEN VOR — „das
+   Buch kann sonst abrutschen").
 10. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
     **Betreiber-Vorgabe (wichtig — die dunkle Frühgeschichte prominent):**
     Die Pockenimpfung wird oft gefeiert, ist aber in ihrer Frühgeschichte
