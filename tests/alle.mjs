@@ -11,6 +11,8 @@
 // Runde 3: Kapitel „China und die TCM" (Modul + Atlas-Test + Denkart-Analyse).
 // Runde 10: Kapitel „Die grausamen Anfänge der modernen Chirurgie" (Modul +
 // Atlas-Test + Denkart-Analyse + Belege-Prüfung).
+// Runde 11: Kapitel „Jenner und die Impfung" (Modul + Atlas-Test +
+// Denkart-Analyse + dunkle Frühgeschichte + impfkritische Statistik).
 //
 // Eine registrierte Testdatei exportiert `laufe(pruefe)` und meldet ihre
 // Ergebnisse über die übergebene Prüf-Funktion. `laufe` darf auch
@@ -37,6 +39,7 @@ import { laufe as laufeParacelsus } from './karte-paracelsus-vesal.mjs';
 // Runde 10; die Datei läuft unverändert und fehlerfrei durch.
 import { laufe as laufeHarvey } from './karte-harvey.mjs';
 import { laufe as laufeChirurgie } from './karte-chirurgie-anfaenge.mjs';
+import { laufe as laufeJenner } from './karte-jenner-impfung.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -70,6 +73,7 @@ laufeKloster(pruefe);
 laufeParacelsus(pruefe);
 laufeHarvey(pruefe);
 laufeChirurgie(pruefe);
+laufeJenner(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {
