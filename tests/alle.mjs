@@ -40,6 +40,7 @@ import { laufe as laufeParacelsus } from './karte-paracelsus-vesal.mjs';
 import { laufe as laufeHarvey } from './karte-harvey.mjs';
 import { laufe as laufeChirurgie } from './karte-chirurgie-anfaenge.mjs';
 import { laufe as laufeJenner } from './karte-jenner-impfung.mjs';
+import { laufe as laufePasteur } from './karte-pasteur-lister.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');

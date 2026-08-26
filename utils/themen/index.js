@@ -16,7 +16,8 @@
 // Runde 6 „Avicenna und die arabische Medizin", Runde 7 „Die
 // Klostermedizin", Runde 8 „Paracelsus und Vesal", Runde 9 „Harvey und der
 // Blutkreislauf", Runde 10 „Die grausamen Anfänge der modernen Chirurgie"
-// (das erste Kapitel der Neuzeit), Runde 11 „Jenner und die Impfung".
+// (das erste Kapitel der Neuzeit), Runde 11 „Jenner und die Impfung",
+// Runde 12 „Pasteur und Lister" (die Keimtheorie und die Antiseptik).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -32,6 +33,7 @@ const paracelsusVesal = require('./paracelsus-vesal');
 const harvey = require('./harvey');
 const chirurgieAnfaenge = require('./chirurgie-anfaenge');
 const jennerImpfung = require('./jenner-impfung');
+const pasteurLister = require('./pasteur-lister');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -45,6 +47,7 @@ const alleThemen = [
   harvey,
   chirurgieAnfaenge,
   jennerImpfung,
+  pasteurLister,
 ];
 
 /**
