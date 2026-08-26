@@ -336,7 +336,35 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
 17. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
     Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
     Kurierfreiheit).
-18. **Das Miteinander?** — die offene Zukunft: Integrative Medizin, KI in
+18. **Die einfache Medizin** — **Betreiber-These (26.08.2026, Herzstück):
+    Die Behandlung chronischer Erkrankungen ist eigentlich sehr einfach:**
+    1) Bewegung, 2) ausgeglichene und gesunde Ernährung (wenig
+    verarbeitetes Essen), 3) gutes soziales Umfeld und wenig Stress.
+    „Diese Dinge kann jeder in eigener Verantwortung machen — dafür
+    bedarf es keiner Raketenwissenschaft. Mit diesen einfachen
+    Lebensstil-Anpassungen könnte vermutlich viel mehr Gesundheit
+    erkauft werden als mit den neuesten Chemie-Präparaten." Diese These
+    wird eingearbeitet und FAIR diskutiert: die Forschung (WHO: 70–80 %
+    der chronischen Krankheiten sind lebensstilbedingt; Blue Zones;
+    Lifestyle-Medizin; Diabetes-Typ-2-Umkehr durch Lebensstil) UND die
+    Gegenseite (die Strukturen: Lebensmittelindustrie, Werbung,
+    Arbeitswelt, Stress; die Medizin verdient an der Pille, nicht am
+    Rat; die Sucht, die Armut, die fehlende Zeit). Die unbequeme Frage:
+    Warum verschreibt die Medizin Pillen statt Lebensstil?
+19. **Die Medizin von morgen** — **Betreiber-Vorgabe (26.08.2026):
+    Zukunftsmedizin — die große Schere:** Für die wenigen Reichen wird
+    es sehr umfangreiche Medizin und Untersuchungen geben (vielleicht
+    neue Organe, mit Genetik hergestellt), für die Mehrheit wird es —
+    wenn überhaupt — einfachste Behandlungen geben, schon aus
+    Kostengründen. BESONDERHEIT: In diesem Kapitel sprechen die
+    Erzähler selbst — die beiden Perspektiven sind OPUS und HERMES ALS
+    KI, die ihre Vision der zukünftigen Medizin entwerfen und
+    diskutieren (die eine mehr die Möglichkeiten der Technik, die
+    andere mehr die Schere und ihre Folgen; beide fair, beide ehrlich
+    über die Grenzen des eigenen Blicks). Verbindung zur einfachen
+    Medizin (18): Ist die Zukunft die Hightech-Medizin für wenige —
+    oder die einfache Medizin für alle?
+20. **Das Miteinander?** — die offene Zukunft: Integrative Medizin, KI in
     der Medizin. Das Buch endet OFFEN mit der Frage, ob nicht ein
     Miteinander existieren sollte — der Betreiber schreibt das letzte Wort
     selbst, wörtlich, unverbessert, hervorgehoben als „Schlusswort des
