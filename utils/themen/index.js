@@ -18,7 +18,9 @@
 // Blutkreislauf", Runde 10 „Die grausamen Anfänge der modernen Chirurgie"
 // (das erste Kapitel der Neuzeit), Runde 11 „Jenner und die Impfung",
 // Runde 12 „Pasteur und Lister" (die Keimtheorie und die Antiseptik),
-// Runde 13 „Röntgen und Penicillin" (die zwei Zufalls-Entdeckungen).
+// Runde 13 „Röntgen und Penicillin" (die zwei Zufalls-Entdeckungen),
+// Runde 14 „Die Verstaatlichung des Gesundheitswesens" (Bismarck, die
+// Sozialgesetze und die Geburt der Krankenkassen).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -36,6 +38,7 @@ const chirurgieAnfaenge = require('./chirurgie-anfaenge');
 const jennerImpfung = require('./jenner-impfung');
 const pasteurLister = require('./pasteur-lister');
 const roentgenPenicillin = require('./roentgen-penicillin');
+const verstaatlichung = require('./verstaatlichung');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -51,6 +54,7 @@ const alleThemen = [
   jennerImpfung,
   pasteurLister,
   roentgenPenicillin,
+  verstaatlichung,
 ];
 
 /**
