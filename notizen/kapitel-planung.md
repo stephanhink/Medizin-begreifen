@@ -39,7 +39,14 @@ hier = Reihenfolge in der App (`utils/themen/index.js`).
 - Heilerin vs. Inquisition (die verfolgten „Hexen")
 - Indigene vs. Kolonialmedizin (der Begriff „primitiv" als koloniale Zuschreibung)
 
-## Erzähl-Muster je Kapitel (Betreiber-Vorgabe)
+**DER INNOVATIONS-ZYKLUS (Betreiber-Beobachtung 26.08.2026, roter Faden):**
+Viele neue Ideen, die sich später als segensreich erwiesen, waren zuerst
+sehr schädlich (Chirurgie → Wundfieber; Strahlen → Leukämie der Pioniere;
+Impfung → unethische Anfänge; Penicillin → Resistenz). Der Schaden kam oft
+aus der Überzeugung, die Prüfzeit überspringen zu können. Bei mRNA/COVID
+(15) im Hintergrund mitführen: „vermutlich eine tolle Idee, die noch nicht
+ausgereift ist" — die Frage ist die Phase der Reife, nicht gut/böse.
+
 
 **LÄNGENREGEL (Betreiber-Feedback 24.08.2026, gestuft):** Die frühen Kapitel
 (1–8, bis Harvey) KURZ und DICHT halten — jede Perspektive max. ~250 Zeilen,

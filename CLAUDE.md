@@ -80,6 +80,20 @@ Positionen sind KEINE Gerüchte — die kritische COVID-Perspektive von
 Professor John Ioannidis (Stanford) im mRNA/COVID-Kapitel BLEIBT
 selbstverständlich erhalten (namentlich, publiziert, überprüfbar).
 
+**DER INNOVATIONS-ZYKLUS (Betreiber-Beobachtung 26.08.2026 — roter Faden
+des Buches):** Viele neue Ideen, die sich später als segensreich erwiesen
+haben, waren zuerst sehr schädlich und haben viel kaputt gemacht —
+die Chirurgie (tötete erst durch Wundfieber, bevor sie rettete), die
+Strahlen (die Pioniere starben an Leukämie, bevor die Radiologie
+entstand), die Impfung (unethische Anfänge, bevor die Pocken fielen),
+das Penicillin (rettete Millionen — und erzeugte die Resistenz). Der
+Schaden kam oft aus der Überzeugung, die Zeit der Prüfung überspringen
+zu können. Dieser Gedanke wird im Hintergrund mitgeführt — insbesondere
+bei der Bewertung der mRNA-Technologie (Kapitel 15): mRNA ist vermutlich
+eine tolle Idee, die noch nicht ausgereift ist (Betreiber); die Frage
+ist nicht „gut oder böse", sondern in welcher Phase der Reife sie sich
+befindet — und wer über die Dauer der Prüfzeit entscheidet.
+
 - Die **Schulmedizin**: Erfolge (Hygiene, Antibiotika, Impfung, Chirurgie,
   Bildgebung) UND die dunklen Stellen (grausame Anfänge ohne Narkose und
   Hygiene, NS-Medizin, Zwangssterilisationen, Interessenkonflikte der
