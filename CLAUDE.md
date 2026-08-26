@@ -356,7 +356,24 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     es sehr umfangreiche Medizin und Untersuchungen geben (vielleicht
     neue Organe, mit Genetik hergestellt), für die Mehrheit wird es —
     wenn überhaupt — einfachste Behandlungen geben, schon aus
-    Kostengründen. BESONDERHEIT: In diesem Kapitel sprechen die
+    Kostengründen. **Die Sinnfrage (Betreiber, 26.08.2026 — Herzstück
+    des Kapitels): Wir sterben alle — worum geht es eigentlich?** Es
+    sollte darum gehen, möglichst lange gesund und glücklich zu leben
+    und dann nach einer kurzen Abbauphase friedlich zu sterben. Durch
+    die Gerätemedizin ist es heute möglich, Menschen sehr lange am
+    Leben zu erhalten, obwohl die Lebensqualität sehr eingeschränkt
+    ist. Der Betreiber persönlich: „Ich möchte kein Pflegefall werden
+    und mich lange einem Siechtum hingeben. Lieber ein schneller und
+    würdevoller Tod, wenn das Leben sich dem Ende zuneigt." Diese
+    Haltung wird als Perspektive ernst genommen und FAIR diskutiert:
+    die Lebensqualität als Maß der Medizin, die Palliativmedizin und
+    die Hospizbewegung als Antwort der Medizin auf das Sterben, die
+    Übertherapie am Lebensende (die Zahlen: viele Menschen sterben
+    heute im Krankenhaus nach intensivmedizinischen Maßnahmen), die
+    Patientenverfügung — UND die ehrliche Gegenseite (wer entscheidet,
+    wann ein Leben „nicht mehr lebenswert" ist? Die Medizin, die Leben
+    rettet, wo sie kann; die Grauzonen der Sterbehilfe-Debatte). 
+    BESONDERHEIT: In diesem Kapitel sprechen die
     Erzähler selbst — die beiden Perspektiven sind OPUS und HERMES ALS
     KI, die ihre Vision der zukünftigen Medizin entwerfen und
     diskutieren (die eine mehr die Möglichkeiten der Technik, die
