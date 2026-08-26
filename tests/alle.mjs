@@ -13,6 +13,9 @@
 // Atlas-Test + Denkart-Analyse + Belege-Prüfung).
 // Runde 11: Kapitel „Jenner und die Impfung" (Modul + Atlas-Test +
 // Denkart-Analyse + dunkle Frühgeschichte + impfkritische Statistik).
+// Runde 13: Kapitel „Röntgen und Penicillin" (Modul + Atlas-Test +
+// Denkart-Analyse + Innovations-Zyklus); dazu der in Runde 12 vergessene
+// Aufruf des Pasteur-Tests nachgetragen.
 //
 // Eine registrierte Testdatei exportiert `laufe(pruefe)` und meldet ihre
 // Ergebnisse über die übergebene Prüf-Funktion. `laufe` darf auch
@@ -41,6 +44,7 @@ import { laufe as laufeHarvey } from './karte-harvey.mjs';
 import { laufe as laufeChirurgie } from './karte-chirurgie-anfaenge.mjs';
 import { laufe as laufeJenner } from './karte-jenner-impfung.mjs';
 import { laufe as laufePasteur } from './karte-pasteur-lister.mjs';
+import { laufe as laufeRoentgen } from './karte-roentgen-penicillin.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -75,6 +79,11 @@ laufeParacelsus(pruefe);
 laufeHarvey(pruefe);
 laufeChirurgie(pruefe);
 laufeJenner(pruefe);
+// Runde 12 hat tests/karte-pasteur-lister.mjs zwar importiert, aber nicht
+// aufgerufen — damit zählte die Prüfung nicht (Prüf-Regel in CLAUDE.md).
+// Nachgetragen in Runde 13; die Datei läuft unverändert und fehlerfrei durch.
+laufePasteur(pruefe);
+laufeRoentgen(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {

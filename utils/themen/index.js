@@ -17,7 +17,8 @@
 // Klostermedizin", Runde 8 „Paracelsus und Vesal", Runde 9 „Harvey und der
 // Blutkreislauf", Runde 10 „Die grausamen Anfänge der modernen Chirurgie"
 // (das erste Kapitel der Neuzeit), Runde 11 „Jenner und die Impfung",
-// Runde 12 „Pasteur und Lister" (die Keimtheorie und die Antiseptik).
+// Runde 12 „Pasteur und Lister" (die Keimtheorie und die Antiseptik),
+// Runde 13 „Röntgen und Penicillin" (die zwei Zufalls-Entdeckungen).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -34,6 +35,7 @@ const harvey = require('./harvey');
 const chirurgieAnfaenge = require('./chirurgie-anfaenge');
 const jennerImpfung = require('./jenner-impfung');
 const pasteurLister = require('./pasteur-lister');
+const roentgenPenicillin = require('./roentgen-penicillin');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -48,6 +50,7 @@ const alleThemen = [
   chirurgieAnfaenge,
   jennerImpfung,
   pasteurLister,
+  roentgenPenicillin,
 ];
 
 /**
