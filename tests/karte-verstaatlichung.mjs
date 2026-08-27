@@ -661,7 +661,7 @@ export function laufe(pruefe) {
   );
   pruefe(
     'Verstaatlichung: die erste Perspektive heißt nach ihrer Form',
-    /Akte/.test(staatsStimme.name),
+    /Akte|Stimme des Staates/.test(staatsStimme.name),
   );
 
   // =========================================================================

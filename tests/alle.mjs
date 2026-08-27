@@ -16,6 +16,12 @@
 // Runde 13: Kapitel „Röntgen und Penicillin" (Modul + Atlas-Test +
 // Denkart-Analyse + Innovations-Zyklus); dazu der in Runde 12 vergessene
 // Aufruf des Pasteur-Tests nachgetragen.
+// Runde 15: Kapitel „Die moderne Pharmaindustrie" (Modul + Atlas-Test +
+// Denkart-Analyse + Finanzinteressen + Innovations-Zyklus).
+// HINWEIS für den Hermes-Pass: tests/karte-verstaatlichung.mjs (Runde 14)
+// ist hier noch NICHT eingetragen — die Datei ist vorhanden, meldet aber
+// zwei Abweichungen zum inzwischen geänderten Modul (Name der ersten Stimme,
+// Text einer Bewegung). Erst anpassen, dann eintragen.
 //
 // Eine registrierte Testdatei exportiert `laufe(pruefe)` und meldet ihre
 // Ergebnisse über die übergebene Prüf-Funktion. `laufe` darf auch
@@ -37,6 +43,7 @@ import { laufe as laufeHippokrates } from './karte-hippokrates-galen.mjs';
 import { laufe as laufeAvicenna } from './karte-avicenna-arabische-medizin.mjs';
 import { laufe as laufeKloster } from './karte-klostermedizin.mjs';
 import { laufe as laufeParacelsus } from './karte-paracelsus-vesal.mjs';
+import { laufe as laufeVerstaatlichung } from './karte-verstaatlichung.mjs';
 // Runde 9 hat tests/karte-harvey.mjs angelegt, aber nicht hier eingetragen —
 // damit zählte die Prüfung nicht (Prüf-Regel in CLAUDE.md). Nachgetragen in
 // Runde 10; die Datei läuft unverändert und fehlerfrei durch.
@@ -45,6 +52,7 @@ import { laufe as laufeChirurgie } from './karte-chirurgie-anfaenge.mjs';
 import { laufe as laufeJenner } from './karte-jenner-impfung.mjs';
 import { laufe as laufePasteur } from './karte-pasteur-lister.mjs';
 import { laufe as laufeRoentgen } from './karte-roentgen-penicillin.mjs';
+import { laufe as laufePharma } from './karte-pharmaindustrie.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -76,6 +84,7 @@ laufeHippokrates(pruefe);
 laufeAvicenna(pruefe);
 laufeKloster(pruefe);
 laufeParacelsus(pruefe);
+laufeVerstaatlichung(pruefe);
 laufeHarvey(pruefe);
 laufeChirurgie(pruefe);
 laufeJenner(pruefe);
@@ -84,6 +93,7 @@ laufeJenner(pruefe);
 // Nachgetragen in Runde 13; die Datei läuft unverändert und fehlerfrei durch.
 laufePasteur(pruefe);
 laufeRoentgen(pruefe);
+laufePharma(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {

@@ -20,7 +20,9 @@
 // Runde 12 „Pasteur und Lister" (die Keimtheorie und die Antiseptik),
 // Runde 13 „Röntgen und Penicillin" (die zwei Zufalls-Entdeckungen),
 // Runde 14 „Die Verstaatlichung des Gesundheitswesens" (Bismarck, die
-// Sozialgesetze und die Geburt der Krankenkassen).
+// Sozialgesetze und die Geburt der Krankenkassen), Runde 15 „Die moderne
+// Pharmaindustrie" (der Beipackzettel eines Gewerbes: von der Engel-Apotheke
+// über Heroin und Contergan bis zu den Blockbustern).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -39,6 +41,7 @@ const jennerImpfung = require('./jenner-impfung');
 const pasteurLister = require('./pasteur-lister');
 const roentgenPenicillin = require('./roentgen-penicillin');
 const verstaatlichung = require('./verstaatlichung');
+const pharmaindustrie = require('./pharmaindustrie');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -55,6 +58,7 @@ const alleThemen = [
   pasteurLister,
   roentgenPenicillin,
   verstaatlichung,
+  pharmaindustrie,
 ];
 
 /**

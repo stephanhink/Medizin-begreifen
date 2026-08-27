@@ -714,8 +714,8 @@ const karte = {
       nach: station(10.599, 48.005),
       text:
         'Während in Berlin die Kassenmedizin gebaut wurde, fuhren aus ganz ' +
-        'Europa Zehntausende in ein schwäbisches Dorf, um sich von einem ' +
-        'Pfarrer mit kaltem Wasser behandeln zu lassen. Bad Wörishofen wuchs ' +
+        'Europa Zehntausende Kurgäste in ein schwäbisches Dorf, um sich von ' +
+        'einem Pfarrer mit kaltem Wasser behandeln zu lassen. Bad Wörishofen wuchs ' +
         'in wenigen Jahren vom Bauerndorf zum Kurort mit Bahnanschluss. Die ' +
         'Bewegung zeigt, was die Gesetze nicht erfassten: Ein großer Teil ' +
         'der Bevölkerung suchte weiter dort Hilfe, wo keine Kasse zahlte.',
