@@ -54,6 +54,7 @@ import { laufe as laufePasteur } from './karte-pasteur-lister.mjs';
 import { laufe as laufeRoentgen } from './karte-roentgen-penicillin.mjs';
 import { laufe as laufePharma } from './karte-pharmaindustrie.mjs';
 import { laufe as laufeMrna } from './karte-mrna-covid.mjs';
+import { laufe as laufeHomoeopathie } from './karte-homoeopathie.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -96,6 +97,7 @@ laufePasteur(pruefe);
 laufeRoentgen(pruefe);
 laufePharma(pruefe);
 laufeMrna(pruefe);
+laufeHomoeopathie(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {
