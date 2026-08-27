@@ -959,7 +959,7 @@ export function laufe(pruefe) {
   );
   pruefe(
     'Homöopathie/Denkart: die Beweggründe der Gegenseite werden fair wiedergegeben',
-    /es ist schlicht das, was damals als der beste verfügbare Stand der Kunst galt/.test(
+    /es ist schlicht das, was damals als der beste verfügbare Stand der Kunst galt/i.test(
       fliessend,
     ),
   );
