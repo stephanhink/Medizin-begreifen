@@ -42,6 +42,7 @@ const pasteurLister = require('./pasteur-lister');
 const roentgenPenicillin = require('./roentgen-penicillin');
 const verstaatlichung = require('./verstaatlichung');
 const pharmaindustrie = require('./pharmaindustrie');
+const mrnaCovid = require('./mrna-covid');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -59,6 +60,7 @@ const alleThemen = [
   roentgenPenicillin,
   verstaatlichung,
   pharmaindustrie,
+  mrnaCovid,
 ];
 
 /**

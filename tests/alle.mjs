@@ -53,6 +53,7 @@ import { laufe as laufeJenner } from './karte-jenner-impfung.mjs';
 import { laufe as laufePasteur } from './karte-pasteur-lister.mjs';
 import { laufe as laufeRoentgen } from './karte-roentgen-penicillin.mjs';
 import { laufe as laufePharma } from './karte-pharmaindustrie.mjs';
+import { laufe as laufeMrna } from './karte-mrna-covid.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -94,6 +95,7 @@ laufeJenner(pruefe);
 laufePasteur(pruefe);
 laufeRoentgen(pruefe);
 laufePharma(pruefe);
+laufeMrna(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {
