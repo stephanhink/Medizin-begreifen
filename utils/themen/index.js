@@ -22,7 +22,11 @@
 // Runde 14 „Die Verstaatlichung des Gesundheitswesens" (Bismarck, die
 // Sozialgesetze und die Geburt der Krankenkassen), Runde 15 „Die moderne
 // Pharmaindustrie" (der Beipackzettel eines Gewerbes: von der Engel-Apotheke
-// über Heroin und Contergan bis zu den Blockbustern).
+// über Heroin und Contergan bis zu den Blockbustern), Runde 16 „mRNA und
+// COVID" (die Pressekonferenz von beiden Seiten des Mikrofons) und
+// Runde 17 „Hahnemann und die Homöopathie" (das Telefon: der Apparat, in
+// dem niemand sitzt — die Informations-These und die Frage, was als
+// Beweis gilt).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -43,6 +47,7 @@ const roentgenPenicillin = require('./roentgen-penicillin');
 const verstaatlichung = require('./verstaatlichung');
 const pharmaindustrie = require('./pharmaindustrie');
 const mrnaCovid = require('./mrna-covid');
+const homoeopathie = require('./homoeopathie');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -61,6 +66,7 @@ const alleThemen = [
   verstaatlichung,
   pharmaindustrie,
   mrnaCovid,
+  homoeopathie,
 ];
 
 /**
