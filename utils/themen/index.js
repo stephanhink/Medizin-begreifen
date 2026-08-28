@@ -26,7 +26,10 @@
 // COVID" (die Pressekonferenz von beiden Seiten des Mikrofons) und
 // Runde 17 „Hahnemann und die Homöopathie" (das Telefon: der Apparat, in
 // dem niemand sitzt — die Informations-These und die Frage, was als
-// Beweis gilt).
+// Beweis gilt) und Runde 18 „Kneipp und die Naturheilkunde" (das Wasser
+// selbst erzählt: vom Regen über dem Allgäu über die Donau bei Dillingen
+// bis in den Trog von Wörishofen — die fünf Säulen und die Brücke zur
+// einfachen Medizin).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -48,6 +51,7 @@ const verstaatlichung = require('./verstaatlichung');
 const pharmaindustrie = require('./pharmaindustrie');
 const mrnaCovid = require('./mrna-covid');
 const homoeopathie = require('./homoeopathie');
+const kneipp = require('./kneipp');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -67,6 +71,7 @@ const alleThemen = [
   pharmaindustrie,
   mrnaCovid,
   homoeopathie,
+  kneipp,
 ];
 
 /**
