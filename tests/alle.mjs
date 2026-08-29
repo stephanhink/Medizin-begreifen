@@ -63,6 +63,13 @@ import { laufe as laufeEinfacheMedizin } from './karte-einfache-medizin.mjs';
 // Gegenbeispielen, die Sinnfrage mit ihrer Gegenseite, der
 // Innovations-Zyklus und die Selbstauskunft der KI-Stimme.
 import { laufe as laufeMedizinVonMorgen } from './karte-medizin-von-morgen.mjs';
+// Runde 21: Kapitel „Das Miteinander?" — das LETZTE Kapitel, ebenfalls OHNE
+// Karte (das Miteinander hat keine Geografie). Geprüft werden das Modul
+// (Kernbotschaft, Corona-Spaltung und Aufarbeitung, Herrschaftswissen, die
+// KI als Übersetzerin, das Miteinander der Medizinen) UND das Autorenwort:
+// das Schlusswort des Betreibers, wörtlich und unverbessert — tolerant
+// geprüft, denn ein Test darf diesen Text nicht in eine Form zwingen.
+import { laufe as laufeMiteinander } from './karte-miteinander.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -109,6 +116,7 @@ laufeHomoeopathie(pruefe);
 laufeKneipp(pruefe);
 laufeEinfacheMedizin(pruefe);
 laufeMedizinVonMorgen(pruefe);
+laufeMiteinander(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {

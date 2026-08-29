@@ -34,8 +34,14 @@
 // Säulen, die Belege und die Frage, warum das Wirksamste so selten
 // verordnet wird) und Runde 20 „Die Medizin von morgen" (die Hochrechnung:
 // eine KI trennt Belegtes von Vision, prüft die Schere und die Sinnfrage —
-// das erste Kapitel ohne Karte, denn die Zukunft hat keine Geografie).
-// Jede weitere Runde trägt ihr Kapitel hier unten an.
+// das erste Kapitel ohne Karte, denn die Zukunft hat keine Geografie) und
+// Runde 21 „Das Miteinander?" — das LETZTE Kapitel des Buches (der runde
+// Tisch: elf Menschen, die seit den Corona-Jahren nicht mehr miteinander
+// reden — die Spaltung und die fehlende Aufarbeitung, das
+// Herrschaftswissen und die KI als Übersetzerin, das Miteinander der
+// Medizinen). Es endet mit dem Feld `autorenwort`: dem Schlusswort des
+// Betreibers, wörtlich und unverbessert. Das letzte Wort des Buches
+// gehört einem Menschen.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
 // Metro/Babel in der App geladen werden kann (siehe schema.js).
@@ -59,6 +65,7 @@ const homoeopathie = require('./homoeopathie');
 const kneipp = require('./kneipp');
 const einfacheMedizin = require('./einfache-medizin');
 const medizinVonMorgen = require('./medizin-von-morgen');
+const miteinander = require('./miteinander');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -81,6 +88,7 @@ const alleThemen = [
   kneipp,
   einfacheMedizin,
   medizinVonMorgen,
+  miteinander,
 ];
 
 /**
