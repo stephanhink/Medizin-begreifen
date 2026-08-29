@@ -675,7 +675,7 @@ const stimmeDesLabors = [
  * die Karbolsäure einführte und die Sterblichkeit nach Amputationen von
  * fast der Hälfte auf ein Sechstel senkte.
  *
- * Verfasst von Hermes (Runde 12, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 12, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen).
  */
@@ -843,7 +843,7 @@ const pasteurLister = {
     {
       id: 'lister',
       name: 'Die Stimme der Klinik',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesLister,
     },
   ],

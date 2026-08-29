@@ -727,7 +727,7 @@ const stimmeDerImpfaerzte = [
  * Syphilis in der Lymphe, der Zwang des Gesetzes, die Kurve, die vor der
  * Impfung fiel — und die offenen Fragen von heute.
  *
- * Verfasst von Hermes (Runde 11, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 11, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen) — und hält sich an die KEINE-GERÜCHTE-Regel: nur
  * Belegtes, nichts Erfundenes.
@@ -929,7 +929,7 @@ const jennerImpfung = {
     {
       id: 'impfkritik',
       name: 'Die Stimme der Impfkritik',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerImpfkritik,
     },
   ],

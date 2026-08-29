@@ -562,7 +562,7 @@ const stimmeDesHippokrates = [
 /**
  * Galen — die Antwortbriefe aus Pergamon und Rom, 550 Jahre später.
  *
- * Verfasst von Hermes (Runde 5, zweiter Pass). Galen bewunderte die Schule
+ * Verfasst von DeepSeek (Runde 5, zweiter Pass). Galen bewunderte die Schule
  * von Kos und „vollendete" ihr System — und wurde zur Autorität, die 1300
  * Jahre lang nicht mehr geprüft wurde. Auch diese Stimme benennt ihre
  * unbequemen Stellen selbst (Zusatzregel für sensible Themen).
@@ -703,7 +703,7 @@ const hippokratesGalen = {
     {
       id: 'galen',
       name: 'Die Stimme des Galen',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesGalen,
     },
   ],

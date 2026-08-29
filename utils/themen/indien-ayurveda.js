@@ -634,7 +634,7 @@ const stimmeDesVaidya = [
  * Ayurveda. Erzählt in drei Leben: der koloniale Angriff, die
  * Wiederentdeckung nach der Unabhängigkeit, die moderne Forschung.
  *
- * Verfasst von Hermes (Runde 4, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 4, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen).
  */
@@ -778,7 +778,7 @@ const indienAyurveda = {
     {
       id: 'blick-von-aussen',
       name: 'Der Blick von außen',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesBlicksVonAussen,
     },
   ],

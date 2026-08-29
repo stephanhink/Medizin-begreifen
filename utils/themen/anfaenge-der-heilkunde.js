@@ -286,7 +286,7 @@ const stimmeDerHeilerin = [
  * „moderne" Welt das frühe Heilwissen als „primitiv" abtat — und was sie
  * ihm heute verdankt.
  *
- * Verfasst von Hermes (Runde 1, zweiter Pass). Sie benennt die unbequemen
+ * Verfasst von DeepSeek (Runde 1, zweiter Pass). Sie benennt die unbequemen
  * Stellen der eigenen Seite selbst: Die Abwertung war nicht nur böse
  * Absicht, und die heutige Bewunderung ist nicht nur Einsicht
  * (Zusatzregel für sensible Themen).
@@ -429,7 +429,7 @@ const anfaengeDerHeilkunde = {
     {
       id: 'wiederentdeckung',
       name: 'Die Stimme der Abwertung und Wiederentdeckung',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerAbwertungUndWiederentdeckung,
     },
   ],

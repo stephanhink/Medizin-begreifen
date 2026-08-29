@@ -32,7 +32,9 @@
 // einfachen Medizin) und Runde 19 „Die einfache Medizin" (die Stunden:
 // zwei Stunden Medizin im Jahr und 8.758 Stunden Alltag — die drei
 // Säulen, die Belege und die Frage, warum das Wirksamste so selten
-// verordnet wird).
+// verordnet wird) und Runde 20 „Die Medizin von morgen" (die Hochrechnung:
+// eine KI trennt Belegtes von Vision, prüft die Schere und die Sinnfrage —
+// das erste Kapitel ohne Karte, denn die Zukunft hat keine Geografie).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -56,6 +58,7 @@ const mrnaCovid = require('./mrna-covid');
 const homoeopathie = require('./homoeopathie');
 const kneipp = require('./kneipp');
 const einfacheMedizin = require('./einfache-medizin');
+const medizinVonMorgen = require('./medizin-von-morgen');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -77,6 +80,7 @@ const alleThemen = [
   homoeopathie,
   kneipp,
   einfacheMedizin,
+  medizinVonMorgen,
 ];
 
 /**

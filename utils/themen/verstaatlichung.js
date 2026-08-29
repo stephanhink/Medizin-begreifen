@@ -729,7 +729,7 @@ const stimmeDesStaates = [
  * die neue Sicherheit und die neue Abhängigkeit, die Kurierfreiheit und
  * die Verdrängung der Naturheilkunde.
  *
- * Verfasst von Hermes (Runde 14, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 14, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen).
  */
@@ -877,7 +877,7 @@ const verstaatlichung = {
     {
       id: 'versicherte',
       name: 'Die Versicherten und die Verdrängten',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerVersicherten,
     },
   ],

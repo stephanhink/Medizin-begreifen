@@ -279,7 +279,7 @@ const stimmeDerBewahrer = [
  * Padua. Europa, das die Antike vergessen hatte und das Wissen zurückbekam —
  * und den Dank schuldig blieb.
  *
- * Verfasst von Hermes (Runde 6, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 6, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen).
  */
@@ -405,7 +405,7 @@ const avicennaArabischeMedizin = {
     {
       id: 'okzident',
       name: 'Die Stimme des Okzidents',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesOkzidents,
     },
   ],

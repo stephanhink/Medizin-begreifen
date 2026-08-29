@@ -57,6 +57,12 @@ import { laufe as laufeMrna } from './karte-mrna-covid.mjs';
 import { laufe as laufeHomoeopathie } from './karte-homoeopathie.mjs';
 import { laufe as laufeKneipp } from './karte-kneipp.mjs';
 import { laufe as laufeEinfacheMedizin } from './karte-einfache-medizin.mjs';
+// Runde 20: Kapitel „Die Medizin von morgen" — das erste Kapitel OHNE Karte
+// (die Zukunft hat keine Geografie). Die Datei prüft deshalb keinen Atlas,
+// sondern das Modul: Beleg und Vision getrennt, die Schere mit ihren
+// Gegenbeispielen, die Sinnfrage mit ihrer Gegenseite, der
+// Innovations-Zyklus und die Selbstauskunft der KI-Stimme.
+import { laufe as laufeMedizinVonMorgen } from './karte-medizin-von-morgen.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -102,6 +108,7 @@ laufeMrna(pruefe);
 laufeHomoeopathie(pruefe);
 laufeKneipp(pruefe);
 laufeEinfacheMedizin(pruefe);
+laufeMedizinVonMorgen(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {

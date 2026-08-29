@@ -310,7 +310,7 @@ const stimmeDesKlosters = [
  * Hebammen und Kräuterfrauen. Das mündliche Wissen, das niemand aufschrieb —
  * und das die Geschichte übersehen hat.
  *
- * Verfasst von Hermes (Runde 7, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 7, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen).
  */
@@ -436,7 +436,7 @@ const klostermedizin = {
     {
       id: 'marktplatz',
       name: 'Die Stimme des Marktplatzes',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesMarktplatzes,
     },
   ],

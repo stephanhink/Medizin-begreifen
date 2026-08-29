@@ -283,7 +283,7 @@ const stimmeDesHarvey = [
  * Die Gegenrechnung: Warum die Welt den Kreislauf nicht sehen wollte —
  * und warum die alte Rechnung so lange überzeugte.
  *
- * Verfasst von Hermes (Runde 9, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 9, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen).
  */
@@ -413,7 +413,7 @@ const harvey = {
     {
       id: 'tradition',
       name: 'Die Stimme der Tradition',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerTradition,
     },
   ],

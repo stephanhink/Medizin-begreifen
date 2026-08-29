@@ -611,7 +611,7 @@ const stimmeDerChirurgen = [
  * Friedhof, die Wächter über den Gräbern, die Mütter der Verschwundenen,
  * der Mann aus Wien — und der Körper als Ware bis heute.
  *
- * Verfasst von Hermes (Runde 10, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 10, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen) — und sie hält sich an die KEINE-GERÜCHTE-Regel: nur
  * Belegtes, nichts Erfundenes.
@@ -804,7 +804,7 @@ const chirurgieAnfaenge = {
     {
       id: 'patienten',
       name: 'Die Patienten und die Toten',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerPatienten,
     },
   ],

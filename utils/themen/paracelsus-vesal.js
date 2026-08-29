@@ -305,7 +305,7 @@ const stimmeDesParacelsus = [
  * Brüssel, Professor in Padua: der Mann, der die Autorität widerlegte,
  * indem er nachsah — der leise Bruch im Anatomietheater.
  *
- * Verfasst von Hermes (Runde 8, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 8, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen).
  */
@@ -443,7 +443,7 @@ const paracelsusVesal = {
     {
       id: 'vesal',
       name: 'Die Stimme des Vesal',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesVesal,
     },
   ],

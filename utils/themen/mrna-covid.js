@@ -755,7 +755,7 @@ const stimmeDerBefuerworter = [
  * Die Stimme der Skeptiker — dieselben fünf Pressekonferenzen, die andere
  * Seite des Mikrofons.
  *
- * Verfasst von Hermes (Hermes-Pass, Runde 16). Diese Stimme vertritt die
+ * Verfasst von DeepSeek (Hermes-Pass, Runde 16). Diese Stimme vertritt die
  * Sorgfaltspflicht: eine technologisch vollständig neue Plattform,
  * milliardenfach verabreicht ohne Langzeitdaten. Sie trägt die
  * Überschätzungs-These von Professor John Ioannidis (Stanford) vor, die
@@ -1876,7 +1876,7 @@ const mrnaCovid = {
     {
       id: 'skeptiker',
       name: 'Die Stimme von der anderen Seite des Mikrofons',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerSkeptiker,
     },
   ],

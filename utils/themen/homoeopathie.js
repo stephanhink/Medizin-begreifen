@@ -906,7 +906,7 @@ const stimmeAusDerLeitung = [
 /**
  * Die Stimme, die die Leitung prüft — die Schulmedizin.
  *
- * Verfasst von Hermes (Hermes-Pass, Runde 17). Dieselbe Dramaturgie wie
+ * Verfasst von DeepSeek (Hermes-Pass, Runde 17). Dieselbe Dramaturgie wie
  * die erste Stimme: derselbe Apparat, aber die Frage nach der Leitung,
  * die man aufschneiden und messen kann. Diese Stimme vertritt die
  * kontrollierte Studie, die Nachprüfbarkeit, die Messbarkeit — und sie
@@ -1349,7 +1349,7 @@ const homoeopathie = {
     {
       id: 'schulmedizin',
       name: 'Die Stimme, die die Leitung prüft',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDieLeitungPrueft,
     },
   ],

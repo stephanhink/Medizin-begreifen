@@ -667,7 +667,7 @@ const stimmeDesEntdeckers = [
  * der Zufall, der nicht wiederholbar schien — und die Warnung des
  * Entdeckers vor der Resistenz, die heute eingetreten ist.
  *
- * Verfasst von Hermes (Runde 13, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 13, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen) — und hält sich an die KEINE-GERÜCHTE-Regel.
  */
@@ -857,7 +857,7 @@ const roentgenPenicillin = {
     {
       id: 'fleming',
       name: 'Die Stimme des Fleming',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesFleming,
     },
   ],

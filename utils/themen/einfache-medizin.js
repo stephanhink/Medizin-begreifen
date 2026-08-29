@@ -1128,7 +1128,7 @@ const einfacheMedizin = {
     {
       id: 'verhaeltnisse',
       name: 'Die Stimme der Verhältnisse',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerVerhaeltnisse,
     },
   ],

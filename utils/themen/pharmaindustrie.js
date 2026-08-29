@@ -954,7 +954,7 @@ const stimmeDerIndustrie = [
  * Betreibers: wer kritisch forscht, verliert die Mittel. Und die
  * ehrliche Bilanz: Diagnose stark, chronische Krankheiten schwach.
  *
- * Verfasst von Hermes (Runde 15, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 15, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst (Zusatzregel für
  * sensible Themen) — und hält sich an die KEINE-GERÜCHTE-Regel: nur
  * Belegtes, nichts Erfundenes.
@@ -1140,7 +1140,7 @@ const pharmaindustrie = {
     {
       id: 'kritik',
       name: 'Die Stimme der Kritik',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDerKritik,
     },
   ],

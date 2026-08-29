@@ -531,7 +531,7 @@ const stimmeDerChinesischenMedizin = [
  * der Westen an ihr bestaunte, wie er sie prüfte — und wo er dabei selbst
  * scheiterte.
  *
- * Verfasst von Hermes (Runde 3, zweiter Pass). Auch diese Stimme benennt
+ * Verfasst von DeepSeek (Runde 3, zweiter Pass). Auch diese Stimme benennt
  * die unbequemen Stellen der eigenen Seite selbst: koloniale Arroganz,
  * Kommerzialisierung, doppelte Maßstäbe (Zusatzregel für sensible Themen).
  */
@@ -672,7 +672,7 @@ const chinaTcm = {
     {
       id: 'westlicher-blick',
       name: 'Der westliche Blick',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeDesWestlichenBlicks,
     },
   ],

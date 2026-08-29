@@ -807,7 +807,7 @@ const stimmeDesWassers = [
 /**
  * Die Stimme aus dem Messglas — die Schulmedizin.
  *
- * Verfasst von Hermes (Hermes-Pass, Runde 18). Dieselbe Dramaturgie wie
+ * Verfasst von DeepSeek (Hermes-Pass, Runde 18). Dieselbe Dramaturgie wie
  * die erste Stimme: das Wasser, aber diesmal im Messglas des Labors —
  * untersucht, gemessen, auf Wirkstoffe geprüft. Diese Stimme vertritt die
  * Diagnose, die Studie, die Notfallmedizin — und sie schlägt zuerst die
@@ -1110,7 +1110,7 @@ const kneipp = {
     {
       id: 'schulmedizin',
       name: 'Die Stimme aus dem Messglas',
-      stimme: 'Hermes',
+      stimme: 'DeepSeek',
       text: stimmeAusDemMessglas,
     },
   ],
