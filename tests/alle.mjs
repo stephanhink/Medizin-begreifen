@@ -56,6 +56,7 @@ import { laufe as laufePharma } from './karte-pharmaindustrie.mjs';
 import { laufe as laufeMrna } from './karte-mrna-covid.mjs';
 import { laufe as laufeHomoeopathie } from './karte-homoeopathie.mjs';
 import { laufe as laufeKneipp } from './karte-kneipp.mjs';
+import { laufe as laufeEinfacheMedizin } from './karte-einfache-medizin.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projekt = path.join(root, '..');
@@ -100,6 +101,7 @@ laufePharma(pruefe);
 laufeMrna(pruefe);
 laufeHomoeopathie(pruefe);
 laufeKneipp(pruefe);
+laufeEinfacheMedizin(pruefe);
 await laufeFortschritt(pruefe);
 
 if (fehler > 0) {

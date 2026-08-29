@@ -29,7 +29,10 @@
 // Beweis gilt) und Runde 18 „Kneipp und die Naturheilkunde" (das Wasser
 // selbst erzählt: vom Regen über dem Allgäu über die Donau bei Dillingen
 // bis in den Trog von Wörishofen — die fünf Säulen und die Brücke zur
-// einfachen Medizin).
+// einfachen Medizin) und Runde 19 „Die einfache Medizin" (die Stunden:
+// zwei Stunden Medizin im Jahr und 8.758 Stunden Alltag — die drei
+// Säulen, die Belege und die Frage, warum das Wirksamste so selten
+// verordnet wird).
 // Jede weitere Runde trägt ihr Kapitel hier unten an.
 //
 // CommonJS, damit dieselbe Datei mit blankem `node` prüfbar ist und von
@@ -52,6 +55,7 @@ const pharmaindustrie = require('./pharmaindustrie');
 const mrnaCovid = require('./mrna-covid');
 const homoeopathie = require('./homoeopathie');
 const kneipp = require('./kneipp');
+const einfacheMedizin = require('./einfache-medizin');
 
 /** Alle Themen in der Reihenfolge der Themenlandkarte. */
 const alleThemen = [
@@ -72,6 +76,7 @@ const alleThemen = [
   mrnaCovid,
   homoeopathie,
   kneipp,
+  einfacheMedizin,
 ];
 
 /**
