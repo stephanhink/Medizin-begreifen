@@ -16,25 +16,31 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const SPRACHE = process.argv[2] === 'da' ? 'da' : 'de';
-const REPO = '/Users/openclaw/Documents/GitHub/Geschichte-begreifen';
-const BUCH = '/Users/openclaw/Geschichte-Buch';
+const REPO = '/Users/openclaw/Documents/GitHub/Medizin-begreifen';
+const BUCH = '/Users/openclaw/Medizin-Buch';
 const TMP = `/tmp/buch-${SPRACHE}`;
 const OEBPS = `${TMP}/OEBPS`;
 
 // ---- Meta ----
 const META = {
-  de: { titel: 'Geschichte begreifen', untertitel: 'Der Sieger schreibt die Geschichte — aber nicht die ganze.', sprache: 'de', autor: 'Stephan Hink', uuid: 'urn:uuid:9b2f4c1e-7a3d-4e5f-9c1b-2d3e4f5a6b7c' },
-  da: { titel: 'Historien forstået', untertitel: 'Sejrherren skriver historien — men ikke hele historien.', sprache: 'da', autor: 'Stephan Hink', uuid: 'urn:uuid:8a1e3d2c-6b4f-4c7e-8d2a-1e3f4a5b6c7d' },
+  de: { titel: 'Eine Reise durch die Medizingeschichte', untertitel: 'Von der Vergangenheit über die Gegenwart in die Zukunft — ausgedacht von einem Menschen, geschrieben von zwei unterschiedlichen KI-Modellen', sprache: 'de', autor: 'Stephan Hink', uuid: 'urn:uuid:9b2f4c1e-7a3d-4e5f-9c1b-2d3e4f5a6b7c' },
+  da: { titel: 'En rejse gennem medicinhistorien', untertitel: 'Fra fortiden over nutiden ind i fremtiden — udtænkt af et menneske, skrevet af to forskellige AI-modeller', sprache: 'da', autor: 'Stephan Hink', uuid: 'urn:uuid:8a1e3d2c-6b4f-4c7e-8d2a-1e3f4a5b6c7d' },
 }[SPRACHE];
 
-// ---- Modul-Liste (Buch-Reihenfolge) ----
+// ---- Modul-Liste (Buch-Reihenfolge = App-Reihenfolge) ----
 const ids = [
-  'roemisches-reich','china','dschingis-khan','japan','israel-palaestina','germanen',
-  'koenigreiche','mittelalter','eroberung-amerikas','dreissigjaehriger-krieg',
-  'usa-unabhaengigkeit','revolution-und-napoleon','die-kolonien',
-  'weg-zum-ersten-weltkrieg','usa-weltmacht','weimar-ns','zweiter-weltkrieg',
-  'kalter-krieg','russland-westen','aufstieg-asiens','ki-gesellschaft',
+  'anfaenge-der-heilkunde','china-tcm','indien-ayurveda','hippokrates-galen',
+  'avicenna-arabische-medizin','klostermedizin','paracelsus-vesal','harvey',
+  'chirurgie-anfaenge','jenner-impfung','pasteur-lister','roentgen-penicillin',
+  'verstaatlichung','pharmaindustrie','mrna-covid','homoeopathie','kneipp',
+  'einfache-medizin','medizin-von-morgen','miteinander',
 ];
+
+// ---- Sprach-Labels ----
+const LABELS = {
+  de: { frage: 'Die Frage', blickwinkel: 'Die Blickwinkel', synthese: 'Synthese', urteil: 'Dein Urteil', quiz: "Stimmt's?", inhalt: 'Inhaltsverzeichnis', vorwort: 'Vorwort', karte: 'Medizin in Bewegung', stimmeOpus: 'Stimme: Opus — amerikanische KI (Anthropic)', stimmeDeepSeek: 'Stimme: DeepSeek — chinesische KI', zurueck: '→ Inhaltsverzeichnis', frageText: 'Frage', schlusswort: 'Schlusswort des Autors' },
+  da: { frage: 'Spørgsmålet', blickwinkel: 'Synsvinklerne', synthese: 'Syntese', urteil: 'Din vurdering', quiz: 'Passer det?', inhalt: 'Indholdsfortegnelse', vorwort: 'Forord', karte: 'Medicin i bevægelse', stimmeOpus: 'Stemme: Opus — amerikansk AI (Anthropic)', stimmeDeepSeek: 'Stemme: DeepSeek — kinesisk AI', zurueck: '→ Indholdsfortegnelse', frageText: 'Spørgsmål', schlusswort: 'Forfatterens afsluttende ord' },
+}[SPRACHE];
 
 function ladeModul(id) {
   const pfad = SPRACHE === 'da' ? `${REPO}/da/${id}.js` : `${REPO}/utils/themen/${id}.js`;
@@ -122,12 +128,12 @@ function kartenPNGs(modul) {
 function kapitelHTML(modul, nummer) {
   const perspektiven = modul.perspektiven.map((p, i) => {
     const farbe = `p${(i % 4) + 1}`;
-    const stimme = p.stimme === 'Opus' ? 'Stimme: Opus (Anthropic)' : 'Stimme: Hermes (DeepSeek)';
+    const stimme = p.stimme === 'Opus' ? LABELS.stimmeOpus : LABELS.stimmeDeepSeek;
     return `<section class="perspektive ${farbe}"><h3>${mdInline(p.name)}</h3><p class="stimme">${stimme}</p>${md(p.text)}</section>`;
   }).join('\n');
 
   const karten = kartenPNGs(modul).join('\n');
-  const kartenBlock = karten ? `<section class="karten"><h2>Geschichte in Bewegung</h2>${karten}</section>` : '';
+  const kartenBlock = karten ? `<section class="karten"><h2>${LABELS.karte}</h2>${karten}</section>` : '';
 
   const quiz = modul.quiz.map((q, i) => {
     const antworten = q.antworten.map((a, j) =>
@@ -139,27 +145,26 @@ function kapitelHTML(modul, nummer) {
   if (modul.autorenwort) {
     const text = typeof modul.autorenwort === 'string' ? modul.autorenwort : modul.autorenwort.text;
     const original = typeof modul.autorenwort === 'string' ? null : modul.autorenwort.original;
-    const originalBlock = SPRACHE === 'da' && original ? `<div class="aw-original"><h3>Schlusswort des Autors</h3>${md(original)}</div>` : '';
-    const titel = SPRACHE === 'da' ? 'Forfatterens afsluttende ord' : 'Schlusswort des Autors';
+    const originalBlock = SPRACHE === 'da' && original ? `<div class="aw-original"><h3>${LABELS.schlusswort}</h3>${md(original)}</div>` : '';
     if (!originalBlock) {
-      autorenwort = `<section class="autorenwort"><h2>${titel}</h2>${md(text)}<p class="signatur">— Stephan Hink</p></section>`;
+      autorenwort = `<section class="autorenwort"><h2>${LABELS.schlusswort}</h2>${md(text)}<p class="signatur">— Stephan Hink</p></section>`;
     } else {
-      autorenwort = `<section class="autorenwort"><h2>${titel}</h2>${originalBlock}<hr/><div class="aw-uebersetzung">${md(text)}</div><p class="signatur">— Stephan Hink</p></section>`;
+      autorenwort = `<section class="autorenwort"><h2>${LABELS.schlusswort}</h2>${originalBlock}<hr/><div class="aw-uebersetzung">${md(text)}</div><p class="signatur">— Stephan Hink</p></section>`;
     }
   }
 
   return `<section class="kapitel">
 <h1 class="kapitel-titel">${nummer}. ${mdInline(modul.titel)}</h1>
 <p class="epoche">${mdInline(modul.epoche)}</p>
-<section class="aufhaenger"><h2>Die Frage</h2><p class="frage">${mdInline(modul.aufhaenger.frage)}</p>${md(modul.aufhaenger.text)}</section>
+<section class="aufhaenger"><h2>${LABELS.frage}</h2><p class="frage">${mdInline(modul.aufhaenger.frage)}</p>${md(modul.aufhaenger.text)}</section>
 ${kartenBlock}
-<h2>Die Blickwinkel</h2>
+<h2>${LABELS.blickwinkel}</h2>
 ${perspektiven}
-<section class="synthese"><h2>Synthese</h2>${md(modul.synthese)}</section>
-<section class="urteil"><h2>Dein Urteil</h2><p class="frage">${mdInline(modul.urteil.frage)}</p><p>${mdInline(modul.urteil.hinweis)}</p></section>
-<section class="quiz"><h2>Stimmt's?</h2>${quiz}</section>
+<section class="synthese"><h2>${LABELS.synthese}</h2>${md(modul.synthese)}</section>
+<section class="urteil"><h2>${LABELS.urteil}</h2><p class="frage">${mdInline(modul.urteil.frage)}</p><p>${mdInline(modul.urteil.hinweis)}</p></section>
+<section class="quiz"><h2>${LABELS.quiz}</h2>${quiz}</section>
 ${autorenwort}
-<p class="zurueck"><a href="inhalt.xhtml">→ Inhaltsverzeichnis</a></p>
+<p class="zurueck"><a href="inhalt.xhtml">${LABELS.zurueck}</a></p>
 </section>`;
 }
 
@@ -179,7 +184,7 @@ function vorwortHTML() {
 
 // ---- Cover ----
 function coverHTML() {
-  const cover = `${BUCH}/cover-final.png`;
+  const cover = `${REPO}/assets/${SPRACHE === 'da' ? 'cover-da-1600x2560.png' : 'cover-1600x2560.png'}`;
   const ziel = `${OEBPS}/images/cover.png`;
   if (!fs.existsSync(ziel)) fs.copyFileSync(cover, ziel);
   return `<section class="cover"><img src="images/cover.png" alt="Cover"/></section>`;
@@ -201,12 +206,12 @@ function build() {
     const m = ladeModul(id);
     return `<li><a href="kapitel-${i + 1}.xhtml">${i + 1}. ${m.titel}</a></li>`;
   }).join('\n');
-  const inhaltHTML = `<section class="inhalt"><h1>Inhaltsverzeichnis</h1>
+  const inhaltHTML = `<section class="inhalt"><h1>${LABELS.inhalt}</h1>
 <ol>${inhaltListe}</ol>
-<p class="zurueck"><a href="vorwort.xhtml">→ Vorwort</a></p>
+<p class="zurueck"><a href="vorwort.xhtml">→ ${LABELS.vorwort}</a></p>
 </section>`;
-  kapitel.push({ datei: 'inhalt.xhtml', html: inhaltHTML, titel: 'Inhaltsverzeichnis' });
-  kapitel.push({ datei: 'vorwort.xhtml', html: vorwortHTML(), titel: 'Vorwort' });
+  kapitel.push({ datei: 'inhalt.xhtml', html: inhaltHTML, titel: LABELS.inhalt });
+  kapitel.push({ datei: 'vorwort.xhtml', html: vorwortHTML(), titel: LABELS.vorwort });
 
   ids.forEach((id, i) => {
     const modul = ladeModul(id);
@@ -263,7 +268,8 @@ function build() {
   fs.writeFileSync(`${OEBPS}/buch.css`, css());
 
   // zip bauen (mimetype zuerst, unkomprimiert — EPUB-Standard)
-  const ziel = `${BUCH}/Geschichte-begreifen-${SPRACHE.toUpperCase()}.epub`;
+  fs.mkdirSync(BUCH, { recursive: true });
+  const ziel = `${BUCH}/${SPRACHE === 'da' ? 'En-rejse-gennem-medicinhistorien-DA' : 'Eine-Reise-durch-die-Medizingeschichte-DE'}.epub`;
   execSync(`cd ${TMP} && rm -f ${ziel} && zip -X0 ${ziel} mimetype >/dev/null && zip -Xr ${ziel} META-INF OEBPS >/dev/null`);
   console.log('EPUB:', ziel, fs.statSync(ziel).size, 'Bytes');
 }
@@ -274,29 +280,29 @@ function xhtmlRahmen(inhalt, titel) {  return `<?xml version="1.0" encoding="UTF
 
 function css() {
   return `body { font-family: Georgia, serif; line-height: 1.55; color: #2b2013; margin: 5% 6%; }
-h1 { font-size: 1.8em; } h2 { font-size: 1.35em; margin-top: 1.2em; color: #7C4A03; }
+h1 { font-size: 1.8em; } h2 { font-size: 1.35em; margin-top: 1.2em; color: #2F6B3A; }
 h3 { font-size: 1.15em; margin-top: 1em; } h4 { font-size: 1em; margin-top: 1em; }
 p { margin: 0.6em 0; text-align: justify; }
 .frage { font-style: italic; font-size: 1.05em; }
-.kapitel-titel { margin-bottom: 0.1em; } .epoche { color: #7A6A57; font-style: italic; }
+.kapitel-titel { margin-bottom: 0.1em; } .epoche { color: #6B7A63; font-style: italic; }
 .cover img { width: 100%; }
 .karte img { width: 100%; margin: 0.4em 0; }
 .karte figcaption { font-size: 0.85em; color: #555; margin-bottom: 0.8em; }
-.perspektive { margin: 1.2em 0; padding: 0.6em 1em; border-left: 4px solid #C9A227; background: #FBF4E4; }
+.perspektive { margin: 1.2em 0; padding: 0.6em 1em; border-left: 4px solid #4F8F5A; background: #F1F7EF; }
 .perspektive.p2 { border-left-color: #8C3B2F; background: #FBF0EA; }
-.perspektive.p3 { border-left-color: #4F5F3A; background: #F0F2EA; }
-.perspektive.p4 { border-left-color: #5A4A78; background: #F1EEF6; }
-.stimme { font-size: 0.85em; color: #7A6A57; font-style: italic; }
-.synthese { margin: 1.2em 0; padding: 0.6em 1em; border-left: 4px solid #7C4A03; background: #FBF4E4; }
-.urteil { margin: 1.2em 0; padding: 0.6em 1em; border-left: 4px solid #5A4A78; background: #F1EEF6; }
-.aufhaenger { margin: 1em 0; padding: 0.4em 0.8em; border-left: 4px solid #A96A16; background: #FDF8EC; }
-.autorenwort { margin: 1.5em 0; padding: 1em 1.2em; background: #F0F2EA; border-left: 4px solid #3F6B37; }
-.autorenwort .aw-original { } .autorenwort .aw-uebersetzung { color: #3F6B37; }
+.perspektive.p3 { border-left-color: #3A5A8C; background: #EDF1F7; }
+.perspektive.p4 { border-left-color: #8A7A3A; background: #F7F4E8; }
+.stimme { font-size: 0.85em; color: #6B7A63; font-style: italic; }
+.synthese { margin: 1.2em 0; padding: 0.6em 1em; border-left: 4px solid #2F6B3A; background: #F1F7EF; }
+.urteil { margin: 1.2em 0; padding: 0.6em 1em; border-left: 4px solid #3A5A8C; background: #EDF1F7; }
+.aufhaenger { margin: 1em 0; padding: 0.4em 0.8em; border-left: 4px solid #3F8F4A; background: #F4FAF2; }
+.autorenwort { margin: 1.5em 0; padding: 1em 1.2em; background: #EEF4EA; border-left: 4px solid #2F6B3A; }
+.autorenwort .aw-original { } .autorenwort .aw-uebersetzung { color: #2F6B3A; }
 .signatur { font-weight: bold; text-align: right; }
-.quiz .richtig { color: #3F6B37; font-weight: bold; }
+.quiz .richtig { color: #2F6B3A; font-weight: bold; }
 .erklaerung { font-size: 0.92em; color: #444; }
 ul { margin: 0.4em 0 0.8em 1.2em; }
-a { color: #7C4A03; text-decoration: none; }
+a { color: #2F6B3A; text-decoration: none; }
 .inhalt li { margin: 0.45em 0; }
 .inhalt ol { list-style: none; }
 .inhalt h1 { margin-bottom: 0.8em; }
@@ -307,9 +313,9 @@ a { color: #7C4A03; text-decoration: none; }
 // Zwei-Pass-Verfahren: Pass 1 rendert mit unsichtbaren Markern, fitz misst
 // die Kapitel-Startseiten, Pass 2 trägt die Seitenzahlen in den TOC ein.
 function pdfErzeugen() {
-  const cover = `<section class="cover"><img src="images/cover-final.png" alt="Cover"/></section>`;
+  const cover = `<section class="cover"><img src="${REPO}/assets/${SPRACHE === 'da' ? 'cover-da-1600x2560.png' : 'cover-1600x2560.png'}" alt="Cover"/></section>`;
   const inhaltListeOhne = ids.map((id, i) => `<li>${i + 1}. ${ladeModul(id).titel}</li>`).join('\n');
-  const inhaltOhne = `<section class="inhalt"><h1>Inhaltsverzeichnis</h1>\n<ol>${inhaltListeOhne}</ol></section>`;
+  const inhaltOhne = `<section class="inhalt"><h1>${LABELS.inhalt}</h1>\n<ol>${inhaltListeOhne}</ol></section>`;
   const vorwort = vorwortHTML();
   const marker = ids.map((_, i) => `<span style="color:transparent;font-size:1px">#START-${String(i + 1).padStart(2, '0')}#</span>`);
   const kapitel = ids.map((id, i) => marker[i] + kapitelHTML(ladeModul(id), i + 1)).join('\n');
@@ -330,24 +336,24 @@ body { font-family: Georgia, 'Times New Roman', serif; font-size: 11.5pt; line-h
 section.kapitel, section.vorwort, section.inhalt { page-break-before: always; }
 section.cover { page-break-after: always; text-align: center; padding-top: 3cm; }
 section.cover img { max-width: 62%; }
-h1.kapitel-titel { font-size: 22pt; color: #4a2c0a; margin: 0 0 0.1em; }
+h1.kapitel-titel { font-size: 22pt; color: #2F5E3A; margin: 0 0 0.1em; }
 p.epoche { font-style: italic; color: #666; margin-top: 0; }
-h2 { font-size: 15pt; color: #4a2c0a; margin-top: 1.2em; }
-h3 { font-size: 13pt; color: #4a2c0a; }
-h4 { font-size: 12pt; color: #4a2c0a; margin: 0.9em 0 0.3em; }
+h2 { font-size: 15pt; color: #2F5E3A; margin-top: 1.2em; }
+h3 { font-size: 13pt; color: #2F5E3A; }
+h4 { font-size: 12pt; color: #2F5E3A; margin: 0.9em 0 0.3em; }
 p.frage { font-weight: bold; }
-.perspektive { margin: 1em 0; padding: 0.7em 1.1em; border-left: 3px solid #C9A227; background: #FBF4E4; page-break-inside: avoid; }
+.perspektive { margin: 1em 0; padding: 0.7em 1.1em; border-left: 3px solid #4F8F5A; background: #F1F7EF; page-break-inside: avoid; }
 .perspektive.p2 { border-left-color: #8C3B2F; background: #FBF0EA; }
-.perspektive.p3 { border-left-color: #3F6B37; background: #EFF5EA; }
-.perspektive.p4 { border-left-color: #3A5A8C; background: #EDF1F7; }
+.perspektive.p3 { border-left-color: #3A5A8C; background: #EDF1F7; }
+.perspektive.p4 { border-left-color: #8A7A3A; background: #F7F4E8; }
 p.stimme { font-size: 0.85em; font-style: italic; color: #777; }
-.synthese { background: #F7F0DF; padding: 0.7em 1.1em; border-left: 3px solid #7C4A03; page-break-inside: avoid; }
-.autorenwort { background: #E8EFE4; border: 2px solid #7C4A03; padding: 1em 1.2em; margin-top: 1.5em; page-break-inside: avoid; }
+.synthese { background: #EEF4EA; padding: 0.7em 1.1em; border-left: 3px solid #2F6B3A; page-break-inside: avoid; }
+.autorenwort { background: #E8EFE4; border: 2px solid #2F6B3A; padding: 1em 1.2em; margin-top: 1.5em; page-break-inside: avoid; }
 .autorenwort .signatur { font-weight: bold; text-align: right; margin-top: 0.8em; }
 .karte figure { page-break-inside: avoid; text-align: center; margin: 1em 0; }
 .karte img { max-width: 85%; }
 .karte figcaption { font-size: 0.85em; color: #555; }
-.quiz .richtig { color: #3F6B37; font-weight: bold; }
+.quiz .richtig { color: #2F6B3A; font-weight: bold; }
 .zurueck { display: none; }
 .inhalt li { margin: 0.35em 0; }
 .inhalt ol { list-style: none; }
@@ -371,7 +377,7 @@ with sync_playwright() as p:
 EOF`);
   };
 
-  const ziel = `${BUCH}/Geschichte-begreifen-${SPRACHE.toUpperCase()}.pdf`;
+  const ziel = `${BUCH}/${SPRACHE === 'da' ? 'En-rejse-gennem-medicinhistorien-DA' : 'Eine-Reise-durch-die-Medizingeschichte-DE'}.pdf`;
   // Pass 1: Seiten messen
   render(html1, '/tmp/buch-pass1.pdf', false);
   const seiten = JSON.parse(execSync(`python3 - <<'EOF'

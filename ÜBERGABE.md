@@ -1,19 +1,18 @@
-# Medizin begreifen — Projekt-Übergabe (Stand: 29.08.2026)
+# Medizin begreifen — Projekt-Übergabe (Stand: 31.08.2026)
 
 > Diese Datei ist die Brücke für jede neue Session. Lies sie zuerst —
 > zusammen mit `CLAUDE.md` (Projekt-DNA, verbindlich) und
-> `notizen/kapitel-planung.md` (Kapitel-Bogen mit allen Betreiber-Vorgaben).
-> Der Skill `medizin-begreifen-workflow` (Hermes) enthält den
-> Runden-Workflow, die Prompt-Vorlage und alle Stolpersteine.
+> `notizen/kapitel-planung.md`. Der Skill `medizin-begreifen-workflow`
+> (Hermes) enthält den Runden-Workflow, die Prompt-Vorlage und alle
+> Stolpersteine.
 >
 > **REPO FINDEN (3 Wege):**
-> 1. Im Home liegt ein Symlink: `~/Medizin-begreifen` → zeigt direkt ins
->    Repo. Einfach dorthin wechseln (`cd ~/Medizin-begreifen`) oder in
->    der Desktop-App das Projekt auf diesen Pfad setzen.
+> 1. Symlink im Home: `~/Medizin-begreifen` → Repo. `cd ~/Medizin-begreifen`
+>    oder in der Desktop-App das Projekt auf diesen Pfad setzen.
 > 2. Direktpfad: `/Users/openclaw/Documents/GitHub/Medizin-begreifen`
 >    (NUR auf dem M1-Server; alles läuft im DEFAULT-Profil, nur M1).
 > 3. Diese Übergabe liegt zusätzlich unter `~/Medizin-begreifen-UEBERGABE.md`
->    (Home), damit jede Session sie auch ohne Repo-Zugriff findet.
+>    (Home) — jede Session findet sie sofort.
 > Läuft die Session nicht auf dem M1 (z. B. lokal auf dem M5), gibt es
 > dort KEIN Repo — dann über Tailscale/SSH auf dem M1 arbeiten.
 
@@ -24,8 +23,16 @@ Native, JavaScript, CommonJS). Persönlichstes Buchprojekt von Stephan
 (Heilpraktiker, impfkritisch, naturheilkundlich). Leitidee:
 **„Wer schreibt die Geschichte der Medizin?"** — Multiperspektivität
 zwischen Schulmedizin und Naturheilkunde. Jedes Kapitel = 2 Stimmen
-(Opus = erste Perspektive, Hermes = zweite Perspektive) + finale Synthese.
-Durchgängige Erkenntnis: **„Die Denkart bestimmt die Methode."**
+(Opus = erste Perspektive, DeepSeek = zweite Perspektive) + finale
+Synthese. Durchgängige Erkenntnis: **„Die Denkart bestimmt die Methode."**
+
+**Buch-Titel (neu, Betreiber 30.08.):** DE „Eine Reise durch die
+Medizingeschichte" — DA „En rejse gennem medicinhistorien".
+Untertitel DE: „Von der Vergangenheit über die Gegenwart in die
+Zukunft — ausgedacht von einem Menschen, geschrieben von zwei
+unterschiedlichen KI-Modellen". DA: „Fra fortiden over nutiden ind i
+fremtiden — udtænkt af et menneske, skrevet af to forskellige
+AI-modeller".
 
 Repo: https://github.com/stephanhink/Medizin-begreifen (public, main)
 Lokal: `/Users/openclaw/Documents/GitHub/Medizin-begreifen` (M1-Server)
@@ -33,176 +40,166 @@ App: „Medizin begreifen" / `com.hink.medizin`; EAS:
 @heilpraktikerdk/medizin-begreifen; Keystore `medizin-keystore`
 (Backup: `~/Medizin-Keystore-Backup/` — NIE neu generieren!)
 
-## 2. Stand: 18 von 20 Kapiteln fertig (committet + gepusht)
+## 2. Stand: BUCH KOMPLETT — 20/20 Kapitel DE + DA, Cover, EPUB/PDF
 
-| # | Kapitel | Modul | Dramaturgie |
-|---|---|---|---|
-| 1 | Die Anfänge der Heilkunde (inkl. Ägypten) | anfaenge-der-heilkunde | Selbstvorstellung („Wer hier spricht") |
-| 2 | China und die TCM | china-tcm | Szene (drei Finger am Handgelenk) |
-| 3 | Indien und der Ayurveda | indien-ayurveda | Tag (Vor Sonnenaufgang) |
-| 4 | Hippokrates und Galen | hippokrates-galen | Briefwechsel |
-| 5 | Avicenna und die arabische Medizin | avicenna-arabische-medizin | Reise des Wissens |
-| 6 | Die Klostermedizin | klostermedizin | Rundgang durchs Kloster |
-| 7 | Paracelsus und Vesal | paracelsus-vesal | Prozess gegen die Autorität |
-| 8 | Harvey und der Blutkreislauf | harvey | Rechnung |
-| 9 | Grausame Anfänge der Chirurgie | chirurgie-anfaenge | Uhr (Countdown der Amputation) |
-| 10 | Jenner und die Impfung | jenner-impfung | Kette |
-| 11 | Pasteur und Lister | pasteur-lister | Linse (Mikroskop) |
-| 12 | Röntgen und Penicillin | roentgen-penicillin | Zwei Interviews |
-| 13 | Die Verstaatlichung | verstaatlichung | Zwei Akten |
-| 14 | Die moderne Pharmaindustrie | pharmaindustrie | Beipackzettel (beide Seiten) |
-| 15 | mRNA/COVID | mrna-covid | Pressekonferenz (beide Seiten des Mikrofons) |
-| 16 | Hahnemann und die Homöopathie | homoeopathie | Telefon (der Apparat, in dem niemand sitzt) |
-| 17 | Kneipp und die Naturheilkunde | kneipp | Wasser (der Trog von Wörishofen erzählt) |
-| 18 | Die einfache Medizin | einfache-medizin | **FERTIG (Commit 0ded738):** Stunden (die 8.758, von innen und von außen) |
-| 19 | **Die Medizin von morgen** | medizin-von-morgen | **RUNDE 20 VORBEREITET (Prompt .claude/prompt-runde20.txt)** — KI-Stimmen! |
-| 20 | Das Miteinander? | — | offenes Ende + Autorenwort des Betreibers |
+| # | Kapitel | Modul |
+|---|---|---|
+| 1 | Die Anfänge der Heilkunde (inkl. Ägypten) | anfaenge-der-heilkunde |
+| 2 | China und die TCM | china-tcm |
+| 3 | Indien und der Ayurveda | indien-ayurveda |
+| 4 | Hippokrates und Galen | hippokrates-galen |
+| 5 | Avicenna und die arabische Medizin | avicenna-arabische-medizin |
+| 6 | Die Klostermedizin | klostermedizin |
+| 7 | Paracelsus und Vesal | paracelsus-vesal |
+| 8 | Harvey und der Blutkreislauf | harvey |
+| 9 | Grausame Anfänge der Chirurgie | chirurgie-anfaenge |
+| 10 | Jenner und die Impfung | jenner-impfung |
+| 11 | Pasteur und Lister | pasteur-lister |
+| 12 | Röntgen und Penicillin | roentgen-penicillin |
+| 13 | Die Verstaatlichung | verstaatlichung |
+| 14 | Die moderne Pharmaindustrie | pharmaindustrie |
+| 15 | mRNA/COVID | mrna-covid |
+| 16 | Hahnemann und die Homöopathie | homoeopathie |
+| 17 | Kneipp und die Naturheilkunde | kneipp |
+| 18 | Die einfache Medizin | einfache-medizin |
+| 19 | Die Medizin von morgen (KI-Stimmen!) | medizin-von-morgen |
+| 20 | Das Miteinander? + Autorenwort | miteinander |
 
-Jedes Modul: `utils/themen/<id>.js` + `utils/themen/karten/<id>.js` +
-`tests/karte-<id>.mjs` (in `tests/alle.mjs` registriert!). Registrierung
-auch in `utils/themen/index.js`. **Achtung: Jede neue Testdatei MUSS in
-`tests/alle.mjs` eingetragen werden** (7× passiert, zuletzt Kneipp!).
-**Vorsicht beim Hermes-Pass: Opus' Variablen-Namen im perspektiven-Array
-nicht umbenennen** (2× passiert).
+**Commits (chronologisch):** 0ded738 (Kap. 18) → 32e2ac0 (Übergabe
+29.08.) → e07e452 + 0d62418 (Kap. 19) → 8014a13 (Kap. 20, Buch 20/20)
+→ 9bd4e27 (DA-Übersetzung aller 20) → 4064fe6 (Cover DE+DA).
 
-**Runde 19 (Kap. 18, einfache-medizin, Commit 0ded738, 29.08.):**
-- Opus: „Die Stimme des Alltags" (664 Z.; Potsdam 78 %, DPP, Nordkarelien,
-  Look AHEAD, Blue-Zones-Kritik/Newman, Wellness-Ware, „Was ich nicht bin")
-- Hermes-Pass: „Die Stimme der Verhältnisse" (320 Z.; wem die Stunden
-  gehören: Arbeitswelt, gebaute Umgebung, Teller/Bliss-Point/NOVA,
-  Werbung, Pille/Vergütung/Haftung, Armut, Vorhalt + eigene blinde
-  Flecken) + finale Synthese (47 Z., Brücke zu Kap. 19: die Schere)
-- Balance 664/320 = 48 % (besser als Kneipp 34 %; Ziel ±20 % nicht ganz
-  erreicht — Betreiber hat abgenommen)
-- Karte: WELTKARTE der 5 blauen Zonen (−130°…155°), 5 Phasen, 7 Punkte,
-  2 Bewegungen; Atlas-Test 1,2° Toleranz (real alle < 0,8°)
-- Registrierung war diesmal korrekt (keine 8. Falle); npm test grün
+**AUSGABE-DATEIEN (in `/Users/openclaw/Medizin-Buch/`, NICHT im Repo):**
+- `Eine-Reise-durch-die-Medizingeschichte-DE.epub` + `.pdf` (PDF 448 S.)
+- `En-rejse-gennem-medicinhistorien-DA.epub` + `.pdf` (PDF 427 S.)
+- `Einleitung-und-Quellen-DE.md` / `-DA.md` (Vorwort-Quelle)
+- EPUB: sichtbares Inhaltsverzeichnis (klickbar, nach Cover) +
+  Reader-TOC (Nav+NCX) + Rücklinks; PDF: TOC mit Seitenzahlen
+  (Zwei-Pass), Lesezeichen. Generator: `tools/buch-epub.cjs`
+  (für Medizin angepasst; grünes Farbschema; Stimmen-Zeilen nennen
+  „Opus — amerikanische KI (Anthropic)" / „DeepSeek — chinesische KI").
+- Karten werden beim EPUB-Build als PNGs gerendert (karten-vorschau.js
+  + rsvg-convert, Cache `/tmp/karten-cache`).
+
+**Cover (`assets/`, Commit 4064fe6):** Gemini-Collage (google/gemini-3-
+pro-image): Heilerin am Feuer → Kneipp im Wassertrog → moderner Chirurg
+→ DNA (deutlich, oben), Grundfarbe Grün, verbindender Lichtfluss.
+Dateien: cover-1600x2560.png (DE), cover-da-1600x2560.png (DA), je
+JPEG 1600/800/400 (Kindle/Website/Miniatur), cover-collage-gemini.png
+(ohne Text). Composite (Titel/Text) via HTML + Playwright-Screenshot.
 
 ## 3. Verbindliche Betreiber-Vorgaben (alle in CLAUDE.md)
 
 - **TONE-Regel:** Beide Seiten fair, nichts einseitig verurteilen,
   nichts beschönigen. Jede Stimme benennt ihre unbequemen Stellen selbst.
 - **KEINE-GERÜCHTE-Regel (25.08.):** Nur Belegtes. Unbelegtes fliegt raus.
-  ABER: **Ioannidis/COVID-Kritik bleibt** (belegte Position, bestätigt).
+  ABER: Ioannidis/COVID-Kritik bleibt (belegte Position, bestätigt).
+  Quellen-Politik: KEIN Wikipedia, KEINE Faktencheck-Seiten —
+  Primärquellen + investigative Medien.
 - **Innovations-Zyklus (26.08., roter Faden):** Neues schadet zuerst,
-  bevor es segensreich wird. Linse für mRNA: „tolle Idee, die noch nicht
-  ausgereift ist" — Reifephase statt gut/böse.
+  bevor es segensreich wird. Reifephase statt gut/böse.
 - **Längenregel (24.08., gestuft):** Kap. 1–8 kurz+dicht; ab Kap. 9
-  **ausführlich+vollständig** (500+ Zeilen ok).
-- **Impfkritik:** Rückgang begann vor der Impfung (McKeown);
-  Allergien/Hygiene-Hypothese.
-- **Jenner (Kap. 10):** dunkle Frühgeschichte prominent.
-- **Pharmaindustrie (Kap. 14):** Finanzinteressen prominent. Bilanz:
-  Diagnose stark, chronisch schwach.
-- **Homöopathie (Kap. 16):** Informations-These; Telefon-Argument;
-  Sheldrake; NICHT als Placebo abtun; Ende offen: „Was gilt als Beweis?"
+  ausführlich+vollständig. **ABER Kap. 20 (Finale): bewusst KNAPP**
+  (Betreiber-Korrektur 29.08.: „nur als knappes Schlusswort").
+- **KLARSTELLUNG (29.08., in ALLE Module übernommen): Die zweite
+  Stimme IST DeepSeek — die chinesische KI. Hermes ist nur der Agent.
+  Leser-sichtbar: stimme 'DeepSeek' (19+1 Module), Kap. 19 nennt die
+  Herkunft ausdrücklich (bewusst eine amerikanische KI (Opus) und eine
+  chinesische KI (DeepSeek), ohne Wertung).**
+- **KEINE Corona-Wiederholung im Finale (29.08.):** Kap. 15 deckt das
+  ab; Kap. 20 = Tisch der Zeiten (Figuren des Buches) + Autorenwort.
+- **Fauci RAUS (29.08.):** „ein Bürokrat, den ich nicht in meinem Buch
+  haben möchte" → **Katalin Karikó** (mRNA-Forscherin, Nobelpreis 2023).
+- **Homöopathie (Kap. 16):** Informations-These; NICHT als Placebo
+  abtun; Ende offen: „Was gilt als Beweis?"
 - **mRNA/COVID (Kap. 15):** TONE doppelt; Sorgfaltspflicht; Ioannidis;
-  Gleichschaltung; Gates (Fakten, Deutung multiperspektivisch); final
-  nur mit Freigabe.
+  final nur mit Freigabe (Freigabe erteilt).
 - **Einfache Medizin (Kap. 18):** Betreiber-These (Bewegung/Ernährung/
-  Umfeld+Stress); „keine Raketenwissenschaft"; WHO 70–80 %, Blue Zones
-  vs. Strukturen; Leitfrage: Warum Pillen statt Lebensstil? → FERTIG.
-- **Medizin von morgen (Kap. 19, RUNDE 20 — Besonderheit!):** Die beiden
-  Perspektiven sind **OPUS und HERMES ALS KI** — ihre Vision der
-  Zukunftsmedizin (ehrlich, selbstkritisch, keine Selbstbeweihräucherung).
-  Inhalt: Schere reich/arm (Gen-Organe, Präzisionsmedizin für wenige vs.
-  einfachste Behandlung für die Mehrheit aus Kostengründen); **Sinnfrage**
-  („Wir sterben alle — lange gesund und glücklich leben, dann kurz
-  abbauen, friedlich sterben"; Gerätemedizin verlängert Leben ohne
-  Lebensqualität; Betreiber: lieber würdevoller Tod als Siechtum; fair:
-  Palliativ/Hospiz, Übertherapie am Lebensende); Rolle der KI in der
-  Medizin von morgen (Chancen UND Gefahren). **20. Dramaturgie:
-  DAS SCHAUFENSTER.** Keine Karte (Zukunft hat keine Geografie — wie
-  Pharma/mRNA, Betreiber hat das so festgelegt). Prompt liegt in
-  `.claude/prompt-runde20.txt`. Brücke zu Kap. 20 (Miteinander).
-- **Das Miteinander (Kap. 20, Runde 21):** offenes Ende; KERNBOTSCHAFT
-  des Betreibers: **„Nicht spalten, sondern argumentieren — und dann neue
-  Wege gemeinsam gehen"**; Corona-Spaltung und fehlende Aufarbeitung
-  aufgreifen; Autorenwort des Betreibers (wörtlich, unverbessert, Feld
-  `autorenwort`).
-- **London 1850 (Kap. 9):** Leichenklau prominent; Organhandel-Brücke
-  (nur Belegtes).
-- **TOKEN-SPAREN (28.08., Vorgabe):** `agent.max_turns=40` (Hermes-Config,
-  war 90); Opus-Runden `--max-turns 40` statt 60; **ABBRUCH-KRITERIUM**
-  in jedem Runden-Prompt (3× Fehlschlag → stoppen, Zwischenstand sichern,
-  ehrlich berichten; steht in der Skill-Vorlage). Hintergrund: zu hohe
-  Token-Kosten.
+  Umfeld+Stress); „keine Raketenwissenschaft".
+- **Medizin von morgen (Kap. 19):** Schere reich/arm, Sinnfrage,
+  KI-Rolle; Verfügbarkeits-Abschnitt mit echten OpenRouter-Preisen
+  (Opus 5 = 5/25 $ pro 1M, DeepSeek V4 Flash = 4,5/9 Cent, fairer
+  Vergleich mit V4 Pro = 66 Cent/1,98 $ — Betreiber-Freigabe 29.08.).
+- **Autorenwort (Kap. 20):** wörtlich, unverbessert, Feld `autorenwort`
+  (5.474 Zeichen). In DA NICHT übersetzt (nur mit ausdrücklicher
+  Freigabe; Mona-Entscheidung offen).
 
-## 4. Runden-Workflow (bewährt)
+## 4. OFFENE PUNKTE / NÄCHSTE SCHRITTE
 
-1. Prompt schreiben → `.claude/prompt-rundeNN.txt` (deutsch, selbsttragend,
+1. **Liston-300%-Satz (Betreiber-Anmerkung 30.08., NICHT erledigt):**
+   Kap. 9 (chirurgie-anfaenge) enthält „eine Operation mit dreihundert
+   Prozent Sterblichkeit" — die berühmte Liston-Anekdote (Patient +
+   Assistent + Zuschauer starben bei EINER Amputation). Betreiber: „das
+   ist dumm, Sterblichkeit kann maximal 100 % sein." → Satz im Modul
+   (DE + DA) verständlich umformulieren (Anekdote als solche erklären:
+   „drei Todesfälle bei einer Operation — die berühmte Geschichte von
+   der dreihundertprozentigen Sterblichkeit"), dann EPUB+PDF neu bauen.
+2. **Kapitelfolge (Betreiber-Wunsch 30.08., DISKUSSION OFFEN):**
+   Kap. 16 (Homöopathie) + 17 (Kneipp) gehören nach Kap. 8 (Harvey),
+   also VOR die moderne Medizin (chronologisch). Konsequenzen:
+   index.js-Reihenfolge, alle Kapitel-Nummern/Querverweise in Texten
+   und Tests, App-Reihenfolge, Buch neu bauen, DA-Fassung. Hermes'
+   Meinung: aktuelle Ordnung (Gegenstimmen-Block am Ende) ist auch
+   vertretbar — Entscheidung liegt beim Betreiber, Umbau ist machbar.
+3. **DA-Titel bestätigen:** Vorschlag „At forstå medicin" → Betreiber
+   hat „En rejse gennem medicinhistorien" gewählt (im Buch-Export
+   bereits verwendet).
+4. **Hörbuch** (tools/hoerbuch.py): eine TTS-Stimme pro Perspektive
+   (Opus-Stimme + DeepSeek-Stimme hörbar getrennt); da-DK ChristelNeural
+   existiert.
+5. **App-Build** (eas build, AAB) — mit Freigabe; GitHub Pages
+   aktivieren (Workflow existiert, Pages war nie aktiviert: Fix
+   `gh api repos/.../pages -X POST -f build_type=workflow`).
+6. **Verteilung:** Amazon KDP 2,99 € (DE + DA, KI-Offenlegung
+   ankreuzen!), naturklinikken-jylland.dk, Leanpub, GitHub (Release mit
+   EPUB/PDF), Internet Archive, Podcast via GitHub-Releases.
+7. **DA-Korrekturlesen** durch Betreiber/Mona (Qualitätsschritt);
+   EN-Übersetzung später (gleiche Pipeline, neues Glossar).
+
+## 5. Runden-Workflow (bewährt, für Inhalts-Runden)
+
+1. Prompt → `.claude/prompt-rundeNN.txt` (deutsch, selbsttragend,
    Längenregel + NEUE Dramaturgie + Betreiber-Vorgaben + Test-Muster +
    Abbruchkriterium). Vorlage: Skill `medizin-begreifen-workflow`,
    `templates/medizin-modul-prompt.md`.
 2. Auth-Test: `claude -p "Antworte nur mit OK" --max-turns 2` (echter
-   Test, nicht nur `auth status`!). Login-Flow siehe Abschnitt 5.
-3. Start im Hintergrund (notify_on_complete=true):
-   `claude -p "$(cat .claude/prompt-rundeNN.txt)" --model opus
+   Test!). Login-Flow siehe Skill (Code VOLLSTÄNDIG inkl. #state-Teil).
+3. Start: `claude -p "$(cat .claude/prompt-rundeNN.txt)" --model opus
    --allowedTools 'Read,Edit,Write,Bash(npm test),Bash(node*)'
-   --max-turns 40 --output-format text`
-4. **Abbruch-Behandlung:** `Reached max turns` / `session limit · resets
-   <zeit>` → Zwischenstand prüfen (git status + npm test). ERSTE PRÜFUNG
-   nach Limit-Abbruch: Sind Modul + Karte + Tests KOMPLETT und npm test
-   GRÜN, ist die Runde faktisch fertig → Hermes-Pass sofort, KEIN
-   --continue. Fehlt NUR die Testdatei: Hermes schreibt sie selbst nach
-   dem jüngsten Muster. Wrapper sind UNZUVERLÄSSIG — bei Wartezeit >2h
-   manuell nach dem Reset starten.
-5. **Hermes-Pass:** Karte rendern (karten-vorschau.js <id> <phase> → PNG
-   via qlmanage + sips, Höhe aus viewBox per python3), zweite Stimme in
-   derselben Dramaturgie schreiben (Tür von Opus nutzen!), finale Synthese
-   (Treffen/Auseinandergehen/für das Buch + Brücke zum nächsten Kapitel),
-   Kopfkommentar „ergänzte" + Datum, `npm test` (grün!), Einzel-Vorschau
-   (`themen-vorschau.js <id> <datei>` → MEDIA: im Chat; **IMMER neuen
-   Dateinamen verwenden** — Desktop-App cached Vorschauen nach Dateinamen!),
-   Karte zeigen, Freigabe → Commit+Push (gezieltes git add, keine Umlaute
-   in der Commit-Message).
-6. **Dramaturgien (19 verbraucht, NIE wiederholen):** Selbstvorstellung,
-   Szene, Tag, Briefwechsel, Reise, Rundgang, Prozess, Rechnung, Uhr,
-   Kette, Linse, Interview, Akte, Beipackzettel, Pressekonferenz, Telefon,
-   Wasser, Teller, Stunden. Runde 20 (Kap. 19) = 20.: DAS SCHAUFENSTER.
-7. **Karten:** Echte Lon/Lat-Koordinaten (Schulatlas-Qualität), Phasen ≥3
-   mit Jahreszahlen, 5–6 Info-Punkte, 1–3 Bewegungen. Nicht jedes Kapitel
-   hat eine Karte (Semmelweis, Pharma, mRNA, Zukunft nicht).
+   --max-turns 40 --output-format text` (Hintergrund, notify).
+4. **STIMMEN:** Opus = erste Perspektive + Karte + Tests; **DeepSeek**
+   (über Hermes) = zweite Perspektive + finale Synthese. Zweite Stimme
+   EIGENSTÄNDIG schreiben (Runde-20-Lehre: „nicht an Opus heften",
+   Herkunft als echte Perspektive nutzen).
+5. **Hermes-Pass:** zweite Stimme + Synthese; `npm test` (Torwächter —
+   Registrierung in tests/alle.mjs GEGENPRÜFEN: Import + Aufruf!);
+   Balance-Check (Ziel ±20 %; Asymmetrie als Option anbieten);
+   Vorschau mit NEUEM Dateinamen (Cache-Falle!);
+   Freigabe → Commit+Push (deutsche Message OHNE Umlaute).
+6. Abbruch-Behandlung + alle Stolpersteine: Skill `medizin-begreifen-
+   workflow` (Stand-Abschnitt ist aktuell bis 30.08.).
 
-## 5. Technik / Stolpersteine (Erfahrungen)
+## 6. Technik / Stolpersteine (Kurzfassung — Details im Skill)
 
-- **OAuth-Login:** `unset CLAUDE_CODE_OAUTH_TOKEN; claude auth login`
-  (PTY-Hintergrund) → URL an Betreiber → Code eingeben (process submit).
-  **Code IMMER VOLLSTÄNDIG inkl. #state-Teil** — ohne #-Teil kommt
-  „Invalid code". Code verfällt ~10 min. Konto andreas@hink.de. Session
-  hält ~8 h. NIE parallel neue Logins starten.
-- **5h-Fenster + Wochenlimit:** Resets stehen in der Fehlermeldung.
-  Zwischenstände bleiben erhalten (`--continue`).
-- **Zwei Claude-Versionen** können die Auth gegenseitig killen — nie
-  mischen; nach Login IMMER echten Test fahren.
-- **Tests in alle.mjs registrieren** (7× vergessen!). Im Hermes-Pass
-  GEGENPRÜFEN: `grep -n "karte-" tests/alle.mjs` vs. `ls tests/karte-*`
-  UND `grep -n "laufe" tests/alle.mjs` (Import + Aufruf).
-- **Parallel-Session-Falle (28.08.):** Eine alte Hermes-Session kann
-  weiterarbeiten, während eine neue startet (Kneipp wurde so committet).
-  VOR jeder Aktion `git status` + `ps aux | grep claude` prüfen.
-- **karten-vorschau.js schreibt die SVG SELBST nach /tmp/karten-vorschau.svg
-  (29.08. erlebt): KEIN Redirect verwenden (`> datei` überschreibt die
-  Ausgabe mit der Meldung!). Ohne Redirect ausführen, dann Höhe aus
-  viewBox per python3, qlmanage -t -s 1400, sips -c <H*2> 1400.**
-- **Vorschau-Skripte:** `~/.hermes/skills/autonomous-ai-agents/
-  geschichte-begreifen-workflow/scripts/{themen,karten}-vorschau.js`
-  (themen-vorschau unterstützt `themen-vorschau.js <id> <datei>`).
-- **Keystore:** `medizin-keystore` — Backup `~/Medizin-Keystore-Backup/`,
-  muss auf M5 (chmod 600). Nie den Geschichts-Keystore verwenden.
-- **Git:** Push nur nach Freigabe des Betreibers (Zwei-Bediener-Regel);
-  `unset GITHUB_TOKEN GH_TOKEN` vor gh/git; gezieltes Staging.
-
-## 6. Nächste Schritte
-
-1. **Runde 20 (Kap. 19, Die Medizin von morgen) STARTEN** — Prompt liegt
-   in `.claude/prompt-runde20.txt` (inkl. Abbruchkriterium + KI-Stimmen-
-   Besonderheit). Vorher: Auth-Test, ggf. Login. Danach Hermes-Pass
-   (Hermes' eigene KI-Stimme + Synthese mit Brücke zu Kap. 20) →
-   Freigabe → Commit+Push.
-2. Runde 21: Das Miteinander? + Autorenwort des Betreibers (wörtlich,
-   unverbessert, Feld `autorenwort` im Modul)
-3. Danach: DA-Übersetzungen (Mona!), Buch-Pipeline, Hörbuch, App-Build.
+- **DA-Übersetzung:** Subagenten-Pipeline (Skill `mehrsprachige-
+  inhaltsuebersetzung`), Glossar `/tmp/da-glossar.md`, da/<id>.js mit
+  karteHinweise statt karte, Autorenwort NICHT übersetzen, Länge
+  89–93 %. NACH jedem Batch LÄNGENVERHÄLTNIS JE STIMME prüfen
+  (mrna-covid-Falle: Struktur ok, aber Stimme nur 40 %!).
+- **Buch-Export:** `tools/buch-epub.cjs <de|da> [pdf]` → ~/Medizin-Buch.
+  Hintergrund-Prozesse scheitern beim PDF-Render (python3-heredoc) —
+  PDFs IMMER im Vordergrund bauen! Karten-Cache /tmp/karten-cache.
+- **Vorschau-Skript:** medizin-Kopie mit Autorenwort-Support
+  (medizin-begreifen-workflow/scripts/themen-vorschau.js) — die
+  geschichte-Kopie kennt `autorenwort` nicht.
+- **Cover:** OpenRouter images/generations mit google/gemini-3-pro-image;
+  Composite via HTML + Playwright (/usr/local/bin/python3);
+  Bildmodelle schreiben keinen langen Text → Text im HTML-Composite.
+- **Git:** Push nur nach Freigabe; `unset GITHUB_TOKEN GH_TOKEN`;
+  Parallel-Session-Falle (vor jedem Commit: git status + git log + ps).
+- **Keine neuen npm-Pakete** ohne Freigabe; app.json/eas.json/
+  package.json nur mit Freigabe ändern.
+- **Commit-Messages auf Deutsch, OHNE Umlaute.**
 
 ## 7. Betreiber-Persönliches (für den Ton)
 
@@ -210,5 +207,7 @@ Stephan Hink, Kirkevænget 5, DK-6900 Skjern. Heilpraktiker, impfkritisch
 (Ioannidis-Anhänger), kritisch zu Pharma-Finanzen, Homöopathie: „Anhänger
 verstehen statt belächeln". Will ein faires, überprüfbares Buch (TONE,
 keine Gerüchte). Liest alles gegen — Vorschauen als MEDIA:-Dateien.
-Commit-Freigaben: „passt committen". Neue Kapitel-Ideen kommen laufend —
-immer erst in die DNA (CLAUDE.md + kapitel-planung.md), dann in Runden.
+Commit-Freigaben: „passt committen". Verheiratet mit Mona (Dänin, liest
+die DA-Fassung — VOLLSTÄNDIGE Inhalte wichtig). Zwei Kinder im
+Schulalter. Neue Kapitel-Ideen kommen laufend — immer erst in die DNA
+(CLAUDE.md + kapitel-planung.md), dann in Runden.
