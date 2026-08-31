@@ -150,6 +150,17 @@ JPEG 1600/800/400 (Kindle/Website/Miniatur), cover-collage-gemini.png
    Buch-Export verwendet).
 4. **Doku nachgezogen (31.08.):** CLAUDE.md, notizen/kapitel-planung.md
    und STAND.md zeigen die chronologische Kapitelliste.
+5. **EN-ÜBERSETZUNG (Commit 73e4e26):** alle 20 Kapitel als en/<id>.js
+   (Schema identisch, karteHinweise, EN-Glossar); Autorenwort ZWEISPRACHIG
+   (en.autorenwort = Übersetzung, en.autorenwortDe = deutsches Original
+   byte-identisch — der Leser wählt); Buch-Export um 'en' erweitert
+   (Titel „A Journey Through the History of Medicine"). Buch gebaut:
+   ~/Medizin-Buch/A-Journey-Through-the-History-of-Medicine-EN.epub/.pdf
+   (11,9/18,0 MB, TOC englisch + chronologisch, Preface EN). Verifikation:
+   en-check.js 20/20 OK (Längen 90–95 %), npm test grün. FALLEN: 2
+   Timeout-Kapitel (mrna 2×, medizin-von-morgen 2× — trotz Schreib-Strategie;
+   Fragment-Rettung per Vervollständigungs-Agent), Namensform Hippokrates →
+   Hippocrates (deutsche Namensformen im EN-Text anpassen).
 
 **Offen / nächste Schritte:**
 1. **Hörbuch** (tools/hoerbuch.py): eine TTS-Stimme pro Perspektive
@@ -161,8 +172,8 @@ JPEG 1600/800/400 (Kindle/Website/Miniatur), cover-collage-gemini.png
 3. **Verteilung:** Amazon KDP 2,99 € (DE + DA, KI-Offenlegung
    ankreuzen!), naturklinikken-jylland.dk, Leanpub, GitHub (Release mit
    EPUB/PDF), Internet Archive, Podcast via GitHub-Releases.
-4. **DA-Korrekturlesen** durch Betreiber/Mona (Qualitätsschritt);
-   EN-Übersetzung später (gleiche Pipeline, neues Glossar).
+4. **DA- und EN-Korrekturlesen** durch Betreiber/Mona
+   (Qualitätsschritt); EN-Cover optional (aktuell DE-Cover im EN-Buch).
 
 ## 5. Runden-Workflow (bewährt, für Inhalts-Runden)
 
