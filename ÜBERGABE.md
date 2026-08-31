@@ -41,6 +41,7 @@ App: „Medizin begreifen" / `com.hink.medizin`; EAS:
 (Backup: `~/Medizin-Keystore-Backup/` — NIE neu generieren!)
 
 ## 2. Stand: BUCH KOMPLETT — 20/20 Kapitel DE + DA, Cover, EPUB/PDF
+(chronologische Kapitelreihenfolge seit 31.08.)
 
 | # | Kapitel | Modul |
 |---|---|---|
@@ -52,22 +53,25 @@ App: „Medizin begreifen" / `com.hink.medizin`; EAS:
 | 6 | Die Klostermedizin | klostermedizin |
 | 7 | Paracelsus und Vesal | paracelsus-vesal |
 | 8 | Harvey und der Blutkreislauf | harvey |
-| 9 | Grausame Anfänge der Chirurgie | chirurgie-anfaenge |
-| 10 | Jenner und die Impfung | jenner-impfung |
-| 11 | Pasteur und Lister | pasteur-lister |
-| 12 | Röntgen und Penicillin | roentgen-penicillin |
-| 13 | Die Verstaatlichung | verstaatlichung |
-| 14 | Die moderne Pharmaindustrie | pharmaindustrie |
-| 15 | mRNA/COVID | mrna-covid |
-| 16 | Hahnemann und die Homöopathie | homoeopathie |
-| 17 | Kneipp und die Naturheilkunde | kneipp |
+| 9 | Hahnemann und die Homöopathie | homoeopathie |
+| 10 | Kneipp und die Naturheilkunde | kneipp |
+| 11 | Grausame Anfänge der Chirurgie | chirurgie-anfaenge |
+| 12 | Jenner und die Impfung | jenner-impfung |
+| 13 | Pasteur und Lister | pasteur-lister |
+| 14 | Röntgen und Penicillin | roentgen-penicillin |
+| 15 | Die Verstaatlichung | verstaatlichung |
+| 16 | Die moderne Pharmaindustrie | pharmaindustrie |
+| 17 | mRNA/COVID | mrna-covid |
 | 18 | Die einfache Medizin | einfache-medizin |
 | 19 | Die Medizin von morgen (KI-Stimmen!) | medizin-von-morgen |
 | 20 | Das Miteinander? + Autorenwort | miteinander |
 
 **Commits (chronologisch):** 0ded738 (Kap. 18) → 32e2ac0 (Übergabe
 29.08.) → e07e452 + 0d62418 (Kap. 19) → 8014a13 (Kap. 20, Buch 20/20)
-→ 9bd4e27 (DA-Übersetzung aller 20) → 4064fe6 (Cover DE+DA).
+→ 9bd4e27 (DA-Übersetzung aller 20) → 4064fe6 (Cover DE+DA)
+→ b32f514 (Buch-Export: Titel + Stimmen-Labels) → 9b89768
+(Kapitel-Umordnung: Homöopathie 9 + Kneipp 10 vor die Neuzeit;
+Liston-Anekdote erklärt; Bücher neu gebaut).
 
 **AUSGABE-DATEIEN (in `/Users/openclaw/Medizin-Buch/`, NICHT im Repo):**
 - `Eine-Reise-durch-die-Medizingeschichte-DE.epub` + `.pdf` (PDF 448 S.)
@@ -126,21 +130,21 @@ JPEG 1600/800/400 (Kindle/Website/Miniatur), cover-collage-gemini.png
 
 ## 4. OFFENE PUNKTE / NÄCHSTE SCHRITTE
 
-1. **Liston-300%-Satz (Betreiber-Anmerkung 30.08., NICHT erledigt):**
-   Kap. 9 (chirurgie-anfaenge) enthält „eine Operation mit dreihundert
-   Prozent Sterblichkeit" — die berühmte Liston-Anekdote (Patient +
-   Assistent + Zuschauer starben bei EINER Amputation). Betreiber: „das
-   ist dumm, Sterblichkeit kann maximal 100 % sein." → Satz im Modul
-   (DE + DA) verständlich umformulieren (Anekdote als solche erklären:
-   „drei Todesfälle bei einer Operation — die berühmte Geschichte von
-   der dreihundertprozentigen Sterblichkeit"), dann EPUB+PDF neu bauen.
-2. **Kapitelfolge (Betreiber-Wunsch 30.08., DISKUSSION OFFEN):**
-   Kap. 16 (Homöopathie) + 17 (Kneipp) gehören nach Kap. 8 (Harvey),
-   also VOR die moderne Medizin (chronologisch). Konsequenzen:
-   index.js-Reihenfolge, alle Kapitel-Nummern/Querverweise in Texten
-   und Tests, App-Reihenfolge, Buch neu bauen, DA-Fassung. Hermes'
-   Meinung: aktuelle Ordnung (Gegenstimmen-Block am Ende) ist auch
-   vertretbar — Entscheidung liegt beim Betreiber, Umbau ist machbar.
+1. **Liston-300%-Satz — ERLEDIGT (31.08., Commit 9b89768):**
+   Kap. 11 (chirurgie-anfaenge) erzählt die Anekdote jetzt als drei
+   Todesfälle bei einer Operation; die Redewendung von der
+   „dreihundertprozentigen Sterblichkeit" wird als Überlieferung
+   erklärt (DE + DA, Tests angepasst). EPUB+PDF neu gebaut.
+2. **Kapitelfolge — ERLEDIGT (31.08., Commit 9b89768):**
+   Homöopathie (9) + Kneipp (10) stehen jetzt nach Harvey (8), vor der
+   modernen Medizin. Neue Reihenfolge: 11 Chirurgie, 12 Jenner,
+   13 Pasteur/Lister, 14 Röntgen/Penicillin, 15 Verstaatlichung,
+   16 Pharmaindustrie, 17 mRNA/COVID, 18 einfache Medizin, 19 Medizin
+   von morgen, 20 Miteinander. Umgesetzt in index.js, buch-epub.cjs,
+   allen Kopfzeilen und Querverweisen (DE + DA, auch kleingeschriebene
+   dänische „kapitel"-Stellen) und Tests; npm test grün; Bücher neu
+   gebaut. Hinweis: Dramaturgie-Beschriftungen in Testdateien
+   („andere Struktur als in Kapitel N") behalten die Runden-Nummern.
 3. **DA-Titel bestätigen:** Vorschlag „At forstå medicin" → Betreiber
    hat „En rejse gennem medicinhistorien" gewählt (im Buch-Export
    bereits verwendet).
