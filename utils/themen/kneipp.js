@@ -1,4 +1,4 @@
-// Kapitel 17 — „Kneipp und die Naturheilkunde".
+// Kapitel 10 — „Kneipp und die Naturheilkunde".
 //
 // Das neunte Kapitel der Neuzeit — und nach der Homöopathie das zweite,
 // das dem Betreiber besonders am Herzen liegt: Er ist Heilpraktiker und
@@ -962,8 +962,8 @@ const stimmeAusDemMessglas = [
   'Krankheiten, bei denen Zuwarten tötet — und bei denen die',
   'Diagnose keine Gefühlssache sein darf.** Wir haben in diesem',
   'Buch schon erzählt, was passiert, wenn Menschen zu spät zum Arzt',
-  'gehen: Kapitel 9 hat die Chirurgie gezeigt, Kapitel 10 die',
-  'Impfung, Kapitel 15 die Pandemie. Die Medizin hat ihre',
+  'gehen: Kapitel 11 hat die Chirurgie gezeigt, Kapitel 12 die',
+  'Impfung, Kapitel 17 die Pandemie. Die Medizin hat ihre',
   'dunklen Seiten — aber sie hat auch das eine gerettet, was die',
   'Naturheilkunde nicht kann: die akute Rettung.',
   '',
@@ -1015,7 +1015,7 @@ const stimmeAusDemMessglas = [
   '**Zweitens: Wir haben die Lebensweise jahrzehntelang für ein',
   'Thema der Kurbroschüre gehalten** — während die chronischen',
   'Krankheiten, die wir nicht heilen können, genau aus der',
-  'Lebensweise entstehen. Kapitel 14 dieses Buches hat die Bilanz',
+  'Lebensweise entstehen. Kapitel 16 dieses Buches hat die Bilanz',
   'gezogen: stark in der Diagnose, schwach bei den chronischen',
   'Krankheiten. Die Naturheilkunde hat die chronischen Krankheiten',
   'nie unterschätzt — sie hat sich mit ihnen beschäftigt, als wir',
@@ -1178,7 +1178,7 @@ const kneipp = {
     'Zeilen.',
     '',
     'Und dann ist da der Bogen, den dieses Buch selbst geschlagen hat:',
-    'Von Hahnemann (Kapitel 16), der die Arznei als Information',
+    'Von Hahnemann (Kapitel 9), der die Arznei als Information',
     'verstand, zu Kneipp, der die Arznei als Lebensweise verstand —',
     'die Naturheilkunde hat die Schulmedizin zweimal herausgefordert,',
     'und beide Male hat die Schulmedizin am Ende übernommen, was sie',

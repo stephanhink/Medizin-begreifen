@@ -579,7 +579,7 @@ const laboratorietsStemme = [
   '',
   'Tilbage står det ene, som vi skylder dig.',
   '',
-  'I kapitel 9 i denne bog står en læge i Wien, der tæller det, ingen vil',
+  'I kapitel 11 i denne bog står en læge i Wien, der tæller det, ingen vil',
   'tælle: **Ignaz Semmelweis**, hvis barselspatienter døde, når læger',
   'undersøgte dem, og levede, når jordemødre gjorde det. Han fandt',
   'foranstaltningen — håndvask med klorkalk — og fik ret, og han kunne',
@@ -728,7 +728,7 @@ const klinikkensStemme = [
   'bordene, forbliver åbent for de kapitler, der kommer.',
 ].join('\n');
 
-/** Kapitel 11 i emnekortet. */
+/** Kapitel 13 i emnekortet. */
 const pasteurLister = {
   id: 'pasteur-lister',
   titel: 'Pasteur og Lister',

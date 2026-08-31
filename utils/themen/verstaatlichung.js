@@ -1,4 +1,4 @@
-// Kapitel 13 — „Die Verstaatlichung des Gesundheitswesens".
+// Kapitel 15 — „Die Verstaatlichung des Gesundheitswesens".
 //
 // Das fünfte Kapitel der Neuzeit und das erste, in dem nicht ein Forscher,
 // sondern ein Gesetz die Hauptrolle spielt. Bis 1883 gab es am Krankenbett
@@ -602,7 +602,7 @@ const stimmeDesStaates = [
   'Jahren kamen Zehntausende Kurgäste im Jahr in das schwäbische Dorf, und',
   '1894 empfing ihn der Papst. Er hatte keine Approbation. Er war nach',
   'dem Gesetz von 1869 vollkommen im Recht. Und keine Kasse hat je eine',
-  'seiner Anwendungen bezahlt. Kapitel 17 erzählt seine Geschichte.',
+  'seiner Anwendungen bezahlt. Kapitel 10 erzählt seine Geschichte.',
   '',
   'Wie es weiterging, gehört der Vollständigkeit halber hierher, auch wenn',
   'es über die Zeit dieser Akte hinausreicht: Die Kurierfreiheit endete',
@@ -619,7 +619,7 @@ const stimmeDesStaates = [
   'Und nun das Blatt, bei dem der Staat am schlechtesten aussieht — es',
   'gehört in diese Akte, weil es aus derselben Denkart folgt.',
   '',
-  'Dieses Buch erzählt seit Kapitel 9 immer wieder dasselbe Muster: **Das',
+  'Dieses Buch erzählt seit Kapitel 11 immer wieder dasselbe Muster: **Das',
   'Neue schadet oft erst, bevor es segensreich wird.** Die Chirurgie',
   'tötete durch Wundfieber, ehe sie rettete. Die Strahlen verbrannten ihre',
   'Pioniere, ehe daraus die Radiologie wurde. Das Penicillin rettete',
@@ -640,7 +640,7 @@ const stimmeDesStaates = [
   'Ausstellung in Dresden noch Zähneputzen und Säuglingspflege bedeutet',
   'hatte, wurde die Frage, welches Leben der Allgemeinheit nützt. **Der',
   'Gedanke, dass Gesundheit nicht nur dem Einzelnen gehört, kann das',
-  'Beste hervorbringen und das Schlimmste.** Kapitel 14 und 15 werden das',
+  'Beste hervorbringen und das Schlimmste.** Kapitel 16 und 17 werden das',
   'Thema wieder aufnehmen.',
   '',
   'Ich schreibe das nicht als Anklage gegen die Gesetze von 1883, 1884 und',
@@ -829,7 +829,7 @@ const stimmeDerVersicherten = [
   'letzten Seite.',
 ].join('\n');
 
-/** Kapitel 13 der Themenlandkarte. */
+/** Kapitel 15 der Themenlandkarte. */
 const verstaatlichung = {
   id: 'verstaatlichung',
   titel: 'Die Verstaatlichung des Gesundheitswesens',

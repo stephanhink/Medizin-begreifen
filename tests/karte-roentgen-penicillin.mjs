@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 12 — „Röntgen und Penicillin" und seine Karte.
+// Prüfungen für Kapitel 14 — „Röntgen und Penicillin" und seine Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
 // UI-Importe: läuft mit blankem `node`.
@@ -40,7 +40,7 @@
 //      dem Überspringen der Prüfzeit.
 //
 //   6. **Die Längenregel, umgekehrt (Betreiber-Vorgabe 24.08.2026).** Ab
-//      Kapitel 9 gilt: vollständig und ausführlich. Nach oben bleibt eine
+//      Ab der Neuzeit gilt: vollständig und ausführlich. Nach oben bleibt eine
 //      großzügige Grenze stehen, damit „ausführlich" nicht in „aufgebläht"
 //      kippt.
 //
@@ -629,7 +629,7 @@ export function laufe(pruefe) {
   );
 
   // =========================================================================
-  // 3. Die Längenregel — ab Kapitel 9 umgekehrt
+  // 3. Die Längenregel — ab der Neuzeit umgekehrt
   // =========================================================================
 
   const zeilenErsteStimme = entdeckerStimme.text.split('\n').length;
@@ -956,8 +956,8 @@ export function laufe(pruefe) {
 
   pruefe(
     'Röntgen/Zyklus: das Muster des Buches wird benannt (Chirurgie, Impfung, Strahlen)',
-    /Die Chirurgie in Kapitel 9 hat getötet, bevor sie rettete/.test(fliessend) &&
-      /Die Impfung in Kapitel 10/.test(fliessend),
+    /Die Chirurgie in Kapitel 11 hat getötet, bevor sie rettete/.test(fliessend) &&
+      /Die Impfung in Kapitel 12/.test(fliessend),
   );
   pruefe(
     'Röntgen/Zyklus: die Ursache des Schadens wird benannt (übersprungene Prüfzeit)',
@@ -1018,7 +1018,7 @@ export function laufe(pruefe) {
   // --- Die Brücke zu Kapitel 14 (Pharmaindustrie) --------------------------
   pruefe(
     'Röntgen: das verschenkte Patent bereitet das Kapitel der Pharmaindustrie vor',
-    /Kapitel 14/.test(fliessend) && /lizenziert/.test(fliessend),
+    /Kapitel 16/.test(fliessend) && /lizenziert/.test(fliessend),
   );
 
   // --- Die Tür zur zweiten Stimme ------------------------------------------

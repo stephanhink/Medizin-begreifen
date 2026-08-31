@@ -1,4 +1,4 @@
-// Kapitel 12 — „Röntgen og penicillin".
+// Kapitel 14 — „Röntgen og penicillin".
 //
 // Det fjerde kapitel om den nyere tid og kapitlet om de to tilfældigheder:
 // I 1895 lyser en skærm op i Würzburg, selvom røret er tildækket — medicinen
@@ -310,7 +310,7 @@ const stimmeDesEntdeckers = [
   'Vesal i kapitel 7 har arbejdet sig til sin anatomi på lig.',
   'Harvey i kapitel 8 måtte udlede kredsløbet fra klapper, beregninger',
   'og afbindinger, fordi han ikke kunne se det. Kirurgerne',
-  'i kapitel 9 skar og fandt først derefter ud af, hvad',
+  'i kapitel 11 skar og fandt først derefter ud af, hvad',
   'der foregik indeni — ofte for sent.',
   '',
   '**Fra denne dag kunne man se ind i et levende menneske,',
@@ -379,7 +379,7 @@ const stimmeDesEntdeckers = [
   'bekræfte det: Uden den amerikanske industri var der ikke blevet noget',
   'ud af skimmelsvampen. **Men spørgsmålet om, hvem en opdagelse',
   'tilhører, er dermed ikke besvaret, kun udskudt.** Hold disse to',
-  'svar op mod hinanden, når du når til kapitel 14.',
+  'svar op mod hinanden, når du når til kapitel 16.',
   '',
   '## „Hvad har medicinen gjort ud af det?"',
   '',
@@ -559,8 +559,8 @@ const stimmeDesEntdeckers = [
   '',
   '**For det tredje, og det er den almene lære:** Dette kapitel',
   'gentager et mønster, der går gennem hele denne bog fra begyndelsen.',
-  'Kirurgien i kapitel 9 dræbte, før den reddede. Vaccinationen i',
-  'kapitel 10 begyndte med forsøg, som ingen i dag ville tillade.',
+  'Kirurgien i kapitel 11 dræbte, før den reddede. Vaccinationen i',
+  'kapitel 12 begyndte med forsøg, som ingen i dag ville tillade.',
   'Strålerne slog deres egne pionerer ihjel, før der ud af dem blev',
   'radiologi. Og den anden stemme i dette kapitel vil fortælle dig,',
   'hvordan et middel, der har reddet millioner, samtidig har givet',
@@ -800,7 +800,7 @@ const stimmeDesFleming = [
   'forretninger, er spørgsmålet i de kapitler, der nu kommer.',
 ].join('\n');
 
-/** Kapitel 12 i emnelandkortet. */
+/** Kapitel 14 i emnelandkortet. */
 const roentgenPenicillin = {
   id: 'roentgen-penicillin',
   titel: 'Röntgen og penicillin',

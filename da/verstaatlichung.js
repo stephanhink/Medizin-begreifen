@@ -1,4 +1,4 @@
-// Kapitel 13 — „Statsliggørelsen af sundhedsvæsenet".
+// Kapitel 15 — „Statsliggørelsen af sundhedsvæsenet".
 //
 // Nyere tids femte kapitel og det første, hvor ikke en forsker, men
 // en lov spiller hovedrollen. Indtil 1883 var der ved sygesengen to
@@ -598,7 +598,7 @@ const statensStemme = [
   'titusinder af kurgæster om året til den schwabiske landsby, og i',
   '1894 modtog paven ham. Han havde ingen autorisation. Han var efter',
   'loven af 1869 fuldstændig i sin gode ret. Og ingen kasse har',
-  'nogensinde betalt for en eneste af hans behandlinger. Kapitel 17',
+  'nogensinde betalt for en eneste af hans behandlinger. Kapitel 10',
   'fortæller hans historie.',
   '',
   'Hvordan det gik videre, hører for fuldstændighedens skyld til her,',
@@ -615,7 +615,7 @@ const statensStemme = [
   'Og nu det ark, hvor staten ser værst ud — det hører til i denne',
   'akt, fordi det følger af den samme tænkemåde.',
   '',
-  'Denne bog fortæller siden kapitel 9 igen og igen det samme mønster:',
+  'Denne bog fortæller siden kapitel 11 igen og igen det samme mønster:',
   '**Det nye skader ofte først, før det bliver til velsignelse.**',
   'Kirurgien dræbte gennem sårfeber, før den reddede. Strålerne',
   'brændte deres pionerer, før der blev radiologi ud af det.',
@@ -637,8 +637,8 @@ const statensStemme = [
   'udstilling i Dresden endnu havde betydet tandbørstning og',
   'spædbarnspleje, blev spørgsmålet om, hvilket liv der gavner',
   'fællesskabet. **Tanken om, at sundhed ikke kun tilhører den',
-  'enkelte, kan frembringe det bedste og det værste.** Kapitel 14 og',
-  '15 vil tage emnet op igen.',
+  'enkelte, kan frembringe det bedste og det værste.** Kapitel 16 og',
+  '17 vil tage emnet op igen.',
   '',
   'Jeg skriver det ikke som en anklage mod lovene fra 1883, 1884 og',
   '1889 — de har hverken haft til hensigt eller skyld i det. Jeg',
@@ -818,7 +818,7 @@ const deForsikredesStemme = [
   'denne bog indtil sidste side.',
 ].join('\n');
 
-/** Kapitel 13 på emnelandkortet. */
+/** Kapitel 15 på emnelandkortet. */
 const verstaatlichung = {
   id: 'verstaatlichung',
   titel: 'Statsliggørelsen af sundhedsvæsenet',

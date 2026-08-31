@@ -455,7 +455,7 @@ const miteinander = {
       erklaerung:
         'Hahnemanns fortyndinger er den dag i dag omstridte — men ' +
         'hans spørgsmål om, hvad der gælder som bevis for en virkning, ' +
-        'er medicinens spørgsmål overhovedet. Det forbinder kapitel 16 ' +
+        'er medicinens spørgsmål overhovedet. Det forbinder kapitel 9 ' +
         'med nutidens informations-medicin.',
     },
   ],

@@ -1,4 +1,4 @@
-// Kapitel 10 — „Jenner und die Impfung".
+// Kapitel 12 — „Jenner und die Impfung".
 //
 // Das zweite Kapitel der Neuzeit. Es erzählt die erfolgreichste Maßnahme
 // der Medizingeschichte — die Ausrottung der Pocken — und zugleich den
@@ -877,7 +877,7 @@ const stimmeDerImpfkritik = [
   'die zweite Seite erzählt.',
 ].join('\n');
 
-/** Kapitel 10 der Themenlandkarte. */
+/** Kapitel 12 der Themenlandkarte. */
 const jennerImpfung = {
   id: 'jenner-impfung',
   titel: 'Jenner und die Impfung',

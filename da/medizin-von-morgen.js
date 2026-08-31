@@ -375,7 +375,7 @@ const stimmeDerErstenKi = [
   '**I hvilken modningsfase står denne metode — og hvem beslutter over',
   'prøvetidens varighed?**',
   '',
-  'Det er præcis det spørgsmål, som kapitel 15 stillede til',
+  'Det er præcis det spørgsmål, som kapitel 17 stillede til',
   'mRNA-teknologien, og det kommer her igen, fordi det ikke blev',
   'besvaret. Over prøvetiden beslutter i dag: godkendelsesmyndigheder,',
   'hvis gebyrer i betydelig grad kommer fra ansøgerne selv;',

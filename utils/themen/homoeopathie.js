@@ -1,4 +1,4 @@
-// Kapitel 16 — „Hahnemann und die Homöopathie".
+// Kapitel 9 — „Hahnemann und die Homöopathie".
 //
 // Das achte Kapitel der Neuzeit und das persönlichste des Buches: Der
 // Betreiber ist Heilpraktiker, und die Homöopathie ist die umstrittenste
@@ -839,7 +839,7 @@ const stimmeAusDerLeitung = [
   'die Kügelchen.',
   '',
   'Und schließlich der Punkt, der mir am meisten zusetzt und der dieses',
-  'Buch von Anfang an begleitet. Dieses Buch erzählt seit Kapitel 9',
+  'Buch von Anfang an begleitet. Dieses Buch erzählt seit Kapitel 11',
   'immer wieder dasselbe Muster: **Das Neue schadet oft erst, bevor es',
   'segensreich wird.** Die Chirurgie tötete durch Wundfieber, ehe sie',
   'rettete; die Strahlen verbrannten ihre Pioniere; das Penicillin',
@@ -1444,7 +1444,7 @@ const homoeopathie = {
     'behandelte, begann ein Pfarrer in Bayern, Kranke mit kaltem',
     'Wasser, Bewegung und Kräutern zu behandeln — und wurde von',
     'derselben Schulmedizin verspottet, die Hahnemann verspottet',
-    'hatte. **Kapitel 17 erzählt von Sebastian Kneipp und der',
+    'hatte. **Kapitel 10 erzählt von Sebastian Kneipp und der',
     'Naturheilkunde** — der großen Schwester der Homöopathie, die',
     'keine Globuli braucht, kein Organon, keine Potenzierung. Nur',
     'Wasser, Vertrauen und die Überzeugung, dass der Körper sich',

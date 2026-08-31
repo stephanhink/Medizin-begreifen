@@ -31,9 +31,9 @@ const META = {
 const ids = [
   'anfaenge-der-heilkunde','china-tcm','indien-ayurveda','hippokrates-galen',
   'avicenna-arabische-medizin','klostermedizin','paracelsus-vesal','harvey',
-  'chirurgie-anfaenge','jenner-impfung','pasteur-lister','roentgen-penicillin',
-  'verstaatlichung','pharmaindustrie','mrna-covid','homoeopathie','kneipp',
-  'einfache-medizin','medizin-von-morgen','miteinander',
+  'homoeopathie','kneipp','chirurgie-anfaenge','jenner-impfung',
+  'pasteur-lister','roentgen-penicillin','verstaatlichung','pharmaindustrie',
+  'mrna-covid','einfache-medizin','medizin-von-morgen','miteinander',
 ];
 
 // ---- Sprach-Labels ----

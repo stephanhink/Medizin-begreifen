@@ -41,7 +41,7 @@
 // Selbstvermessung. Die erste Stimme benennt das selbst (Abschnitt „Wenn
 // das Einfache zur Ware wird").
 //
-// LÄNGENREGEL (Betreiber-Feedback 24.08.2026): Ab Kapitel 9 gilt die
+// LÄNGENREGEL (Betreiber-Feedback 24.08.2026): Ab der Neuzeit gilt die
 // Umkehrung — vollständig und ausführlich. Gemessen wird in
 // tests/karte-einfache-medizin.mjs.
 //
@@ -145,7 +145,7 @@ const stimmeDesAlltags = [
   'moderne Medizin großartig, und ich sage das ohne Zähneknirschen: Wer',
   'mit einem verschlossenen Herzkranzgefäß in ein Katheterlabor gefahren',
   'wird, verdankt sein Leben nicht dem Spaziergang, sondern der Technik.',
-  'Kapitel 9 bis 12 dieses Buches haben erzählt, was es gekostet hat,',
+  'Kapitel 11 bis 14 dieses Buches haben erzählt, was es gekostet hat,',
   'dahin zu kommen.',
   '',
   '**Ich rede von den Krankheiten, die man nicht bekommt, sondern in die',

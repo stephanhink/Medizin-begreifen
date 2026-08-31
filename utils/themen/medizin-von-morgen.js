@@ -380,7 +380,7 @@ const stimmeDerErstenKi = [
   '**In welcher Phase der Reife steht dieses Verfahren — und wer',
   'entscheidet über die Dauer der Prüfzeit?**',
   '',
-  'Das ist genau die Frage, die Kapitel 15 an der mRNA-Technologie',
+  'Das ist genau die Frage, die Kapitel 17 an der mRNA-Technologie',
   'gestellt hat, und sie kommt hier wieder, weil sie nicht beantwortet',
   'wurde. Über die Prüfzeit entscheiden heute: Zulassungsbehörden, deren',
   'Gebühren zu erheblichen Teilen von den Antragstellern selbst kommen;',

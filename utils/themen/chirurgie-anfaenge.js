@@ -1,4 +1,4 @@
-// Kapitel 9 — „Die grausamen Anfänge der modernen Chirurgie".
+// Kapitel 11 — „Die grausamen Anfänge der modernen Chirurgie".
 //
 // Das erste Kapitel der Neuzeit. Hier beginnt die Medizin, die wir heute
 // kennen — und sie beginnt in einem Raum, in dem ein Mensch bei vollem
@@ -18,7 +18,7 @@
 // nicht deckte — daraus entstand ein Markt.) Und die Lücke der ganzen
 // Denkart: Niemand fragte, warum die Wunde später eiterte.
 //
-// LÄNGENREGEL (Betreiber-Feedback 24.08.2026): Ab Kapitel 9 kehrt sich die
+// LÄNGENREGEL (Betreiber-Feedback 24.08.2026): Ab der Neuzeit kehrt sich die
 // Regel um — dieses Kapitel wird AUSFÜHRLICH und anschaulich erzählt
 // („die Anfänge der neuen Medizin um 1850 in London finde ich besonders
 // spannend"). Ausführlich heißt nicht aufgebläht: jeder Absatz bringt die
@@ -29,9 +29,9 @@
 // überlebten Eingriffe) UND der Preis (die Sterblichkeit am Wundfieber, die
 // Grausamkeit ohne Narkose, die Körper der Armen, auf denen das Wissen
 // gebaut ist). KEINE GERÜCHTE (Betreiber-Entscheid 25.08.2026): Die
-// berühmte Geschichte von der „Operation mit dreihundert Prozent
-// Sterblichkeit" wird erzählt UND ausdrücklich als unbelegte Anekdote
-// gekennzeichnet.
+// berühmte Geschichte von den drei Todesfällen bei einer Operation
+// („dreihundertprozentige Sterblichkeit") wird erzählt UND ausdrücklich
+// als unbelegte Anekdote gekennzeichnet.
 //
 // Stimmen (Runde 10): Die ERSTE Perspektive — die Chirurgen von innen —
 // verfasste Opus. Die ZWEITE (die Patienten und die Toten: die Nacht auf
@@ -366,10 +366,12 @@ const stimmeDerChirurgen = [
   'und dafür verlacht wurden. Rückblickend hatten sie in manchem recht.',
   '',
   '**Eine Warnung an dieser Stelle, weil dieses Buch nur Belegtes',
-  'erzählt.** Über Liston kursiert eine berühmte Geschichte: eine',
-  'Operation mit dreihundert Prozent Sterblichkeit — der Kranke stirbt',
-  'am Wundbrand, der Gehilfe an der Wunde seiner abgetrennten Finger,',
-  'ein Zuschauer am Schreck. Die Geschichte ist gut erzählt und wird',
+  'erzählt.** Über Liston kursiert eine berühmte Geschichte: drei',
+  'Todesfälle bei einer Operation — der Kranke stirbt am Wundbrand,',
+  'der Gehilfe an der Wunde seiner abgetrennten Finger, ein Zuschauer',
+  'am Schreck. Weil die Zahl jede Sterblichkeit übersteigt, spricht die',
+  'Überlieferung von einer „dreihundertprozentigen Sterblichkeit“. Die',
+  'Geschichte ist gut erzählt und wird',
   'überall wiederholt. **Sie ist in dieser Form erst in einem',
   'Anekdotenbuch von 1983 aufgeschrieben worden und lässt sich in den',
   'Berichten der Zeit nicht nachweisen.** Wir erzählen sie Dir, weil Du',
@@ -756,7 +758,7 @@ const stimmeDerPatienten = [
   'er zahlen wollte?',
 ].join('\n');
 
-/** Kapitel 9 der Themenlandkarte. */
+/** Kapitel 11 der Themenlandkarte. */
 const chirurgieAnfaenge = {
   id: 'chirurgie-anfaenge',
   titel: 'Die grausamen Anfänge der modernen Chirurgie',

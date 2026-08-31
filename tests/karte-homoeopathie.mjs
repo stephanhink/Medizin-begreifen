@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 16 — „Hahnemann und die Homöopathie" und seine
+// Prüfungen für Kapitel 9 — „Hahnemann und die Homöopathie" und seine
 // Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
@@ -196,12 +196,12 @@ export function laufe(pruefe) {
   );
   if (!thema) return;
 
-  // Die Reihenfolge im Index ist die Reihenfolge in der App: Kapitel 16
-  // steht hinter „mRNA und COVID" (Themenlandkarte in CLAUDE.md).
+  // Die Reihenfolge im Index ist die Reihenfolge in der App: Kapitel 9
+  // steht hinter „Harvey und der Blutkreislauf" (Themenlandkarte in CLAUDE.md).
   pruefe(
-    'Homöopathie: steht in der App hinter „mRNA und COVID"',
+    'Homöopathie: steht in der App hinter „Harvey und der Blutkreislauf"',
     alleThemen.findIndex((t) => t.id === 'homoeopathie') ===
-      alleThemen.findIndex((t) => t.id === 'mrna-covid') + 1,
+      alleThemen.findIndex((t) => t.id === 'harvey') + 1,
   );
 
   // =========================================================================

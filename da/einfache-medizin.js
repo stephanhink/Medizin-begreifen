@@ -129,7 +129,7 @@ const stimmeDesAlltags = [
   'hjerteinfarktet i den anden time. Der er moderne medicin fremragende,',
   'og det siger jeg uden at skære tænder: Den, der med en tilstoppet',
   'kranspulsåre bliver kørt ind i et kateterlaboratorium, skylder ikke',
-  'sit liv til spadsereturen, men til teknologien. Kapitel 9 til 12 i',
+  'sit liv til spadsereturen, men til teknologien. Kapitel 11 til 14 i',
   'denne bog har fortalt, hvad det kostede at nå dertil.',
   '',
   '**Jeg taler om de sygdomme, man ikke får, men lever sig ind i.**',

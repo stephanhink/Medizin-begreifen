@@ -1,4 +1,4 @@
-// Kapitel 10 — „Jenner og vaccinationen".
+// Kapitel 12 — „Jenner og vaccinationen".
 //
 // Det andet kapitel i den nyere tid. Det fortæller historien om
 // medicinhistoriens mest succesfulde indsats — udryddelsen af kopperne —
@@ -862,7 +862,7 @@ const stimmeDerImpfkritik = [
   'hører med i historien. Denne stemme har fortalt den anden side.',
 ].join('\n');
 
-/** Kapitel 10 på tema-landkortet. */
+/** Kapitel 12 på tema-landkortet. */
 const jennerImpfung = {
   id: 'jenner-impfung',
   titel: 'Jenner og vaccinationen',

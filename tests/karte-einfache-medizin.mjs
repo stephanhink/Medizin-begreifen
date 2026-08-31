@@ -55,7 +55,7 @@ const KUESTEN_TOLERANZ = 1.2;
 /**
  * Obergrenze für die Länge des Kapitels in Zeilen.
  *
- * Ab Kapitel 9 gilt die Umkehrung der Längenregel (CLAUDE.md): vollständig
+ * Ab der Neuzeit gilt die Umkehrung der Längenregel (CLAUDE.md): vollständig
  * und ausführlich. Die Grenze steht wie bei Kneipp bei 2.200 Zeilen und
  * soll nur das Ausufern verhindern, nicht die Ausführlichkeit.
  */

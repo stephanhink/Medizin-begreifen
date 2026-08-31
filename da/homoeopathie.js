@@ -1,4 +1,4 @@
-// Kapitel 16 — „Hahnemann og homøopatien".
+// Kapitel 9 — „Hahnemann og homøopatien".
 //
 // Det ottende kapitel om den nyere tid og bogens mest personlige: Forfatteren
 // er naturlæge, og homøopatien er den mest omstridte behandlingsform i de
@@ -795,7 +795,7 @@ const stimmeAusDerLeitung = [
   'er en stor fortjeneste. Det er bare ikke et bevis for kuglerne.',
   '',
   'Og til sidst det punkt, der trykker mig mest, og som har ledsaget',
-  'denne bog fra begyndelsen. Denne bog fortæller siden kapitel 9 igen',
+  'denne bog fra begyndelsen. Denne bog fortæller siden kapitel 11 igen',
   'og igen det samme mønster: **Det nye skader ofte, før det bliver til',
   'velsignelse.** Kirurgien dræbte gennem sårfeber, før den reddede;',
   'strålerne brændte deres pionerer; penicillinen reddede millioner og',
@@ -1405,7 +1405,7 @@ const homoeopathie = {
     'brutale medicin. I samme århundrede, hvor skolemedicinen behandlede',
     'sine syge med åreladning og kviksølv, begyndte en præst i Bayern at',
     'behandle syge med koldt vand, bevægelse og urter — og blev spottet af',
-    'den samme skolemedicin, der havde spottet Hahnemann. **Kapitel 17',
+    'den samme skolemedicin, der havde spottet Hahnemann. **Kapitel 10',
     'fortæller om Sebastian Kneipp og naturmedicinen** — homøopatiens',
     'store søster, der ikke behøver globuli, intet Organon, ingen',
     'potensering. Kun vand, tillid og overbevisningen om, at kroppen',

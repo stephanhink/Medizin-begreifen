@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 14 — „Die moderne Pharmaindustrie" und seine Karte.
+// Prüfungen für Kapitel 16 — „Die moderne Pharmaindustrie" und seine Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
 // UI-Importe: läuft mit blankem `node`.
@@ -1151,7 +1151,7 @@ export function laufe(pruefe) {
   );
   pruefe(
     'Pharmaindustrie: der Anschluss an die Verstaatlichung und die Impfkurven ist gelegt',
-    /Kapitel 13/.test(fliessend) && /Kapitel 10/.test(fliessend),
+    /Kapitel 15/.test(fliessend) && /Kapitel 12/.test(fliessend),
   );
 
   // --- Die Tür zur zweiten Stimme ------------------------------------------

@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 15 — „mRNA und COVID" und seine Karte.
+// Prüfungen für Kapitel 17 — „mRNA und COVID" und seine Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
 // UI-Importe: läuft mit blankem `node`.
@@ -1007,7 +1007,7 @@ export function laufe(pruefe) {
 
   pruefe(
     'mRNA/COVID/Zyklus: das Muster des Buches wird benannt',
-    /Dieses Buch erzählt seit Kapitel 9 immer dasselbe Muster/.test(fliessend) &&
+    /Dieses Buch erzählt seit Kapitel 11 immer dasselbe Muster/.test(fliessend) &&
       /Die Chirurgie tötete durch Wundfieber, bevor sie rettete/.test(fliessend),
   );
   pruefe(
@@ -1077,8 +1077,8 @@ export function laufe(pruefe) {
   // (Die Brücke zu Kapitel 16 legt der Hermes-Pass mit der zweiten Stimme.)
   const bueckentext = (perspektivenText + ' ' + thema.synthese).replace(/\s+/g, ' ');
   pruefe(
-    'mRNA/COVID: die Brücke zur Pharmaindustrie (Kapitel 14) ist gelegt',
-    /Kapitel 14/.test(bueckentext),
+    'mRNA/COVID: die Brücke zur Pharmaindustrie (Kapitel 16) ist gelegt',
+    /Kapitel 16/.test(bueckentext),
   );
   pruefe(
     'mRNA/COVID: die Brücke zu Jenner und der Impfung (Kapitel 10) ist gelegt',

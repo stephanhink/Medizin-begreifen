@@ -1,4 +1,4 @@
-// Kapitel 15 — „mRNA und COVID".
+// Kapitel 17 — „mRNA und COVID".
 //
 // Das siebte Kapitel der Neuzeit und das sorgfältigste des ganzen Buches
 // (Betreiber-Vorgabe, CLAUDE.md): Hier gilt die TONE-Regel doppelt. Beide
@@ -618,7 +618,7 @@ const stimmeDerBefuerworter = [
   '2022 mit seinem Corona-Impfstoff rund achtunddreißig Milliarden Dollar',
   'um — der höchste Jahresumsatz, den ein Arzneimittel je hatte. Das',
   'gehört in dieselbe Bilanz wie die geretteten Leben, und es ist kein',
-  'Widerspruch, beides nebeneinander stehen zu lassen. Kapitel 14 hat',
+  'Widerspruch, beides nebeneinander stehen zu lassen. Kapitel 16 hat',
   'gezeigt, wie eng Nutzen und Geschäft in dieser Industrie beieinander',
   'liegen.',
   '',
@@ -626,7 +626,7 @@ const stimmeDerBefuerworter = [
   '',
   '**Antwort: Nein. Und das ist der ehrlichste Satz dieses Podiums.**',
   '',
-  'Dieses Buch erzählt seit Kapitel 9 immer dasselbe Muster. Die',
+  'Dieses Buch erzählt seit Kapitel 11 immer dasselbe Muster. Die',
   'Chirurgie tötete durch Wundfieber, bevor sie rettete. Die Röntgenärzte',
   'starben an Leukämie, bevor die Radiologie entstand. Die Impfung begann',
   'mit Versuchen an Gefangenen und Waisenkindern, bevor die Pocken',
@@ -737,7 +737,7 @@ const stimmeDerBefuerworter = [
   'gelöschten Beiträgen und von Wissenschaftlern, die für abweichende',
   'Positionen bezahlt haben. Sie wird nach der Rolle großer privater',
   'Geldgeber fragen. Und sie wird die Frage stellen, die dieses Buch',
-  'seit Kapitel 9 begleitet: ob eine Idee, die vermutlich gut ist, schon',
+  'seit Kapitel 11 begleitet: ob eine Idee, die vermutlich gut ist, schon',
   'reif genug war.',
   '',
   '**Nichts davon ist eine Verschwörungserzählung, und nichts davon',
@@ -1817,7 +1817,7 @@ const stimmeDerSkeptiker = [
 ].join('\n');
 
 /**
- * Kapitel 15 — „mRNA und COVID".
+ * Kapitel 17 — „mRNA und COVID".
  *
  * Runde 16 legt das Modul mit der ersten Perspektive an (die Befürworter,
  * als Folge von fünf Pressekonferenzen). Die zweite Stimme (die Skeptiker)
@@ -1912,7 +1912,7 @@ const mrnaCovid = {
     '**Und sie teilen die zentrale Erkenntnis des Buches:** Eine Idee,',
     'die vermutlich gut ist, ist nicht dasselbe wie eine Technologie,',
     'die ausgereift ist. Der Innovations-Zyklus, den dieses Buch seit',
-    'Kapitel 9 erzählt, gilt auch hier: Das Neue schadet zuerst, bevor',
+    'Kapitel 11 erzählt, gilt auch hier: Das Neue schadet zuerst, bevor',
     'es segensreich wird — und der Schaden kam fast immer aus der',
     'Überzeugung, die Zeit der Prüfung überspringen zu können. Beide',
     'Stimmen stellen dieselbe Frage: In welcher Phase ihrer Reife steht',
@@ -2014,7 +2014,7 @@ const mrnaCovid = {
     'seiner Zeit, er glaubte an die Beobachtung des Einzelnen — und er',
     'stellte dieselbe Frage, die dieses Kapitel stellt: Was, wenn die',
     'Schulmedizin prüft, was sie für prüfbar hält, und übersieht, was',
-    'sie nicht messen kann? Kapitel 16 erzählt seine Geschichte.',
+    'sie nicht messen kann? Kapitel 9 erzählt seine Geschichte.',
     '',
     'Und diese Frage hat durch die mRNA eine neue Schärfe bekommen:',
     '**Die Medizin hat in diesem Kapitel akzeptiert, dass Information',

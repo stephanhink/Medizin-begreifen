@@ -1,4 +1,4 @@
-// Kapitel 11 — „Pasteur und Lister".
+// Kapitel 13 — „Pasteur und Lister".
 //
 // Das dritte Kapitel der Neuzeit und der Wendepunkt des ganzen Buches: Hier
 // findet die Medizin die Ursache der Wundinfektion, die Semmelweis in
@@ -626,7 +626,7 @@ const stimmeDesLabors = [
   '',
   'Bleibt das eine, das wir Dir schuldig geblieben sind.',
   '',
-  'In Kapitel 9 dieses Buches steht ein Arzt in Wien, der zählt, was',
+  'In Kapitel 11 dieses Buches steht ein Arzt in Wien, der zählt, was',
   'niemand zählen will: **Ignaz Semmelweis**, dessen Wöchnerinnen',
   'starben, wenn Ärzte sie untersuchten, und lebten, wenn Hebammen es',
   'taten. Er fand die Maßnahme — Hände waschen mit Chlorkalk — und',
@@ -791,7 +791,7 @@ const stimmeDesLister = [
   'Tischen lagen, bleibt offen für die Kapitel, die kommen.',
 ].join('\n');
 
-/** Kapitel 11 der Themenlandkarte. */
+/** Kapitel 13 der Themenlandkarte. */
 const pasteurLister = {
   id: 'pasteur-lister',
   titel: 'Pasteur und Lister',

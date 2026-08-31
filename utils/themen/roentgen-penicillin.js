@@ -1,4 +1,4 @@
-// Kapitel 12 — „Röntgen und Penicillin".
+// Kapitel 14 — „Röntgen und Penicillin".
 //
 // Das vierte Kapitel der Neuzeit und das Kapitel der zwei Zufälle: 1895
 // leuchtet in Würzburg ein Schirm auf, obwohl die Röhre verhüllt ist — die
@@ -313,7 +313,7 @@ const stimmeDesEntdeckers = [
   'Vesal in Kapitel 7 hat sich seine Anatomie an Leichen erarbeitet.',
   'Harvey in Kapitel 8 musste den Kreislauf aus Klappen, Rechnungen und',
   'Unterbindungen erschließen, weil er ihn nicht sehen konnte. Die',
-  'Chirurgen in Kapitel 9 schnitten und fanden erst dann heraus, was',
+  'Chirurgen in Kapitel 11 schnitten und fanden erst dann heraus, was',
   'drinnen los war — oft zu spät.',
   '',
   '**Von diesem Tag an konnte man in einen lebenden Menschen',
@@ -382,7 +382,7 @@ const stimmeDesEntdeckers = [
   'bestätigen: Ohne die amerikanische Industrie wäre aus dem Schimmelpilz',
   'nichts geworden. **Aber die Frage, wem eine Entdeckung gehört, ist',
   'damit nicht beantwortet, sondern nur verschoben.** Halte diese beiden',
-  'Antworten nebeneinander, wenn Du bei Kapitel 14 ankommst.',
+  'Antworten nebeneinander, wenn Du bei Kapitel 16 ankommst.',
   '',
   '## „Was hat die Medizin daraus gemacht?"',
   '',
@@ -561,8 +561,8 @@ const stimmeDesEntdeckers = [
   '',
   '**Drittens, und das ist die allgemeine Lehre:** Dieses Kapitel',
   'wiederholt ein Muster, das dieses Buch von Anfang an durchzieht. Die',
-  'Chirurgie in Kapitel 9 hat getötet, bevor sie rettete. Die Impfung in',
-  'Kapitel 10 begann mit Versuchen, die heute niemand zulassen würde. Die',
+  'Chirurgie in Kapitel 11 hat getötet, bevor sie rettete. Die Impfung in',
+  'Kapitel 12 begann mit Versuchen, die heute niemand zulassen würde. Die',
   'Strahlen haben ihre eigenen Pioniere umgebracht, bevor aus ihnen die',
   'Radiologie wurde. Und die zweite Stimme dieses Kapitels wird Dir',
   'erzählen, wie ein Mittel, das Millionen gerettet hat, den Bakterien',
@@ -801,7 +801,7 @@ const stimmeDesFleming = [
   'Geschäfte werden, ist die Frage der Kapitel, die nun kommen.',
 ].join('\n');
 
-/** Kapitel 12 der Themenlandkarte. */
+/** Kapitel 14 der Themenlandkarte. */
 const roentgenPenicillin = {
   id: 'roentgen-penicillin',
   titel: 'Röntgen und Penicillin',

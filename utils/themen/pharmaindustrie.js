@@ -1,4 +1,4 @@
-// Kapitel 14 — „Die moderne Pharmaindustrie".
+// Kapitel 16 — „Die moderne Pharmaindustrie".
 //
 // Das sechste Kapitel der Neuzeit und das erste, in dem nicht ein Forscher,
 // nicht ein Gesetz, sondern ein Unternehmen die Hauptrolle spielt. Seit
@@ -164,8 +164,8 @@ const stimmeDerIndustrie = [
   'unsere Arbeit.** Ich sage ausdrücklich: ein Teil. Der größere Teil',
   'des Rückgangs der großen Infektionskrankheiten gehört nicht uns,',
   'sondern der Kanalisation, dem sauberen Trinkwasser, der besseren',
-  'Wohnung und der besseren Ernährung. Kapitel 13 hat es an Hamburg und',
-  'Altona vorgerechnet, Kapitel 10 an den Kurven, die schon fielen,',
+  'Wohnung und der besseren Ernährung. Kapitel 15 hat es an Hamburg und',
+  'Altona vorgerechnet, Kapitel 12 an den Kurven, die schon fielen,',
   'bevor die Impfungen kamen. Wer diesen Satz von uns nicht hört,',
   'bekommt von uns eine geschönte Geschichte erzählt. Unser Beitrag',
   'kommt später, und er ist schmaler, als unsere Werbung nahelegt — aber',
@@ -293,7 +293,7 @@ const stimmeDerIndustrie = [
   'worden; er musste es nicht. Ein Jahr später verlangte das Gesetz zum',
   'ersten Mal den Nachweis, dass ein Mittel unschädlich ist.',
   '',
-  'Dies ist das Muster, das dieses Buch seit Kapitel 9 immer wieder',
+  'Dies ist das Muster, das dieses Buch seit Kapitel 11 immer wieder',
   'erzählt: **Das Neue schadet oft erst, bevor es segensreich wird.** Die',
   'Chirurgie tötete durch Wundfieber, ehe sie rettete. Die Strahlen',
   'verbrannten ihre Pioniere, ehe die Radiologie daraus wurde. Bei uns',
@@ -339,11 +339,11 @@ const stimmeDerIndustrie = [
   'Zauberkugel-Idee, konsequent durchprobiert. Der rote Azofarbstoff',
   'Prontosil rettet infizierte Mäuse. 1935 veröffentlicht er. Zum ersten',
   'Mal gibt es ein Mittel gegen die Wundinfektion, das Kindbettfieber,',
-  'die Blutvergiftung — die Killer, von denen die Kapitel 9 und 11',
+  'die Blutvergiftung — die Killer, von denen die Kapitel 11 und 13',
   'erzählen. Domagk erhält 1939 den Nobelpreis und muss ihn auf Druck',
   'des Regimes ablehnen; er bekommt die Medaille erst 1947.',
   '',
-  '**Das Penicillin, 1941 bis 1945.** Die Entdeckung gehört Kapitel 12.',
+  '**Das Penicillin, 1941 bis 1945.** Die Entdeckung gehört Kapitel 14.',
   'Uns gehört der zweite Teil: aus einem Laborsaft ein Massenprodukt zu',
   'machen. Amerikanische Werke bauen Gärtanks; zur Landung in der',
   'Normandie im Juni 1944 stehen Millionen Dosen bereit. **Das ist',
@@ -544,7 +544,7 @@ const stimmeDerIndustrie = [
   'in dieser Denkart ein Regelkreis, der aus dem Ruder läuft: zu viel',
   'Säure, zu wenig Insulin, ein Entzündungsbotenstoff im Übermaß. Wer so',
   'denkt, sucht den Stoff, der genau dort eingreift. Das ist keine Gier,',
-  'das ist eine Weltsicht — dieselbe, die Kapitel 11 als die',
+  'das ist eine Weltsicht — dieselbe, die Kapitel 13 als die',
   'Ursache-Wirkung-Denkart beschrieben hat, gegenüber der',
   'Gleichgewichts-Denkart der alten Traditionen.',
   '',
@@ -614,7 +614,7 @@ const stimmeDerIndustrie = [
   'Milliarden um das Jahr 2000 auf ein Vielfaches gewachsen, und ein',
   'einzelner Corona-Impfstoff brachte 2022 rund achtunddreißig',
   'Milliarden Dollar in einem Jahr — der höchste Jahresumsatz, den ein',
-  'Arzneimittel je hatte. Kapitel 15 wird sich damit auseinandersetzen.',
+  'Arzneimittel je hatte. Kapitel 17 wird sich damit auseinandersetzen.',
   '',
   '**Der Gewinn beweist nicht, dass das Mittel schlecht ist.** Das',
   'Insulin ist ein Geschäft und rettet Leben; beides zugleich. Aber der',
@@ -1084,7 +1084,7 @@ const stimmeDerKritik = [
 ].join('\n');
 
 /**
- * Kapitel 14 — „Die moderne Pharmaindustrie".
+ * Kapitel 16 — „Die moderne Pharmaindustrie".
  *
  * Runde 15 legt das Modul mit der ersten Perspektive an (die Industrie von
  * innen, als Beipackzettel ihrer selbst). Die zweite Stimme (die Kritik) und

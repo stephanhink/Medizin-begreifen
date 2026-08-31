@@ -334,7 +334,7 @@ export function laufe(pruefe) {
     );
     pruefe(
       'Medizin von morgen/Zyklus: die Frage nach der Prüfzeit wird gestellt',
-      /Prüfzeit/.test(opus.text) && /Kapitel 15/.test(opus.text),
+      /Prüfzeit/.test(opus.text) && /Kapitel 17/.test(opus.text),
     );
     pruefe(
       'Medizin von morgen/Zyklus/TONE: auch die Kosten des Wartens werden benannt',

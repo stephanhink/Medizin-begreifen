@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 9 — „Die grausamen Anfänge der modernen Chirurgie"
+// Prüfungen für Kapitel 11 — „Die grausamen Anfänge der modernen Chirurgie"
 // und seine Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
@@ -22,7 +22,7 @@
 //      Sterblichkeit und die Ratlosigkeit über die Ursache (Miasmen).
 //
 //   3. **Die Längenregel, umgekehrt (Betreiber-Vorgabe 24.08.2026).** Ab
-//      Kapitel 9 gilt: vollständig und ausführlich. Die erste Perspektive
+//      Ab der Neuzeit gilt: vollständig und ausführlich. Die erste Perspektive
 //      muss deutlich umfangreicher sein als in den frühen Kapiteln — hier
 //      als weiche Untergrenze geprüft. Nach oben bleibt eine großzügige
 //      Grenze stehen, damit „ausführlich" nicht in „aufgebläht" kippt.
@@ -67,7 +67,7 @@ const {
 const KUESTEN_TOLERANZ = 0.5;
 
 /**
- * Mindestumfang der ersten Perspektive (Neuzeit-Regel, Kapitel 9 ff.).
+ * Mindestumfang der ersten Perspektive (Neuzeit-Regel, ab Kapitel 11).
  *
  * Die frühen Kapitel durften höchstens ~250 Zeilen je Stimme haben. Ab hier
  * gilt die Umkehrung: Dieses Kapitel soll ausführlich sein. Die Untergrenze
@@ -152,12 +152,12 @@ export function laufe(pruefe) {
   );
   if (!thema) return;
 
-  // Die Reihenfolge im Index ist die Reihenfolge in der App: Kapitel 9 steht
-  // hinter Harvey (Themenlandkarte in CLAUDE.md).
+  // Die Reihenfolge im Index ist die Reihenfolge in der App: Kapitel 11 steht
+  // hinter Kneipp (Themenlandkarte in CLAUDE.md).
   pruefe(
     'Chirurgie: steht in der App hinter „Harvey und der Blutkreislauf"',
     alleThemen.findIndex((t) => t.id === 'chirurgie-anfaenge') ===
-      alleThemen.findIndex((t) => t.id === 'harvey') + 1,
+      alleThemen.findIndex((t) => t.id === 'kneipp') + 1,
   );
 
   // =========================================================================
@@ -548,7 +548,7 @@ export function laufe(pruefe) {
   );
 
   // =========================================================================
-  // 3. Die Längenregel — ab Kapitel 9 umgekehrt
+  // 3. Die Längenregel — ab der Neuzeit umgekehrt
   // =========================================================================
 
   const zeilenErsteStimme = chirurgenStimme.text.split('\n').length;
@@ -802,7 +802,8 @@ export function laufe(pruefe) {
   // ausdrücklich als unbelegte Anekdote gekennzeichnet.
   pruefe(
     'Chirurgie/Belege: die 300-Prozent-Geschichte wird als unbelegte Anekdote gekennzeichnet',
-    /dreihundert Prozent/.test(fliessend) &&
+    /drei Todesfälle bei einer Operation/.test(fliessend) &&
+      /dreihundertprozentigen/.test(fliessend) &&
       /lässt sich in den Berichten der Zeit nicht nachweisen/.test(fliessend) &&
       /eine Anekdote, kein Beleg/.test(fliessend),
   );

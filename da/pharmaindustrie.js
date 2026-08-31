@@ -1,4 +1,4 @@
-// Kapitel 14 — „Den moderne medicinalindustri".
+// Kapitel 16 — „Den moderne medicinalindustri".
 //
 // Det sjette kapitel om den nyere tid og det første, hvor hovedrollen
 // ikke spilles af en forsker og ikke af en lov, men af en virksomhed.
@@ -167,7 +167,7 @@ const stimmeDerIndustrie = [
   'arbejde.** Jeg siger udtrykkeligt: en del. Den største del af',
   'tilbagegangen for de store infektionssygdomme tilhører ikke os, men',
   'kloakeringen, det rene drikkevand, bedre boliger og bedre kost.',
-  'Kapitel 13 har regnet det ud på Hamborg og Altona, kapitel 10 på',
+  'Kapitel 15 har regnet det ud på Hamborg og Altona, kapitel 12 på',
   'kurverne, der allerede faldt, før vaccinationerne kom. Den, der',
   'ikke hører denne sætning fra os, får af os fortalt en pyntet',
   'historie. Vores bidrag kommer senere, og det er smallere, end vores',
@@ -294,7 +294,7 @@ const stimmeDerIndustrie = [
   'ikke. Et år senere krævede loven for første gang bevis for, at et',
   'middel er uskadeligt.',
   '',
-  'Det er det mønster, denne bog siden kapitel 9 fortæller igen og',
+  'Det er det mønster, denne bog siden kapitel 11 fortæller igen og',
   'igen: **Det nye skader ofte først, før det bliver til velsignelse.**',
   'Kirurgien dræbte gennem sårfeber, før den reddede. Strålerne brændte',
   'sine pionerer, før radiologien opstod af det. Hos os ser det sådan',
@@ -342,7 +342,7 @@ const stimmeDerIndustrie = [
   'Domagk får i 1939 Nobelprisen og må afvise den under pres fra',
   'regimet; han får medaljen først i 1947.',
   '',
-  '**Penicillinen, 1941 til 1945.** Opdagelsen hører til kapitel 12.',
+  '**Penicillinen, 1941 til 1945.** Opdagelsen hører til kapitel 14.',
   'Til os hører den anden del: at gøre et laboratoriesaft til et',
   'masseprodukt. Amerikanske fabrikker bygger gæringstanke; til',
   'landgangen i Normandiet i juni 1944 står millioner af doser klar.',
@@ -538,7 +538,7 @@ const stimmeDerIndustrie = [
   'syre, for lidt insulin, et betændelsesbudbringer-stof i overflod.',
   'Den, der tænker sådan, søger det stof, der griber ind præcis der.',
   'Det er ingen grådighed, det er et verdensbillede — det samme, som',
-  'kapitel 11 har beskrevet som årsag-virkning-tænkemåden, over for',
+  'kapitel 13 har beskrevet som årsag-virkning-tænkemåden, over for',
   'ligevægtstænkemåden i de gamle traditioner.',
   '',
   '**For det andet, fordi tabletten er målelig.** Fem milligram er',
@@ -606,7 +606,7 @@ const stimmeDerIndustrie = [
   'Vaccinemarkedet er fra nogle få milliarder omkring år 2000 vokset',
   'til det mangedobbelte, og en enkelt corona-vaccine indbragte i 2022',
   'omkring otteogtredive milliarder dollar på et år — den højeste',
-  'årsomsætning, nogen medicin nogensinde har haft. Kapitel 15 vil',
+  'årsomsætning, nogen medicin nogensinde har haft. Kapitel 17 vil',
   'tage sig af det.',
   '',
   '**Profitten beviser ikke, at midlet er dårligt.** Insulinen er en',
@@ -824,7 +824,7 @@ const stimmeDerIndustrie = [
   'Der bliver sætningen tilbage, hvormed forfatteren af denne bog',
   'opsummerer den moderne medicins balance — og jeg kan ikke modsige',
   'ham: **Den moderne medicin er fremragende i diagnostikken og svag i',
-  'behandlingen af de kroniske sygdomme.** Kapitel 12 har vist, hvor',
+  'behandlingen af de kroniske sygdomme.** Kapitel 14 har vist, hvor',
   'godt vi kan se. Vi genkender en tumor på få millimeter, vi måler',
   'dusinvis af værdier ud af en bloddråbe, vi afbilder det bankende',
   'hjerte i lag. **Vi ser i dag mere, end vi kan behandle** — og',
@@ -1055,7 +1055,7 @@ const stimmeDerKritik = [
 ].join('\n');
 
 /**
- * Kapitel 14 — „Den moderne medicinalindustri".
+ * Kapitel 16 — „Den moderne medicinalindustri".
  *
  * Runde 15 anlægger modulet med den første synsvinkel (industrien
  * indefra, som sin egen indlægsseddel). Den anden stemme (kritikken) og

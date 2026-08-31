@@ -1,4 +1,4 @@
-// Kapitel 9 — „De grusomme begyndelser på den moderne kirurgi“.
+// Kapitel 11 — „De grusomme begyndelser på den moderne kirurgi“.
 //
 // Det første kapitel i den nyere tid. Her begynder den medicin, vi kender
 // i dag — og den begynder i et rum, hvor et menneske ved fuld bevidsthed
@@ -29,8 +29,9 @@
 // indgreb) OG prisen (dødeligheden af sårfeber, grusomheden uden
 // bedøvelse, de fattiges kroppe, som viden er bygget på). REGLEN OM
 // INGEN RYGTER (forfatterens beslutning 25.08.2026): Den berømte
-// historie om „operationen med tre hundrede procents dødelighed“
-// fortælles OG udtrykkeligt markeres som ubekræftet anekdote.
+// historie om de tre dødsfald ved én operation (en dødelighed på
+// „tre hundrede procent“) fortælles OG udtrykkeligt markeres som
+// ubekræftet anekdote.
 //
 // Stemmer (runde 10): Den FØRSTE synsvinkel — kirurgerne indefra —
 // skrev Opus. Den ANDEN (patienterne og de døde: natten på kirkegården,
@@ -367,10 +368,12 @@ const kirurgernesStemme = [
   'på flere punkter ret.',
   '',
   '**En advarsel her, fordi denne bog kun fortæller dokumenteret.**',
-  'Om Liston cirkulerer en berømt historie: en',
-  'operation med tre hundrede procents dødelighed — patienten dør',
+  'Om Liston cirkulerer en berømt historie: tre',
+  'dødsfald ved én operation — patienten dør',
   'af koldbrand, medhjælperen af såret efter sine afskårne fingre,',
-  'en tilskuer af rædslen. Historien er godt fortalt og bliver',
+  'en tilskuer af rædslen. Fordi tallet overstiger enhver dødelighed,',
+  'taler overleveringen om en „trehundredeprocentig dødelighed“.',
+  'Historien er godt fortalt og bliver',
   'gentaget overalt. **Den er i denne form først nedskrevet i en',
   'anekdotebog fra 1983 og kan ikke eftervises i tidens',
   'beretninger.** Vi fortæller dig den, fordi du vil møde',
@@ -759,7 +762,7 @@ const patienternesStemme = [
   'han ville betale?',
 ].join('\n');
 
-/** Kapitel 9 i emnelandkortet. */
+/** Kapitel 11 i emnelandkortet. */
 const kirurgiensBegyndelse = {
   id: 'chirurgie-anfaenge',
   titel: 'De grusomme begyndelser på den moderne kirurgi',

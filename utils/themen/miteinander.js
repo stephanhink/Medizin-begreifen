@@ -459,7 +459,7 @@ const miteinander = {
       erklaerung:
         'Hahnemanns Verdünnungen sind bis heute umstritten — aber ' +
         'seine Frage, was als Beweis für eine Wirkung gilt, ist die ' +
-        'Frage der Medizin überhaupt. Sie verbindet Kapitel 16 mit ' +
+        'Frage der Medizin überhaupt. Sie verbindet Kapitel 9 mit ' +
         'der Informations-Medizin von heute.',
     },
   ],

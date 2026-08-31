@@ -1,4 +1,4 @@
-// Kapitel 15 — „mRNA og COVID".
+// Kapitel 17 — „mRNA og COVID".
 //
 // Det syvende kapitel om den nyere tid og det mest omhyggelige i hele
 // bogen (forfatterens krav, CLAUDE.md): Her gælder TONE-reglen dobbelt.
@@ -582,14 +582,14 @@ const stemmeForFortalernesSide = [
   'omkring otteogtredive milliarder dollars med sin corona-vaccine — den',
   'højeste årsomsætning, et lægemiddel nogensinde har haft. Det hører til',
   'i samme regnskab som de reddede liv, og det er ingen modsigelse at',
-  'lade begge dele stå side om side. Kapitel 14 har vist, hvor tæt nytte',
+  'lade begge dele stå side om side. Kapitel 16 har vist, hvor tæt nytte',
   'og forretning ligger på hinanden i denne industri.',
   '',
   '**Spørgsmål, sidste:** Er teknologien så moden?',
   '',
   '**Svar: Nej. Og det er den ærligste sætning på dette podium.**',
   '',
-  'Denne bog fortæller siden kapitel 9 altid det samme mønster. Kirurgien',
+  'Denne bog fortæller siden kapitel 11 altid det samme mønster. Kirurgien',
   'dræbte gennem sårfeber, før den reddede. Røntgenlægerne døde af',
   'leukæmi, før radiologien opstod. Vaccinationen begyndte med forsøg på',
   'fanger og forældreløse børn, før kopperne forsvandt. Penicillinen',
@@ -690,7 +690,7 @@ const stemmeForFortalernesSide = [
   'frygtet. Den vil tale om konformitetspresset, om slettede indlæg og om',
   'forskere, der har betalt for afvigende positioner. Den vil spørge til',
   'de store private finansiereres rolle. Og den vil stille det spørgsmål,',
-  'der har fulgt denne bog siden kapitel 9: om en idé, der formentlig er',
+  'der har fulgt denne bog siden kapitel 11: om en idé, der formentlig er',
   'god, allerede var moden nok.',
   '',
   '**Intet af det er en konspirationsteori, og intet af det bør mangle i',
@@ -1993,7 +1993,7 @@ const mrnaCovid = {
     '',
     '**Og de deler bogens centrale erkendelse:** En idé, der formentlig er',
     'god, er ikke det samme som en teknologi, der er modnet. Den',
-    'innovationscyklus, som denne bog har fortalt siden kapitel 9, gælder',
+    'innovationscyklus, som denne bog har fortalt siden kapitel 11, gælder',
     'også her: Det nye skader først, før det bliver til velsignelse — og',
     'skaden kom næsten altid fra overbevisningen om, at man kunne springe',
     'prøvetiden over. Begge stemmer stiller det samme spørgsmål: I hvilken',
@@ -2083,7 +2083,7 @@ const mrnaCovid = {
     'troede ikke på sin tids tal, han troede på iagttagelsen af det enkelte',
     'menneske — og han stillede det samme spørgsmål, som dette kapitel',
     'stiller: Hvad nu, hvis skolemedicinen prøver det, den anser for',
-    'prøvbart, og overser det, den ikke kan måle? Kapitel 16 fortæller hans',
+    'prøvbart, og overser det, den ikke kan måle? Kapitel 9 fortæller hans',
     'historie.',
     '',
     'Og dette spørgsmål har fået en ny skarphed gennem mRNA: **Medicinen',

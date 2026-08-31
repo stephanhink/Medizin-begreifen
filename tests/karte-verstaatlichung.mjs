@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 13 — „Die Verstaatlichung des Gesundheitswesens"
+// Prüfungen für Kapitel 15 — „Die Verstaatlichung des Gesundheitswesens"
 // und seine Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
@@ -42,7 +42,7 @@
 //      Schwachen helfen sollte, lag fünfzig Jahre später in anderen Händen.
 //
 //   6. **Die Längenregel, umgekehrt (Betreiber-Vorgabe 24.08.2026).** Ab
-//      Kapitel 9 gilt: vollständig und ausführlich. Nach oben bleibt eine
+//      Ab der Neuzeit gilt: vollständig und ausführlich. Nach oben bleibt eine
 //      großzügige Grenze stehen, damit „ausführlich" nicht in „aufgebläht"
 //      kippt.
 //
@@ -665,7 +665,7 @@ export function laufe(pruefe) {
   );
 
   // =========================================================================
-  // 3. Die Längenregel — ab Kapitel 9 umgekehrt
+  // 3. Die Längenregel — ab der Neuzeit umgekehrt
   // =========================================================================
 
   const zeilenErsteStimme = staatsStimme.text.split('\n').length;
@@ -1084,12 +1084,12 @@ export function laufe(pruefe) {
 
   // --- Die Brücken in die folgenden Kapitel --------------------------------
   pruefe(
-    'Verstaatlichung: die Brücke zu Kneipp (Kapitel 17) ist gelegt',
-    /Kneipp/.test(fliessend) && /Kapitel 17/.test(fliessend),
+    'Verstaatlichung: die Brücke zu Kneipp (Kapitel 10) ist gelegt',
+    /Kneipp/.test(fliessend) && /Kapitel 10/.test(fliessend),
   );
   pruefe(
     'Verstaatlichung: die Brücke zu den Gegenwartskapiteln ist gelegt',
-    /Kapitel 14 und 15/.test(fliessend),
+    /Kapitel 16 und 17/.test(fliessend),
   );
 
   // --- Die Tür zur zweiten Stimme ------------------------------------------

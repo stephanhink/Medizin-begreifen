@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 17 — „Kneipp und die Naturheilkunde" und seine
+// Prüfungen für Kapitel 10 — „Kneipp und die Naturheilkunde" und seine
 // Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine

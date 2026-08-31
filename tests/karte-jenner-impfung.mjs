@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 10 — „Jenner und die Impfung" und seine Karte.
+// Prüfungen für Kapitel 12 — „Jenner und die Impfung" und seine Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
 // UI-Importe: läuft mit blankem `node`.

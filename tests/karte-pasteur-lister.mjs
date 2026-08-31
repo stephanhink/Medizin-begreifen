@@ -1,4 +1,4 @@
-// Prüfungen für Kapitel 11 — „Pasteur und Lister" und seine Karte.
+// Prüfungen für Kapitel 13 — „Pasteur und Lister" und seine Karte.
 //
 // Registriert in tests/alle.mjs (Prüf-Regel aus CLAUDE.md). Keine
 // UI-Importe: läuft mit blankem `node`.

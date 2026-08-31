@@ -1,4 +1,4 @@
-// Kapitel 17 — „Kneipp og naturmedicinen".
+// Kapitel 10 — „Kneipp og naturmedicinen".
 //
 // Det niende kapitel om den nyere tid — og efter homøopatien det andet,
 // som forfatteren har særligt nært: Han er naturlæge og står selv i
@@ -600,7 +600,7 @@ const stimmeDesWassers = [
   '',
   'Men nu retfærdigheden, som denne bog kræver, og jeg mener den',
   'alvorligt: **Lægerne havde grunde.** Man skal se på, hvor',
-  'medicinen stod omkring 1890. Den havde netop — i kapitel 9 til 12',
+  'medicinen stod omkring 1890. Den havde netop — i kapitel 11 til 14',
   'i denne bog — vundet narkosen, antisepsis, kimteorien og',
   'røntgenstrålerne. For første gang i historien kunne en læge sige,',
   '**hvorfor** en behandling virker. Og præcis i det øjeblik trak en',
@@ -930,8 +930,8 @@ const stimmeAusDemMessglas = [
   'ordensterapi. **Der findes sygdomme, hvor det at vente dræber —',
   'og hvor diagnosen ikke må være en følelsessag.** Vi har allerede i',
   'denne bog fortalt, hvad der sker, når mennesker kommer for sent',
-  'til lægen: Kapitel 9 viste kirurgien, kapitel 10 vaccinationen,',
-  'kapitel 15 pandemien. Medicinen har sine mørke sider — men den',
+  'til lægen: Kapitel 11 viste kirurgien, kapitel 12 vaccinationen,',
+  'kapitel 17 pandemien. Medicinen har sine mørke sider — men den',
   'har også reddet det ene, som naturmedicinen ikke kan: den akutte',
   'redning.',
   '',
@@ -979,7 +979,7 @@ const stimmeAusDemMessglas = [
   '',
   '**For det andet: Vi har i årtier holdt livsstilen for et emne for',
   'kurbrochuren** — mens de kroniske sygdomme, som vi ikke kan',
-  'helbrede, netop opstår af livsstilen. Kapitel 14 i denne bog har',
+  'helbrede, netop opstår af livsstilen. Kapitel 16 i denne bog har',
   'trukket balancen: stærk i diagnosen, svag ved de kroniske',
   'sygdomme. Naturmedicinen har aldrig undervurderet de kroniske',
   'sygdomme — den har beskæftiget sig med dem, mens vi endnu kun',
@@ -1201,7 +1201,7 @@ const kneipp = {
     'i retningslinjerne. Den står kun mellem linjerne.',
     '',
     'Og så er der den bue, som denne bog selv har slået: Fra Hahnemann',
-    '(kapitel 16), der forstod medicinen som information, til Kneipp,',
+    '(kapitel 9), der forstod medicinen som information, til Kneipp,',
     'der forstod medicinen som livsstil — naturmedicinen har udfordret',
     'skolemedicinen to gange, og begge gange har skolemedicinen til sidst',
     'overtaget det, den først hånede. **Det er ingen tilfældighed. Det',
