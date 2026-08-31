@@ -130,34 +130,38 @@ JPEG 1600/800/400 (Kindle/Website/Miniatur), cover-collage-gemini.png
 
 ## 4. OFFENE PUNKTE / NÄCHSTE SCHRITTE
 
-1. **Liston-300%-Satz — ERLEDIGT (31.08., Commit 9b89768):**
-   Kap. 11 (chirurgie-anfaenge) erzählt die Anekdote jetzt als drei
-   Todesfälle bei einer Operation; die Redewendung von der
-   „dreihundertprozentigen Sterblichkeit" wird als Überlieferung
-   erklärt (DE + DA, Tests angepasst). EPUB+PDF neu gebaut.
-2. **Kapitelfolge — ERLEDIGT (31.08., Commit 9b89768):**
-   Homöopathie (9) + Kneipp (10) stehen jetzt nach Harvey (8), vor der
-   modernen Medizin. Neue Reihenfolge: 11 Chirurgie, 12 Jenner,
-   13 Pasteur/Lister, 14 Röntgen/Penicillin, 15 Verstaatlichung,
-   16 Pharmaindustrie, 17 mRNA/COVID, 18 einfache Medizin, 19 Medizin
-   von morgen, 20 Miteinander. Umgesetzt in index.js, buch-epub.cjs,
-   allen Kopfzeilen und Querverweisen (DE + DA, auch kleingeschriebene
-   dänische „kapitel"-Stellen) und Tests; npm test grün; Bücher neu
-   gebaut. Hinweis: Dramaturgie-Beschriftungen in Testdateien
-   („andere Struktur als in Kapitel N") behalten die Runden-Nummern.
-3. **DA-Titel bestätigen:** Vorschlag „At forstå medicin" → Betreiber
-   hat „En rejse gennem medicinhistorien" gewählt (im Buch-Export
-   bereits verwendet).
-4. **Hörbuch** (tools/hoerbuch.py): eine TTS-Stimme pro Perspektive
+**Erledigt am 31.08. (Commits 9b89768 + 9a4dd6b):**
+1. **Liston-300%-Satz:** Kap. 11 (chirurgie-anfaenge) erzählt die
+   Anekdote jetzt als drei Todesfälle bei einer Operation; die
+   Redewendung von der „dreihundertprozentigen Sterblichkeit" wird als
+   Überlieferung erklärt (DE + DA, Tests angepasst). EPUB+PDF neu
+   gebaut.
+2. **Kapitelfolge chronologisch:** Homöopathie (9) + Kneipp (10) stehen
+   nach Harvey (8) vor der Neuzeit. Neue Reihenfolge: 11 Chirurgie,
+   12 Jenner, 13 Pasteur/Lister, 14 Röntgen/Penicillin,
+   15 Verstaatlichung, 16 Pharmaindustrie, 17 mRNA/COVID,
+   18 einfache Medizin, 19 Medizin von morgen, 20 Miteinander.
+   Umgesetzt in index.js, buch-epub.cjs, allen Kopfzeilen und
+   Querverweisen (DE + DA, auch kleingeschriebene dänische
+   „kapitel"-Stellen) und Tests; npm test grün; Bücher neu gebaut.
+   Hinweis: Dramaturgie-Beschriftungen in Testdateien („andere Struktur
+   als in Kapitel N") behalten bewusst die Runden-Nummern.
+3. **DA-Titel:** „En rejse gennem medicinhistorien" gewählt (im
+   Buch-Export verwendet).
+4. **Doku nachgezogen (31.08.):** CLAUDE.md, notizen/kapitel-planung.md
+   und STAND.md zeigen die chronologische Kapitelliste.
+
+**Offen / nächste Schritte:**
+1. **Hörbuch** (tools/hoerbuch.py): eine TTS-Stimme pro Perspektive
    (Opus-Stimme + DeepSeek-Stimme hörbar getrennt); da-DK ChristelNeural
    existiert.
-5. **App-Build** (eas build, AAB) — mit Freigabe; GitHub Pages
+2. **App-Build** (eas build, AAB) — mit Freigabe; GitHub Pages
    aktivieren (Workflow existiert, Pages war nie aktiviert: Fix
    `gh api repos/.../pages -X POST -f build_type=workflow`).
-6. **Verteilung:** Amazon KDP 2,99 € (DE + DA, KI-Offenlegung
+3. **Verteilung:** Amazon KDP 2,99 € (DE + DA, KI-Offenlegung
    ankreuzen!), naturklinikken-jylland.dk, Leanpub, GitHub (Release mit
    EPUB/PDF), Internet Archive, Podcast via GitHub-Releases.
-7. **DA-Korrekturlesen** durch Betreiber/Mona (Qualitätsschritt);
+4. **DA-Korrekturlesen** durch Betreiber/Mona (Qualitätsschritt);
    EN-Übersetzung später (gleiche Pipeline, neues Glossar).
 
 ## 5. Runden-Workflow (bewährt, für Inhalts-Runden)

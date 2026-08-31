@@ -1,18 +1,27 @@
 # Medizin begreifen — Stand
 
-Stand: 2026-08-19 — Einrichtung abgeschlossen (Basis), noch kein Inhalt.
+Stand: 2026-08-31 — BUCH KOMPLETT: 20/20 Kapitel DE + DA, Cover,
+EPUB/PDF gebaut, chronologische Kapitelreihenfolge.
 
 ## Was steht
 
-- Repo angelegt: github.com/stephanhink/Medizin-begreifen (public)
-- Vorlage „Geschichte begreifen" kopiert, Geschichts-Module entfernt
-- App-Metadaten: „Medizin begreifen" / com.hink.medizin
-- CLAUDE.md: Entwurf liegt in notizen/claude-md-entwurf.md (Freigabe ausstehend)
-- notizen/kapitel-planung.md: der Bogen (15 Kapitel, final zu bestätigen)
+- Repo: github.com/stephanhink/Medizin-begreifen (public, main)
+- 20 Kapitel-Module in utils/themen/ + dänische Fassung in da/
+- App (Expo SDK 57), Tests (npm test grün, ~4.700 Prüfungen),
+  Buch-Pipeline (tools/buch-epub.cjs → ~/Medizin-Buch/)
+- Cover DE+DA (Commit 4064fe6), EPUB/PDF DE + DA neu gebaut (31.08.)
+- Kapitelreihenfolge seit 31.08. chronologisch: Homöopathie 9,
+  Kneipp 10, dann Chirurgie 11 … Miteinander 20 (Commit 9b89768)
 
-## Nächste Schritte
+## Aktueller Stand / nächste Schritte
 
-1. CLAUDE.md freigeben/übernehmen (Entwurf: notizen/claude-md-entwurf.md)
-2. `eas init` + neuer Keystore (medizin-keystore, NIE Geschichts-Keystore)
-3. Erster Commit + Push (nach Freigabe)
-4. Runde 1: Schamanen und Kräuterkundige
+Die Übergabedatei ist die Brücke für jede neue Session — zuerst lesen:
+
+- /Users/openclaw/Medizin-begreifen-UEBERGABE.md (Home-Kopie)
+- ÜBERGABE.md im Repo (identisch)
+- CLAUDE.md (Projekt-DNA, verbindlich) + notizen/kapitel-planung.md
+  (beide auf aktuellem Stand 31.08.)
+
+Nächste Schritte: Hörbuch, App-Build (eas build, GitHub Pages aktivieren),
+Verteilung (KDP, Website, Leanpub, GitHub-Release, Internet Archive),
+DA-Korrekturlesen durch Mona, später EN-Übersetzung.

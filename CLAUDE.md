@@ -89,7 +89,7 @@ entstand), die Impfung (unethische Anfänge, bevor die Pocken fielen),
 das Penicillin (rettete Millionen — und erzeugte die Resistenz). Der
 Schaden kam oft aus der Überzeugung, die Zeit der Prüfung überspringen
 zu können. Dieser Gedanke wird im Hintergrund mitgeführt — insbesondere
-bei der Bewertung der mRNA-Technologie (Kapitel 15): mRNA ist vermutlich
+bei der Bewertung der mRNA-Technologie (Kapitel 17): mRNA ist vermutlich
 eine tolle Idee, die noch nicht ausgereift ist (Betreiber); die Frage
 ist nicht „gut oder böse", sondern in welcher Phase der Reife sie sich
 befindet — und wer über die Dauer der Prüfzeit entscheidet.
@@ -170,7 +170,54 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    Klostergärten.
 7. **Paracelsus und Vesal** — die Anatomie erwacht; Empirie vs. Autorität.
 8. **Harvey** — der Blutkreislauf; Beobachtung vs. Lehrmeinung.
-9. **Die grausamen Anfänge der modernen Chirurgie** — Amputationen ohne
+9. **Hahnemann und die Homöopathie** — die umstrittenste Heilmethode der
+    letzten 200 Jahre. **Betreiber-Vorgabe (wichtig — Denkart-Analyse und
+    die Frage nach den Anhängern):** Die Wirkungsweise wird AUSFÜHRLICH
+    beschrieben: das Ähnlichkeitsprinzip (Similia similibus curentur),
+    die Potenzierung/Verdünnung mit Verschüttelung (Dynamisierung), die
+    Idee der Lebenskraft, die ganzheitliche Anamnese. Dazu, warum die
+    moderne Medizin sie ablehnt (kein nachweisbarer Wirkstoff in
+    Hochpotenzen — Avogadro-Grenze, Studienlage, Unvereinbarkeit mit der
+    Pharmakologie). UND die eigentliche Aufgabe dieses Kapitels
+    (Betreiber): Warum hat die Homöopathie trotzdem seit über 200 Jahren
+    so viele Anhänger — in Indien (staatlich anerkannt, AYUSH, sehr
+    beliebt) und in Deutschland? „Meistens ist etwas daran, wenn über
+    viele Jahrzehnte eine Heilmethode so viele Anhänger hat" (Betreiber).
+    Es ist leicht, sich über die Homöopathie lustig zu machen — dieses
+    Kapitel findet heraus, was die Menschen daran hält: die ausführliche
+    Zuwendung der Anamnese, das Ernstgenommen-Werden, der Placebo- und
+    Erwartungseffekt, die Sicherheit ohne Nebenwirkungen, die
+    Selbstheilungskräfte. Der Betreiber selbst kann mit der Homöopathie
+    wenig anfangen, hat das Prinzip aber verstanden — beides gehört in
+    die Erzählung.
+    **Betreiber-Vorgabe (die Informations-These und die offene Frage —
+    WICHTIG):** Das Kapitel stellt die Homöopathie NICHT als bloßes
+    Placebo dar. Die Informations-Therapie-These wird ernst genommen und
+    ausführlich erklärt: Die Potenzierung überträgt nach homöopathischer
+    Lehre die INFORMATION des Stoffes in das Trägermittel (Verschüttelung,
+    Dynamisierung) — die Frage „ist noch Stoff drin?" ist dann die
+    falsche Frage; die Information wäre das Wirksame. Dass das mit dem
+    heutigen naturwissenschaftlichen Weltbild nicht haltbar ist, heißt
+    nicht, dass es nicht funktionieren kann — Unerklärbarkeit heute ist
+    kein Beweis für Unwirksamkeit (Telefon-Argument: Ein Mensch des
+    Mittelalters hätte ein Telefongespräch als nicht wissenschaftlich
+    erklärbar abgetan; der damalige Stand der „Wissenschaft" war die
+    Grenze des damaligen Wissens, nicht die Grenze der Welt). Die
+    Perspektive der Skeptiker (Avogadro-Grenze, Studienlage) steht
+    gleichwertig daneben — aber nicht als letztes Wort, sondern als eine
+    Denkart von Wirksamkeit. Dazu werden unerklärte Phänomene als
+    Hinweise behandelt, dass das Weltbild Lücken hat: morphische Felder
+    (Rupert Sheldrake), die Zwillings-Phänomene (Kontakt ohne physische
+    Anwesenheit), die Geschichte der „unmöglichen" Technologien. Das
+    Kapitel endet offen mit der Frage: Was gilt als Beweis — und wer
+    entscheidet das? (Die „Wissenschaft" ist auch nur eine Perspektive,
+    die wächst.)
+
+10. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
+    Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
+    Kurierfreiheit).
+
+11. **Die grausamen Anfänge der modernen Chirurgie** — Amputationen ohne
    Betäubung vor Publikum (London), die chirurgischen Theater; Semmelweis
    und das Händewaschen. Die moderne Medizin ist erst ~150 Jahre alt.
    **Betreiber-Vorgabe (ausführlich, anschaulich — und der Leichenklau):
@@ -197,7 +244,8 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
    25.08.2026: die kursierende Behauptung über ukrainische Waisenkinder
    im Organhandel ist nicht belegt und bleibt deshalb AUSSEN VOR — „das
    Buch kann sonst abrutschen").
-10. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
+
+12. **Jenner** — die Impfung (1796); Impfbefürworter vs. Impfgegner.
     **Betreiber-Vorgabe (wichtig — die dunkle Frühgeschichte prominent):**
     Die Pockenimpfung wird oft gefeiert, ist aber in ihrer Frühgeschichte
     extrem umstritten — das wird prominent behandelt, nicht als Randnotiz:
@@ -225,14 +273,18 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     der Epidemiologie der Impferfolge (z. B. Polio, Masern-Komplikationen);
     die Statistiken werden nachprüfbar dargestellt, nichts wird
     beschönigt, nichts wird verzerrt.
-11. **Pasteur und Lister** — die Keimtheorie; Narkose und Antisepsis; die
+
+13. **Pasteur und Lister** — die Keimtheorie; Narkose und Antisepsis; die
     Geburtsstunde der wissenschaftlichen Medizin (~1870).
-12. **Röntgen und Penicillin** — bildgebende Diagnostik und Antibiotika;
+
+14. **Röntgen und Penicillin** — bildgebende Diagnostik und Antibiotika;
     Strahleneuphorie vs. Strahlenschäden.
-13. **Die Verstaatlichung des Gesundheitswesens** — Hygiene als
+
+15. **Die Verstaatlichung des Gesundheitswesens** — Hygiene als
     Staatsaufgabe, Krankenhäuser, Bismarck 1883; Zugang für alle UND
     Verdrängung der Naturheilkunde, Kurierfreiheit.
-14. **Die moderne Pharmaindustrie** — Heilsbringer und Interessen; die
+
+16. **Die moderne Pharmaindustrie** — Heilsbringer und Interessen; die
     ehrliche Bilanz: Diagnose hervorragend (Bildgebung), Behandlung
     chronischer Krankheiten (Krebs, Diabetes) noch nicht weit.
     **Betreiber-Vorgabe (wichtig — die Finanzinteressen prominent):**
@@ -247,7 +299,8 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     fair: die Erfolge der Pharmaindustrie (Medikamente, die Leben retten)
     UND die Interessenkonflikte. Die Sicht der Kritiker wird gleichwertig
     neben die der Industrie gestellt.
-15. **mRNA/COVID** — die Impfstoff-Wende; Wissenschaft vs. Politik.
+
+17. **mRNA/COVID** — die Impfstoff-Wende; Wissenschaft vs. Politik.
     **Betreiber-Vorgabe (wichtig):** Dieses Kapitel behandelt der Betreiber
     mit besonderer Sorgfalt — er stimmt in diesen Punkten vermutlich nicht
     mit der KI überein. Deshalb gilt hier die TONE-Regel doppelt: BEIDE
@@ -291,51 +344,7 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     größter privater Geldgeber von Impfkampagnen weltweit mit ihren
     wirtschaftlichen Verflechtungen (auch in mRNA-Technologie) — die
     Fakten werden genannt, die Deutung bleibt multiperspektivisch.
-16. **Hahnemann und die Homöopathie** — die umstrittenste Heilmethode der
-    letzten 200 Jahre. **Betreiber-Vorgabe (wichtig — Denkart-Analyse und
-    die Frage nach den Anhängern):** Die Wirkungsweise wird AUSFÜHRLICH
-    beschrieben: das Ähnlichkeitsprinzip (Similia similibus curentur),
-    die Potenzierung/Verdünnung mit Verschüttelung (Dynamisierung), die
-    Idee der Lebenskraft, die ganzheitliche Anamnese. Dazu, warum die
-    moderne Medizin sie ablehnt (kein nachweisbarer Wirkstoff in
-    Hochpotenzen — Avogadro-Grenze, Studienlage, Unvereinbarkeit mit der
-    Pharmakologie). UND die eigentliche Aufgabe dieses Kapitels
-    (Betreiber): Warum hat die Homöopathie trotzdem seit über 200 Jahren
-    so viele Anhänger — in Indien (staatlich anerkannt, AYUSH, sehr
-    beliebt) und in Deutschland? „Meistens ist etwas daran, wenn über
-    viele Jahrzehnte eine Heilmethode so viele Anhänger hat" (Betreiber).
-    Es ist leicht, sich über die Homöopathie lustig zu machen — dieses
-    Kapitel findet heraus, was die Menschen daran hält: die ausführliche
-    Zuwendung der Anamnese, das Ernstgenommen-Werden, der Placebo- und
-    Erwartungseffekt, die Sicherheit ohne Nebenwirkungen, die
-    Selbstheilungskräfte. Der Betreiber selbst kann mit der Homöopathie
-    wenig anfangen, hat das Prinzip aber verstanden — beides gehört in
-    die Erzählung.
-    **Betreiber-Vorgabe (die Informations-These und die offene Frage —
-    WICHTIG):** Das Kapitel stellt die Homöopathie NICHT als bloßes
-    Placebo dar. Die Informations-Therapie-These wird ernst genommen und
-    ausführlich erklärt: Die Potenzierung überträgt nach homöopathischer
-    Lehre die INFORMATION des Stoffes in das Trägermittel (Verschüttelung,
-    Dynamisierung) — die Frage „ist noch Stoff drin?" ist dann die
-    falsche Frage; die Information wäre das Wirksame. Dass das mit dem
-    heutigen naturwissenschaftlichen Weltbild nicht haltbar ist, heißt
-    nicht, dass es nicht funktionieren kann — Unerklärbarkeit heute ist
-    kein Beweis für Unwirksamkeit (Telefon-Argument: Ein Mensch des
-    Mittelalters hätte ein Telefongespräch als nicht wissenschaftlich
-    erklärbar abgetan; der damalige Stand der „Wissenschaft" war die
-    Grenze des damaligen Wissens, nicht die Grenze der Welt). Die
-    Perspektive der Skeptiker (Avogadro-Grenze, Studienlage) steht
-    gleichwertig daneben — aber nicht als letztes Wort, sondern als eine
-    Denkart von Wirksamkeit. Dazu werden unerklärte Phänomene als
-    Hinweise behandelt, dass das Weltbild Lücken hat: morphische Felder
-    (Rupert Sheldrake), die Zwillings-Phänomene (Kontakt ohne physische
-    Anwesenheit), die Geschichte der „unmöglichen" Technologien. Das
-    Kapitel endet offen mit der Frage: Was gilt als Beweis — und wer
-    entscheidet das? (Die „Wissenschaft" ist auch nur eine Perspektive,
-    die wächst.)
-17. **Kneipp und die Wiederentdeckung der Naturheilkunde** — Wasser,
-    Bewegung, Ordnung; die Naturheilkunde heute (Heilpraktiker,
-    Kurierfreiheit).
+
 18. **Die einfache Medizin** — **Betreiber-These (26.08.2026, Herzstück):
     Die Behandlung chronischer Erkrankungen ist eigentlich sehr einfach:**
     1) Bewegung, 2) ausgeglichene und gesunde Ernährung (wenig
@@ -351,6 +360,7 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     Arbeitswelt, Stress; die Medizin verdient an der Pille, nicht am
     Rat; die Sucht, die Armut, die fehlende Zeit). Die unbequeme Frage:
     Warum verschreibt die Medizin Pillen statt Lebensstil?
+
 19. **Die Medizin von morgen** — **Betreiber-Vorgabe (26.08.2026):
     Zukunftsmedizin — die große Schere:** Für die wenigen Reichen wird
     es sehr umfangreiche Medizin und Untersuchungen geben (vielleicht
@@ -381,11 +391,13 @@ Die Reihenfolge hier ist zugleich die Reihenfolge in der App
     über die Grenzen des eigenen Blicks). Verbindung zur einfachen
     Medizin (18): Ist die Zukunft die Hightech-Medizin für wenige —
     oder die einfache Medizin für alle?
+
 20. **Das Miteinander?** — die offene Zukunft: Integrative Medizin, KI in
     der Medizin. Das Buch endet OFFEN mit der Frage, ob nicht ein
     Miteinander existieren sollte — der Betreiber schreibt das letzte Wort
     selbst, wörtlich, unverbessert, hervorgehoben als „Schlusswort des
     Autors" (Feld `autorenwort` im Modul).
+
 
 ## Lernformat
 
@@ -413,9 +425,9 @@ dahinter? Welche Wirkungen hatte sie (Erfolge UND Grenzen)?
 (1–8, bis Harvey) KURZ und DICHT halten: jede Perspektive maximal ~250 Zeilen
 (≈ 3.000 Zeichen), ein Kapitel insgesamt maximal ~600 Zeilen. Mehr Dichte,
 weniger Breite; wenige starke Abschnitte; jeder Absatz muss die Erzählung
-voranbringen. AB DER NEUZEIT (Kapitel 9 ff.) gilt die Umkehrung
+voranbringen. AB DER NEUZEIT (Kapitel 11 ff.) gilt die Umkehrung
 (Betreiber-Vorgabe): **vollständig und ausführlich** — insbesondere die
-grausamen Anfänge der modernen Medizin um 1850 in London (Kapitel 9:
+grausamen Anfänge der modernen Medizin um 1850 in London (Kapitel 11:
 anschaulich berichten — OP-Theater, Amputation ohne Narkose), das
 Impfkapitel (10: dunkle Frühgeschichte + impfkritische Statistik
 prominent), die finanzielle Abhängigkeit der Forschung von der

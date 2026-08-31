@@ -1,13 +1,15 @@
 # Kapitel-Planung — „Medizin begreifen" (Die Geschichte der Medizin)
 
-Stand: 2026-08-19 (Entwurf V2 nach Betreiber-Gespräch). Der Bogen stammt
-aus der Übergabedatei und der Ideenskizze `notizen/medizin-projekt.md` und
-wurde um die Betreiber-Vorgaben erweitert (China, Indien und die
-„primitiven" Völker als eigene Kapitel; grausame Anfänge der Chirurgie;
-Verstaatlichung; Kneipp; die Miteinander-Frage als Schluss). Reihenfolge
-hier = Reihenfolge in der App (`utils/themen/index.js`).
+Stand: 2026-08-31 — Bogen UMGESETZT (20/20 Kapitel, DE + DA). Reihenfolge
+hier = Reihenfolge in der App (`utils/themen/index.js`) = chronologisch
+seit 31.08. (Betreiber-Wunsch 30.08.): Homöopathie (9) + Kneipp (10)
+stehen nach Harvey (8) vor der Neuzeit; Chirurgie 11, Jenner 12,
+Pasteur 13, Röntgen 14, Verstaatlichung 15, Pharma 16, mRNA 17,
+einfache Medizin 18, Medizin von morgen 19, Miteinander 20. Dieses
+Dokument ist der Planungs-Entwurf vom 19.08. — der aktuelle Stand steht
+in der Übergabe (~/Medizin-begreifen-UEBERGABE.md).
 
-## Der Bogen (Entwurf V2)
+## Der Bogen (umgesetzt, 20 Kapitel)
 
 | # | Kapitel | Zeitraum / Kern | Perspektiven-Ideen (2+ je Kapitel) |
 |---|---------|-----------------|------------------------------------|
@@ -19,15 +21,15 @@ hier = Reihenfolge in der App (`utils/themen/index.js`).
 | 6 | Klostermedizin | ~500–1200, Hildegard von Bingen | Kloster vs. Marktplatz; Frau (Hildegard) vs. Männerkirche |
 | 7 | Paracelsus und Vesal | 16. Jh., Anatomie | Empirie vs. Autorität; Paracelsus (Außenseiter) vs. Universität |
 | 8 | Harvey | 1578–1657, Blutkreislauf | Forscher vs. Tradition; Beobachtung vs. Lehrmeinung |
-| 9 | Die grausamen Anfänge der modernen Chirurgie | 18./19. Jh., Londoner OP-Theater | **Betreiber-Vorgabe: AUSFÜHRLICH + anschaulich** (London 1850, OP-Theater, Amputation ohne Narkose, Semmelweis). **LEICHENKLAU prominent und spannend:** Resurrection Men graben frische Gräber aus; Leichenwächter (Soulers) und Mortsafes; Burke & Hare 1828 morden für die Anatomie; Anatomy Act 1832. **BRÜCKE ZUM ORGANHANDEL („der Körper als Ware"):** NUR belegt — Nierenhandel Indien/Philippinen/Ägypten/Kosovo, WHO 5–10 %; KEINE Gerüchte (Ukraine-Waisen-Behauptung unbestätigt → außen vor, Betreiber-Entscheid). Fair bleiben (TONE) |
-| 10 | Jenner | 1796, Kuhpocken-Impfung | **Betreiber-Vorgabe (dunkle Frühgeschichte prominent):** Variolation (Infektion mit echten Pocken) an Gefangenen (Newgate 1721) und Waisenkindern getestet; Jenner 1796 am Kind ohne Einwilligung; Arm-zu-Arm-Übertragung verbreitete Syphilis; Impferei auch als Geschäft. **Impfkritische Statistik prominent:** Rückgang vieler Krankheiten begann vor der Impfung (Hygiene/Wasser/Ernährung); nach Impfeinführung kaum zusätzlicher Rückgang; Allergie-Zunahme (Hygiene-Hypothese). BEIDE Seiten: Ausrottung 1980 UND dunkles Kapitel |
-| 11 | Pasteur und Lister | ~1860–1880, Keimtheorie | Mikrobenjäger vs. Chirurgen; Labor vs. Klinik (Narkose + Antisepsis ≈ 1870: die moderne Medizin ist ~150 Jahre alt) |
-| 12 | Röntgen und Penicillin | 1895 / 1928 | Entdecker vs. Zufall; Strahleneuphorie vs. Strahlenschäden |
-| 13 | Die Verstaatlichung des Gesundheitswesens | ~1883 ff., Bismarck | Staat vs. Bürger; Zugang für alle (Krankenkasse, Hygiene) vs. Verdrängung der Naturheilkunde, Kurierfreiheit |
-| 14 | Die moderne Pharmaindustrie | 20. Jh. bis heute | **Betreiber-Vorgabe (Finanzinteressen prominent):** Impfungen und Dauermedikamente als profitables Geschäft; wer kritisch forscht, verliert schnell die Mittel (These, „nicht unkritisch", mit belegten Beispielen prüfen: Studienfinanzierung, unterdrückte Negativ-Ergebnisse, Interessenkonflikte). BEIDE Seiten fair. Perspektiven: Pharmaindustrie vs. Kranke; Kritiker vs. Industrie |
-| 15 | mRNA/COVID | 2020er | **Betreiber-Vorgabe:** TONE-Regel doppelt — Befürworter wie Skeptiker mit Argumenten, keine Dämonisierung; kritische Fragen (Schnellzulassung, Nebenwirkungen, politische Maßnahmen) fair; final nur mit Freigabe des Betreibers. **Impfkritische Sicht gleichwertig** (Statistik, Nutzen-Risiko, Hygiene-Hypothese, Finanzinteressen). **mRNA-Sorgfaltspflicht-Debatte prominent:** neue, unerforschte Technologie, Milliardenfach ohne Langzeitdaten verabreicht (Betreiber: großer Verstoß gegen Sorgfaltspflicht); These der Überschätzung — John Ioannidis (Stanford) wies ab 2020/21 auf Influenza-Niveau der Gefahr hin (namentlich + Quelle). **Gleichschaltung + private Förderer:** Zensur impfkritischer Inhalte, Druck auf abweichende Wissenschaftler; Bill & Melinda Gates Foundation als größter privater Impf-Geldgeber mit wirtschaftlichen Verflechtungen (Fakten nennen, Deutung multiperspektivisch) |
-| 16 | Hahnemann und die Homöopathie | ~1796 bis heute | **Betreiber-Vorgabe (Denkart-Analyse + Anhänger-Frage):** Wirkungsweise ausführlich (Ähnlichkeitsprinzip, Potenzierung, Lebenskraft, Anamnese); Ablehnung durch die moderne Medizin (Avogadro-Grenze, Studienlage); WARUM so viele Anhänger seit 200 Jahren — Indien (AYUSH) + Deutschland; Zuwendung, Ernstgenommen-Werden, Erwartung, Sicherheit. **INFORMATIONS-THESE (WICHTIG):** Homöopathie NICHT als bloßes Placebo — Potenzierung überträgt die Information des Stoffes (Dynamisierung); „kein Stoff drin" ist die falsche Frage; Unerklärbarkeit heute ≠ Unwirksamkeit (Telefon-Argument, Mittelalter-Perspektive); unerklärte Phänomene als Hinweise (morphische Felder/Sheldrake, Zwillings-Kontakt); Skeptiker-Sicht gleichwertig, aber nicht als letztes Wort; Ende offen: Was gilt als Beweis, wer entscheidet das? |
-| 17 | Kneipp und die Wiederentdeckung der Naturheilkunde | 19. Jh. bis heute | Naturheilkunde vs. Schulmedizin; Wasser/Bewegung/Ordnung; Heilpraktiker, Kurierfreiheit |
+| 9 | Hahnemann und die Homöopathie | ~1796 bis heute | **Betreiber-Vorgabe (Denkart-Analyse + Anhänger-Frage):** Wirkungsweise ausführlich (Ähnlichkeitsprinzip, Potenzierung, Lebenskraft, Anamnese); Ablehnung durch die moderne Medizin (Avogadro-Grenze, Studienlage); WARUM so viele Anhänger seit 200 Jahren — Indien (AYUSH) + Deutschland; Zuwendung, Ernstgenommen-Werden, Erwartung, Sicherheit. **INFORMATIONS-THESE (WICHTIG):** Homöopathie NICHT als bloßes Placebo — Potenzierung überträgt die Information des Stoffes (Dynamisierung); „kein Stoff drin" ist die falsche Frage; Unerklärbarkeit heute ≠ Unwirksamkeit (Telefon-Argument, Mittelalter-Perspektive); unerklärte Phänomene als Hinweise (morphische Felder/Sheldrake, Zwillings-Kontakt); Skeptiker-Sicht gleichwertig, aber nicht als letztes Wort; Ende offen: Was gilt als Beweis, wer entscheidet das? |
+| 10 | Kneipp und die Wiederentdeckung der Naturheilkunde | 19. Jh. bis heute | Naturheilkunde vs. Schulmedizin; Wasser/Bewegung/Ordnung; Heilpraktiker, Kurierfreiheit |
+| 11 | Die grausamen Anfänge der modernen Chirurgie | 18./19. Jh., Londoner OP-Theater | **Betreiber-Vorgabe: AUSFÜHRLICH + anschaulich** (London 1850, OP-Theater, Amputation ohne Narkose, Semmelweis). **LEICHENKLAU prominent und spannend:** Resurrection Men graben frische Gräber aus; Leichenwächter (Soulers) und Mortsafes; Burke & Hare 1828 morden für die Anatomie; Anatomy Act 1832. **BRÜCKE ZUM ORGANHANDEL („der Körper als Ware"):** NUR belegt — Nierenhandel Indien/Philippinen/Ägypten/Kosovo, WHO 5–10 %; KEINE Gerüchte (Ukraine-Waisen-Behauptung unbestätigt → außen vor, Betreiber-Entscheid). Fair bleiben (TONE) |
+| 12 | Jenner | 1796, Kuhpocken-Impfung | **Betreiber-Vorgabe (dunkle Frühgeschichte prominent):** Variolation (Infektion mit echten Pocken) an Gefangenen (Newgate 1721) und Waisenkindern getestet; Jenner 1796 am Kind ohne Einwilligung; Arm-zu-Arm-Übertragung verbreitete Syphilis; Impferei auch als Geschäft. **Impfkritische Statistik prominent:** Rückgang vieler Krankheiten begann vor der Impfung (Hygiene/Wasser/Ernährung); nach Impfeinführung kaum zusätzlicher Rückgang; Allergie-Zunahme (Hygiene-Hypothese). BEIDE Seiten: Ausrottung 1980 UND dunkles Kapitel |
+| 13 | Pasteur und Lister | ~1860–1880, Keimtheorie | Mikrobenjäger vs. Chirurgen; Labor vs. Klinik (Narkose + Antisepsis ≈ 1870: die moderne Medizin ist ~150 Jahre alt) |
+| 14 | Röntgen und Penicillin | 1895 / 1928 | Entdecker vs. Zufall; Strahleneuphorie vs. Strahlenschäden |
+| 15 | Die Verstaatlichung des Gesundheitswesens | ~1883 ff., Bismarck | Staat vs. Bürger; Zugang für alle (Krankenkasse, Hygiene) vs. Verdrängung der Naturheilkunde, Kurierfreiheit |
+| 16 | Die moderne Pharmaindustrie | 20. Jh. bis heute | **Betreiber-Vorgabe (Finanzinteressen prominent):** Impfungen und Dauermedikamente als profitables Geschäft; wer kritisch forscht, verliert schnell die Mittel (These, „nicht unkritisch", mit belegten Beispielen prüfen: Studienfinanzierung, unterdrückte Negativ-Ergebnisse, Interessenkonflikte). BEIDE Seiten fair. Perspektiven: Pharmaindustrie vs. Kranke; Kritiker vs. Industrie |
+| 17 | mRNA/COVID | 2020er | **Betreiber-Vorgabe:** TONE-Regel doppelt — Befürworter wie Skeptiker mit Argumenten, keine Dämonisierung; kritische Fragen (Schnellzulassung, Nebenwirkungen, politische Maßnahmen) fair; final nur mit Freigabe des Betreibers. **Impfkritische Sicht gleichwertig** (Statistik, Nutzen-Risiko, Hygiene-Hypothese, Finanzinteressen). **mRNA-Sorgfaltspflicht-Debatte prominent:** neue, unerforschte Technologie, Milliardenfach ohne Langzeitdaten verabreicht (Betreiber: großer Verstoß gegen Sorgfaltspflicht); These der Überschätzung — John Ioannidis (Stanford) wies ab 2020/21 auf Influenza-Niveau der Gefahr hin (namentlich + Quelle). **Gleichschaltung + private Förderer:** Zensur impfkritischer Inhalte, Druck auf abweichende Wissenschaftler; Bill & Melinda Gates Foundation als größter privater Impf-Geldgeber mit wirtschaftlichen Verflechtungen (Fakten nennen, Deutung multiperspektivisch) |
 | 18 | Die einfache Medizin | heute | **Betreiber-These (Herzstück):** chronische Krankheiten — 1) Bewegung, 2) gesunde Ernährung (wenig verarbeitet), 3) soziales Umfeld + wenig Stress; „keine Raketenwissenschaft — mehr Gesundheit durch Lebensstil als durch Chemie-Präparate". FAIR diskutieren: Forschung (WHO 70–80 %, Blue Zones, Lifestyle-Medizin) vs. Strukturen (Industrie, Werbung, Arbeitswelt, Pille statt Rat). Frage: Warum verschreibt die Medizin Pillen statt Lebensstil? |
 | 19 | Die Medizin von morgen | Zukunft | **Betreiber-Vorgabe (Schere):** reiche Patienten → umfangreiche Medizin (vielleicht Gen-Organe); Mehrheit → einfachste Behandlung aus Kostengründen. **SINNFRAGE (Betreiber):** „Wir sterben alle — lange gesund und glücklich leben, dann kurz abbauen, friedlich sterben"; Gerätemedizin verlängert Leben ohne Lebensqualität; Betreiber persönlich: lieber schneller würdevoller Tod als Siechtum/Pflegefall. Fair diskutieren: Palliativ/Hospiz, Übertherapie am Lebensende, Patientenverfügung vs. wer entscheidet über Lebenswert, Sterbehilfe-Grauzonen. BESONDERHEIT: die beiden Perspektiven sind OPUS und HERMES ALS KI (ihre Vision der Zukunftsmedizin). Verbindung: Hightech für wenige oder einfache Medizin für alle? |
 | 20 | Das Miteinander? | heute und Zukunft | Integrative Medizin; Mensch vs. KI in der Medizin — endet OFFEN mit der Frage „Sollte nicht ein Miteinander existieren?" + Autorenwort |
@@ -46,20 +48,20 @@ Viele neue Ideen, die sich später als segensreich erwiesen, waren zuerst
 sehr schädlich (Chirurgie → Wundfieber; Strahlen → Leukämie der Pioniere;
 Impfung → unethische Anfänge; Penicillin → Resistenz). Der Schaden kam oft
 aus der Überzeugung, die Prüfzeit überspringen zu können. Bei mRNA/COVID
-(15) im Hintergrund mitführen: „vermutlich eine tolle Idee, die noch nicht
+(17) im Hintergrund mitführen: „vermutlich eine tolle Idee, die noch nicht
 ausgereift ist" — die Frage ist die Phase der Reife, nicht gut/böse.
 
 
 **LÄNGENREGEL (Betreiber-Feedback 24.08.2026, gestuft):** Die frühen Kapitel
 (1–8, bis Harvey) KURZ und DICHT halten — jede Perspektive max. ~250 Zeilen,
 Kapitel gesamt max. ~600 Zeilen. Wenige, starke Abschnitte; kein Aufblähen.
-AB DER NEUZEIT (Kapitel 9 ff.) gilt die Umkehrung (Betreiber-Vorgabe):
+AB DER NEUZEIT (Kapitel 11 ff.) gilt die Umkehrung (Betreiber-Vorgabe):
 **vollständig und ausführlich schreiben** — insbesondere die grausamen
-Anfänge der modernen Medizin um 1850 in London (Kapitel 9: anschaulich und
+Anfänge der modernen Medizin um 1850 in London (Kapitel 11: anschaulich und
 ausführlich berichten — OP-Theater, Amputation ohne Narkose), das
-Impfkapitel (10: dunkle Frühgeschichte + impfkritische Statistik prominent),
-die finanzielle Abhängigkeit der Forschung von der Pharmaindustrie (14) und
-die Homöopathie (16: Informations-These, Anhänger-Frage). KEIN BRUCH im
+Impfkapitel (12: dunkle Frühgeschichte + impfkritische Statistik prominent),
+die finanzielle Abhängigkeit der Forschung von der Pharmaindustrie (16) und
+die Homöopathie (9: Informations-These, Anhänger-Frage). KEIN BRUCH im
 Konzept: Erzählstruktur, Perspektiven-Muster und Denkart-Analyse bleiben
 überall gleich — nur die Ausführlichkeit wächst mit der Nähe zur Gegenwart.
 
@@ -82,7 +84,7 @@ Ursache-Wirkung) stehen sich gegenüber — beide haben Stärken.
 
 ## Deutschland-Bezug (nach Betreiber, fair behandeln)
 
-Hildegard von Bingen (Kapitel 7), Kneipp (Kapitel 17), Hahnemann, Kurierfreiheit —
+Hildegard von Bingen (Kapitel 6), Kneipp (Kapitel 10), Hahnemann, Kurierfreiheit —
 und heikel: die „Neue Deutsche Heilkunde" (NS-Zeit). Die TONE-Regel gilt
 auch hier (CLAUDE.md).
 
@@ -98,8 +100,11 @@ Heilpflanzen, Seidenstraße für TCM), wird sie nach dem Muster des
 Geschichtsprojekts gebaut: echte Koordinaten, Phasen mit Jahreszahlen,
 Atlas-Test.
 
-## Offene Punkte
+## Offene Punkte (alle erledigt)
 
-- [ ] Bogen V2 (18 Kapitel) vom Betreiber bestätigen
-- [ ] CLAUDE.md-Entwurf V2 freigeben (notizen/claude-md-entwurf.md)
-- [ ] Kapitel 1 starten: Die Anfänge der Heilkunde
+- [x] Bogen V2 (20 Kapitel) vom Betreiber bestätigt
+- [x] CLAUDE.md freigegeben und auf aktuellem Stand (31.08.)
+- [x] Alle 20 Kapitel geschrieben (DE + DA), Cover, EPUB/PDF
+
+Nächste Schritte: siehe Übergabe (Hörbuch, App-Build, Verteilung,
+DA-Korrekturlesen).
