@@ -161,6 +161,13 @@ JPEG 1600/800/400 (Kindle/Website/Miniatur), cover-collage-gemini.png
    Timeout-Kapitel (mrna 2×, medizin-von-morgen 2× — trotz Schreib-Strategie;
    Fragment-Rettung per Vervollständigungs-Agent), Namensform Hippokrates →
    Hippocrates (deutsche Namensformen im EN-Text anpassen).
+6. **EN-COVER (Commit …):** gleiche Gemini-Collage (cover-collage-gemini),
+   englischer Text-Composite (HTML + Playwright): Titel „A Journey Through
+   the History of Medicine", Untertitel, „Naturopath from Denmark".
+   assets/cover-en-1600x2560.png + JPEG 1600/800/400. Buch + PDF damit
+   neu gebaut (PDF-Seite 1 visuell verifiziert). FALLE: der PDF-Render
+   hatte eine ZWEITE, ungepatchte Cover-Stelle (Zeile ~321) → PDF zeigte
+   noch das DE-Cover; fixen + Backtick-Fehler beim Patchen (Syntaxfehler).
 
 **Offen / nächste Schritte:**
 1. **Hörbuch** (tools/hoerbuch.py): eine TTS-Stimme pro Perspektive
@@ -173,7 +180,7 @@ JPEG 1600/800/400 (Kindle/Website/Miniatur), cover-collage-gemini.png
    ankreuzen!), naturklinikken-jylland.dk, Leanpub, GitHub (Release mit
    EPUB/PDF), Internet Archive, Podcast via GitHub-Releases.
 4. **DA- und EN-Korrekturlesen** durch Betreiber/Mona
-   (Qualitätsschritt); EN-Cover optional (aktuell DE-Cover im EN-Buch).
+   (Qualitätsschritt).
 
 ## 5. Runden-Workflow (bewährt, für Inhalts-Runden)
 

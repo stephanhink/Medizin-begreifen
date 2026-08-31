@@ -318,7 +318,7 @@ a { color: #2F6B3A; text-decoration: none; }
 // Zwei-Pass-Verfahren: Pass 1 rendert mit unsichtbaren Markern, fitz misst
 // die Kapitel-Startseiten, Pass 2 trägt die Seitenzahlen in den TOC ein.
 function pdfErzeugen() {
-  const cover = `<section class="cover"><img src="${REPO}/assets/${SPRACHE === 'da' ? 'cover-da-1600x2560.png' : 'cover-1600x2560.png'}" alt="Cover"/></section>`;
+  const cover = `<section class="cover"><img src="${REPO}/assets/${SPRACHE === 'da' ? 'cover-da-1600x2560.png' : SPRACHE === 'en' && fs.existsSync(`${REPO}/assets/cover-en-1600x2560.png`) ? 'cover-en-1600x2560.png' : 'cover-1600x2560.png'}" alt="Cover"/></section>`;
   const inhaltListeOhne = ids.map((id, i) => `<li>${i + 1}. ${ladeModul(id).titel}</li>`).join('\n');
   const inhaltOhne = `<section class="inhalt"><h1>${LABELS.inhalt}</h1>\n<ol>${inhaltListeOhne}</ol></section>`;
   const vorwort = vorwortHTML();
