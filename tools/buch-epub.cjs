@@ -15,7 +15,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const SPRACHE = process.argv[2] === 'da' ? 'da' : 'de';
+const SPRACHE = process.argv[2] === 'da' ? 'da' : process.argv[2] === 'en' ? 'en' : 'de';
 const REPO = '/Users/openclaw/Documents/GitHub/Medizin-begreifen';
 const BUCH = '/Users/openclaw/Medizin-Buch';
 const TMP = `/tmp/buch-${SPRACHE}`;
@@ -25,6 +25,7 @@ const OEBPS = `${TMP}/OEBPS`;
 const META = {
   de: { titel: 'Eine Reise durch die Medizingeschichte', untertitel: 'Von der Vergangenheit über die Gegenwart in die Zukunft — ausgedacht von einem Menschen, geschrieben von zwei unterschiedlichen KI-Modellen', sprache: 'de', autor: 'Stephan Hink', uuid: 'urn:uuid:9b2f4c1e-7a3d-4e5f-9c1b-2d3e4f5a6b7c' },
   da: { titel: 'En rejse gennem medicinhistorien', untertitel: 'Fra fortiden over nutiden ind i fremtiden — udtænkt af et menneske, skrevet af to forskellige AI-modeller', sprache: 'da', autor: 'Stephan Hink', uuid: 'urn:uuid:8a1e3d2c-6b4f-4c7e-8d2a-1e3f4a5b6c7d' },
+  en: { titel: 'A Journey Through the History of Medicine', untertitel: 'From the past through the present into the future — conceived by a human being, written by two different AI models', sprache: 'en', autor: 'Stephan Hink', uuid: 'urn:uuid:2466b956-80d3-4018-9de9-993fb8748402' },
 }[SPRACHE];
 
 // ---- Modul-Liste (Buch-Reihenfolge = App-Reihenfolge) ----
@@ -38,12 +39,13 @@ const ids = [
 
 // ---- Sprach-Labels ----
 const LABELS = {
-  de: { frage: 'Die Frage', blickwinkel: 'Die Blickwinkel', synthese: 'Synthese', urteil: 'Dein Urteil', quiz: "Stimmt's?", inhalt: 'Inhaltsverzeichnis', vorwort: 'Vorwort', karte: 'Medizin in Bewegung', stimmeOpus: 'Stimme: Opus — amerikanische KI (Anthropic)', stimmeDeepSeek: 'Stimme: DeepSeek — chinesische KI', zurueck: '→ Inhaltsverzeichnis', frageText: 'Frage', schlusswort: 'Schlusswort des Autors' },
-  da: { frage: 'Spørgsmålet', blickwinkel: 'Synsvinklerne', synthese: 'Syntese', urteil: 'Din vurdering', quiz: 'Passer det?', inhalt: 'Indholdsfortegnelse', vorwort: 'Forord', karte: 'Medicin i bevægelse', stimmeOpus: 'Stemme: Opus — amerikansk AI (Anthropic)', stimmeDeepSeek: 'Stemme: DeepSeek — kinesisk AI', zurueck: '→ Indholdsfortegnelse', frageText: 'Spørgsmål', schlusswort: 'Forfatterens afsluttende ord' },
+  de: { frage: 'Die Frage', blickwinkel: 'Die Blickwinkel', synthese: 'Synthese', urteil: 'Dein Urteil', quiz: "Stimmt's?", inhalt: 'Inhaltsverzeichnis', vorwort: 'Vorwort', karte: 'Medizin in Bewegung', stimmeOpus: 'Stimme: Opus — amerikanische KI (Anthropic)', stimmeDeepSeek: 'Stimme: DeepSeek — chinesische KI', zurueck: '→ Inhaltsverzeichnis', frageText: 'Frage', schlusswort: 'Schlusswort des Autors', schlusswortOriginal: 'Das deutsche Original' },
+  da: { frage: 'Spørgsmålet', blickwinkel: 'Synsvinklerne', synthese: 'Syntese', urteil: 'Din vurdering', quiz: 'Passer det?', inhalt: 'Indholdsfortegnelse', vorwort: 'Forord', karte: 'Medicin i bevægelse', stimmeOpus: 'Stemme: Opus — amerikansk AI (Anthropic)', stimmeDeepSeek: 'Stemme: DeepSeek — kinesisk AI', zurueck: '→ Indholdsfortegnelse', frageText: 'Spørgsmål', schlusswort: 'Forfatterens afsluttende ord', schlusswortOriginal: 'Det tyske original' },
+  en: { frage: 'The Question', blickwinkel: 'The Perspectives', synthese: 'Synthesis', urteil: 'Your Verdict', quiz: "True or false?", inhalt: 'Table of Contents', vorwort: 'Preface', karte: 'Medicine in Motion', stimmeOpus: 'Voice: Opus — American AI (Anthropic)', stimmeDeepSeek: 'Voice: DeepSeek — Chinese AI', zurueck: '→ Table of Contents', frageText: 'Question', schlusswort: "The Author's Closing Words", schlusswortOriginal: 'The original German version' },
 }[SPRACHE];
 
 function ladeModul(id) {
-  const pfad = SPRACHE === 'da' ? `${REPO}/da/${id}.js` : `${REPO}/utils/themen/${id}.js`;
+  const pfad = SPRACHE === 'da' ? `${REPO}/da/${id}.js` : SPRACHE === 'en' ? `${REPO}/en/${id}.js` : `${REPO}/utils/themen/${id}.js`;
   return require(pfad);
 }
 
@@ -96,7 +98,7 @@ const kartenCache = '/tmp/karten-cache';
 function kartenPNGs(modul) {
   const out = [];
   let karte = modul.karte;
-  if (!karte && SPRACHE === 'da') {
+  if (!karte && SPRACHE !== 'de') {
     try { karte = require(`${REPO}/utils/themen/${modul.id}.js`).karte; } catch (e) { /* kein Karten-Modul */ }
   }
   if (!karte || !Array.isArray(karte.phasen)) return out;
@@ -114,9 +116,9 @@ function kartenPNGs(modul) {
     }
     if (fs.existsSync(cache)) {
       fs.copyFileSync(cache, datei);
-      const hinweis = SPRACHE === 'da' && modul.karteHinweise && modul.karteHinweise[i]
+      const hinweis = SPRACHE !== 'de' && modul.karteHinweise && modul.karteHinweise[i]
         ? modul.karteHinweise[i].hinweis : p.hinweis;
-      const label = SPRACHE === 'da' && modul.karteHinweise && modul.karteHinweise[i]
+      const label = SPRACHE !== 'de' && modul.karteHinweise && modul.karteHinweise[i]
         ? modul.karteHinweise[i].label : p.label;
       out.push(`<figure class="karte"><figcaption><strong>${mdInline(label)}</strong> — ${mdInline(hinweis)}</figcaption><img src="images/${name}" alt="${mdInline(label)}"/></figure>`);
     }
@@ -138,18 +140,19 @@ function kapitelHTML(modul, nummer) {
   const quiz = modul.quiz.map((q, i) => {
     const antworten = q.antworten.map((a, j) =>
       `<li class="${j === q.richtig ? 'richtig' : ''}">${mdInline(a)}${j === q.richtig ? ' ✓' : ''}</li>`).join('');
-    return `<div class="quizfrage"><p class="quizfrage-text"><strong>Frage ${i + 1}:</strong> ${mdInline(q.frage)}</p><ul>${antworten}</ul><p class="erklaerung">${mdInline(q.erklaerung)}</p></div>`;
+    return `<div class="quizfrage"><p class="quizfrage-text"><strong>${LABELS.frageText} ${i + 1}:</strong> ${mdInline(q.frage)}</p><ul>${antworten}</ul><p class="erklaerung">${mdInline(q.erklaerung)}</p></div>`;
   }).join('\n');
 
   let autorenwort = '';
   if (modul.autorenwort) {
-    const text = typeof modul.autorenwort === 'string' ? modul.autorenwort : modul.autorenwort.text;
-    const original = typeof modul.autorenwort === 'string' ? null : modul.autorenwort.original;
-    const originalBlock = SPRACHE === 'da' && original ? `<div class="aw-original"><h3>${LABELS.schlusswort}</h3>${md(original)}</div>` : '';
+    const joinText = (x) => Array.isArray(x) ? x.join('\n') : (typeof x === 'string' ? x : (x && x.text) || '');
+    const text = joinText(modul.autorenwort);
+    const original = modul.autorenwortDe ? joinText(modul.autorenwortDe) : null;
+    const originalBlock = SPRACHE !== 'de' && original ? `<div class="aw-original"><h3>${LABELS.schlusswortOriginal}</h3>${md(original)}</div>` : '';
     if (!originalBlock) {
       autorenwort = `<section class="autorenwort"><h2>${LABELS.schlusswort}</h2>${md(text)}<p class="signatur">— Stephan Hink</p></section>`;
     } else {
-      autorenwort = `<section class="autorenwort"><h2>${LABELS.schlusswort}</h2>${originalBlock}<hr/><div class="aw-uebersetzung">${md(text)}</div><p class="signatur">— Stephan Hink</p></section>`;
+      autorenwort = `<section class="autorenwort"><h2>${LABELS.schlusswort}</h2>${md(text)}${originalBlock}<p class="signatur">— Stephan Hink</p></section>`;
     }
   }
 
@@ -184,7 +187,9 @@ function vorwortHTML() {
 
 // ---- Cover ----
 function coverHTML() {
-  const cover = `${REPO}/assets/${SPRACHE === 'da' ? 'cover-da-1600x2560.png' : 'cover-1600x2560.png'}`;
+  let coverDatei = SPRACHE === 'da' ? 'cover-da-1600x2560.png' : 'cover-1600x2560.png';
+  if (SPRACHE === 'en' && fs.existsSync(`${REPO}/assets/cover-en-1600x2560.png`)) coverDatei = 'cover-en-1600x2560.png';
+  const cover = `${REPO}/assets/${coverDatei}`;
   const ziel = `${OEBPS}/images/cover.png`;
   if (!fs.existsSync(ziel)) fs.copyFileSync(cover, ziel);
   return `<section class="cover"><img src="images/cover.png" alt="Cover"/></section>`;
@@ -269,7 +274,7 @@ function build() {
 
   // zip bauen (mimetype zuerst, unkomprimiert — EPUB-Standard)
   fs.mkdirSync(BUCH, { recursive: true });
-  const ziel = `${BUCH}/${SPRACHE === 'da' ? 'En-rejse-gennem-medicinhistorien-DA' : 'Eine-Reise-durch-die-Medizingeschichte-DE'}.epub`;
+  const ziel = `${BUCH}/${SPRACHE === 'da' ? 'En-rejse-gennem-medicinhistorien-DA' : SPRACHE === 'en' ? 'A-Journey-Through-the-History-of-Medicine-EN' : 'Eine-Reise-durch-die-Medizingeschichte-DE'}.epub`;
   execSync(`cd ${TMP} && rm -f ${ziel} && zip -X0 ${ziel} mimetype >/dev/null && zip -Xr ${ziel} META-INF OEBPS >/dev/null`);
   console.log('EPUB:', ziel, fs.statSync(ziel).size, 'Bytes');
 }
@@ -377,7 +382,7 @@ with sync_playwright() as p:
 EOF`);
   };
 
-  const ziel = `${BUCH}/${SPRACHE === 'da' ? 'En-rejse-gennem-medicinhistorien-DA' : 'Eine-Reise-durch-die-Medizingeschichte-DE'}.pdf`;
+  const ziel = `${BUCH}/${SPRACHE === 'da' ? 'En-rejse-gennem-medicinhistorien-DA' : SPRACHE === 'en' ? 'A-Journey-Through-the-History-of-Medicine-EN' : 'Eine-Reise-durch-die-Medizingeschichte-DE'}.pdf`;
   // Pass 1: Seiten messen
   render(html1, '/tmp/buch-pass1.pdf', false);
   const seiten = JSON.parse(execSync(`python3 - <<'EOF'
