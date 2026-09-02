@@ -120,7 +120,7 @@ function kartenPNGs(modul) {
         ? modul.karteHinweise[i].hinweis : p.hinweis;
       const label = SPRACHE !== 'de' && modul.karteHinweise && modul.karteHinweise[i]
         ? modul.karteHinweise[i].label : p.label;
-      out.push(`<figure class="karte"><figcaption><strong>${mdInline(label)}</strong> — ${mdInline(hinweis)}</figcaption><img src="images/${name}" alt="${mdInline(label)}"/></figure>`);
+      out.push(`<figure class="karte"><figcaption><strong>${mdInline(label)}</strong> — ${mdInline(hinweis)}</figcaption><img src="images/${name}" alt="${mdInline(label).replace(/"/g, '&quot;')}"/></figure>`);
     }
   });
   return out;
